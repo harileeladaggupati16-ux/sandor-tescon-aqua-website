@@ -1,0 +1,2095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | Sandor Tescon Aqua | Water Treatment Solutions</title>
+
+    <meta name="description" content="Learn about Sandor Tescon Aqua and our approach to water treatment, wastewater treatment, RO, filtration, UV, ozone and customized water treatment solutions.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.yourdomain.com/about.html">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Assets/Images/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <style>
+    /* ABOUT PAGE - MODERN DESIGN */
+    :root{
+        --primary:#007f9b;
+        --primary-dark:#063b52;
+        --secondary:#00a6b8;
+        --dark:#102f40;
+        --text:#5d6d76;
+        --light:#f4f9fb;
+        --border:#e3edf1;
+        --white:#ffffff;
+    }
+
+    body{
+        font-family:"Inter", sans-serif;
+        color:var(--text);
+        background:#ffffff;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+    }
+
+    a{
+        text-decoration:none;
+    }
+
+    /* TOP BAR */
+    .top-bar{
+        background:var(--primary-dark) !important;
+        font-size:13px;
+    }
+
+    .top-bar i{
+        color:#67d5df;
+    }
+
+    /* NAVBAR */
+    .main-navbar{
+        background:rgba(255, 255, 255, 0.97);
+        box-shadow:0 8px 30px rgba(9, 52, 70, 0.07);
+        padding:12px 0;
+        z-index:1000;
+    }
+
+    .logo{
+        height:55px;
+        width:auto;
+    }
+
+    .main-navbar .nav-link{
+        color:var(--dark);
+        font-weight:600;
+        font-size:14px;
+        padding:10px 12px !important;
+        transition:0.3s ease;
+    }
+
+    .main-navbar .nav-link:hover,
+    .main-navbar .nav-link.active{
+        color:var(--primary);
+    }
+
+    .main-navbar .dropdown-menu{
+        border:1px solid var(--border);
+        border-radius:14px;
+        padding:10px;
+        box-shadow:0 15px 40px rgba(10, 55, 70, 0.12);
+    }
+
+    .main-navbar .dropdown-item{
+        border-radius:9px;
+        padding:9px 13px;
+        font-size:14px;
+        font-weight:500;
+    }
+
+    .main-navbar .dropdown-item:hover{
+        background:#eef9fb;
+        color:var(--primary);
+    }
+
+    .main-navbar .btn-primary{
+        background:var(--primary);
+        border:none;
+        border-radius:30px;
+        padding:11px 21px !important;
+        font-weight:600;
+    }
+
+    .main-navbar .btn-primary:hover{
+        background:var(--primary-dark);
+        transform:translateY(-2px);
+    }
+
+    /* HERO */
+    .about-hero{
+        position:relative;
+        min-height:550px;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:
+            linear-gradient(
+                120deg,
+                rgba(4, 47, 69, 0.97),
+                rgba(0, 126, 155, 0.86)
+            ),
+            url("Assets/Images/about-water-treatment.jpg")
+            center / cover no-repeat;
+    }
+
+    .about-hero::before{
+        content:"";
+        position:absolute;
+        width:420px;
+        height:420px;
+        border:1px solid rgba(255,255,255,0.14);
+        border-radius:50%;
+        right:-120px;
+        top:-120px;
+    }
+
+    .about-hero::after{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        border:1px solid rgba(255,255,255,0.12);
+        border-radius:50%;
+        left:-130px;
+        bottom:-150px;
+    }
+
+    .hero-content{
+        position:relative;
+        z-index:2;
+        max-width:820px;
+        color:#ffffff;
+    }
+
+    .hero-label{
+        display:inline-flex;
+        align-items:center;
+        gap:9px;
+        padding:8px 16px;
+        border:1px solid rgba(255,255,255,0.22);
+        background:rgba(255,255,255,0.09);
+        border-radius:30px;
+        color:#ffffff;
+        font-size:13px;
+        font-weight:700;
+        letter-spacing:1px;
+        text-transform:uppercase;
+        backdrop-filter:blur(10px);
+    }
+
+    .hero-label i{
+        color:#6de0e7;
+    }
+
+    .hero-content h1{
+        color:#ffffff;
+        font-size:clamp(42px, 5vw, 68px);
+        line-height:1.08;
+        font-weight:800;
+        margin:22px 0 20px;
+    }
+
+    .hero-content h1 span{
+        color:#6de0e7;
+    }
+
+    .hero-content p{
+        max-width:720px;
+        color:rgba(255,255,255,0.82);
+        font-size:18px;
+        line-height:1.8;
+        margin-bottom:28px;
+    }
+
+    .hero-breadcrumb{
+        margin-top:25px;
+    }
+
+    .hero-breadcrumb a{
+        color:#ffffff;
+        opacity:0.75;
+    }
+
+    .hero-breadcrumb .breadcrumb-item.active{
+        color:#6de0e7;
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+        color:rgba(255,255,255,0.5);
+    }
+
+    /* GENERAL SECTION */
+    .section-space{
+        padding:100px 0;
+    }
+
+    .section-space.bg-soft{
+        background:var(--light);
+    }
+
+    .section-label{
+        display:inline-block;
+        color:var(--primary);
+        font-size:13px;
+        font-weight:800;
+        letter-spacing:1.5px;
+        text-transform:uppercase;
+        margin-bottom:12px;
+    }
+
+    .section-title{
+        font-size:clamp(30px, 4vw, 44px);
+        line-height:1.2;
+        font-weight:700;
+        margin-bottom:20px;
+    }
+
+    .section-text{
+        font-size:16px;
+        line-height:1.9;
+        color:var(--text);
+    }
+
+    /* COMPANY INTRO */
+    .about-image-box{
+        position:relative;
+        padding-right:25px;
+        padding-bottom:25px;
+    }
+
+    .about-image-box img{
+        width:100%;
+        height:520px;
+        object-fit:cover;
+        border-radius:28px;
+        display:block;
+    }
+
+    .about-image-box::after{
+        content:"";
+        position:absolute;
+        right:0;
+        bottom:0;
+        width:190px;
+        height:190px;
+        border-radius:28px;
+        background:linear-gradient(135deg,var(--primary),var(--secondary));
+        z-index:-1;
+    }
+
+    .about-badge{
+        position:absolute;
+        left:25px;
+        bottom:25px;
+        display:flex;
+        align-items:center;
+        gap:12px;
+        background:rgba(255,255,255,0.95);
+        padding:15px 20px;
+        border-radius:16px;
+        box-shadow: 0 15px 35px rgba(5,45,60,0.15);
+    }
+
+    .about-badge-icon{
+        width:45px;
+        height:45px;
+        border-radius:13px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#e8f8fa;
+        color:var(--primary);
+        font-size:21px;
+    }
+
+    .about-badge strong{
+        display:block;
+        color:var(--dark);
+        font-size:14px;
+    }
+
+    .about-badge span{
+        font-size:12px;
+        color:var(--text);
+    }
+
+    .about-content{
+        padding-left:25px;
+    }
+
+    .about-content p{
+        line-height:1.9;
+        margin-bottom:17px;
+    }
+
+    .about-check-list{
+        margin-top:28px;
+    }
+
+    .about-check{
+        display:flex;
+        gap:14px;
+        margin-bottom:18px;
+    }
+
+    .about-check-icon{
+        flex:0 0 38px;
+        width:38px;
+        height:38px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:11px;
+        background:#eaf8fa;
+        color:var(--primary);
+    }
+
+    .about-check h6{
+        margin:0 0 4px;
+        font-size:16px;
+    }
+
+    .about-check p{
+        margin:0;
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* APPROACH */
+    .approach-heading{
+        max-width:760px;
+        margin:0 auto 55px;
+        text-align:center;
+    }
+
+    .process-card{
+        position:relative;
+        height:100%;
+        padding:34px 28px;
+        background:#ffffff;
+        border:1px solid var(--border);
+        border-radius:24px;
+        transition:0.35s ease;
+        overflow:hidden;
+    }
+
+    .process-card::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:4px;
+        background:linear-gradient(90deg,var(--primary),var(--secondary));
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:0.35s ease;
+    }
+
+    .process-card:hover{
+        transform:translateY(-8px);
+        border-color:rgba(0,127,155,0.2);
+        box-shadow:0 20px 50px rgba(9,55,70,0.10);
+    }
+
+    .process-card:hover::before{
+        transform:scaleX(1);
+    }
+
+    .process-number{
+        font-family:"Poppins", sans-serif;
+        font-size:13px;
+        font-weight:800;
+        color:var(--primary);
+        margin-bottom:22px;
+    }
+
+    .process-icon{
+        width:62px;
+        height:62px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #eaf9fb, #d9f2f5);
+        color:var(--primary);
+        font-size:28px;
+        margin-bottom:24px;
+    }
+
+    .process-card h4{
+        font-size:19px;
+        margin-bottom:12px;
+    }
+
+    .process-card p{
+        font-size:14px;
+        line-height:1.8;
+        margin:0;
+    }
+
+    /* TECHNOLOGIES */
+    .technology-card{
+        position:relative;
+        height:100%;
+        padding:32px;
+        background:#ffffff;
+        border:1px solid var(--border);
+        border-radius:24px;
+        transition:0.35s ease;
+    }
+
+    .technology-card:hover{
+        transform:translateY(-7px);
+        border-color:rgba(0,127,155,0.25);
+        box-shadow:0 18px 45px rgba(8,56,70,0.10);
+    }
+
+    .technology-icon{
+        width:62px;
+        height:62px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #e8f8fa, #d9f3f5);
+        color:var(--primary);
+        font-size:27px;
+        margin-bottom:24px;
+    }
+
+    .technology-card h4 {
+        font-size:20px;
+        margin-bottom:12px;
+    }
+
+    .technology-card p{
+        font-size:14px;
+        line-height:1.8;
+        margin-bottom:22px;
+    }
+
+    .technology-link{
+        color:var(--primary);
+        font-size:14px;
+        font-weight:700;
+    }
+
+    .technology-link i{
+        margin-left:5px;
+        transition:0.3s ease;
+    }
+
+    .technology-link:hover{
+        color:var(--primary-dark);
+    }
+
+    .technology-link:hover i{
+        margin-left: 10px;
+    }
+
+    /* APPLICATIONS */
+    .application-card{
+        height:100%;
+        padding:30px 24px;
+        text-align:center;
+        background:rgba(255,255,255,0.85);
+        border:1px solid var(--border);
+        border-radius:22px;
+        transition:0.35s ease;
+    }
+
+    .application-card:hover{
+        transform:translateY(-7px);
+        background:#ffffff;
+        box-shadow:0 18px 40px rgba(10,55,70,0.10);
+    }
+
+    .application-icon{
+        width:66px;
+        height:66px;
+        margin:0 auto 20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:20px;
+        background:linear-gradient(135deg,var(--primary),var(--secondary));
+        color:#ffffff;
+        font-size:27px;
+    }
+
+    .application-card h5{
+        font-size:17px;
+        margin-bottom:9px;
+    }
+
+    .application-card p{
+        font-size:13px;
+        line-height:1.7;
+        margin:0;
+    }
+
+    /* ENGINEERING SECTION */
+    .engineering-image{
+        position:relative;
+    }
+
+    .engineering-image img{
+        width:100%;
+        height:500px;
+        object-fit:cover;
+        border-radius:28px;
+    }
+
+    .engineering-content{
+        padding-right:30px;
+    }
+
+    .engineering-points{
+        margin-top:30px;
+    }
+
+    .engineering-point{
+        display:flex;
+        gap:15px;
+        margin-bottom:22px;
+    }
+
+    .engineering-point-icon{
+        flex:0 0 44px;
+        width:44px;
+        height:44px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:13px;
+        background:#eaf8fa;
+        color:var(--primary);
+        font-size:18px;
+    }
+
+    .engineering-point h5{
+        font-size:16px;
+        margin-bottom:5px;
+    }
+
+    .engineering-point p{
+        font-size:14px;
+        line-height:1.7;
+        margin:0;
+    }
+
+    /* CTA */
+    .about-cta{
+        position:relative;
+        overflow:hidden;
+        padding:75px 0;
+        background:
+            radial-gradient(
+                circle at 90% 20%,
+                rgba(0,198,215,0.25),
+                transparent 30%
+            ),
+            linear-gradient(
+                135deg,
+                var(--primary-dark),
+                #007f9b
+            );
+    }
+
+    .about-cta::before{
+        content:"";
+        position:absolute;
+        width:330px;
+        height:330px;
+        border:1px solid rgba(255,255,255,0.12);
+        border-radius:50%;
+        right:-100px;
+        bottom:-150px;
+    }
+
+    .cta-content{
+        position:relative;
+        z-index:2;
+    }
+
+    .cta-content h2{
+        color:#ffffff;
+        font-size:clamp(28px, 4vw, 40px);
+        margin-bottom:12px;
+    }
+
+    .cta-content p{
+        color:rgba(255,255,255,0.78);
+        margin:0;
+        line-height:1.8;
+    }
+
+    .cta-button{
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        padding:14px 25px;
+        background:#ffffff;
+        color:var(--primary-dark);
+        border-radius:30px;
+        font-weight:700;
+        transition:0.3s ease;
+    }
+
+    .cta-button:hover{
+        transform:translateY(-3px);
+        color:var(--primary-dark);
+        box-shadow:0 12px 30px rgba(0,0,0,0.15);
+    }
+
+    /* FOOTER */
+    .main-footer{
+        position:relative;
+        overflow:hidden;
+        background:
+            radial-gradient(
+                circle at 90% 10%,
+                rgba(0,166,184,0.12),
+                transparent 28%
+            ),
+            linear-gradient(
+                135deg,
+                #062f42,
+                #092c3b
+            );
+        padding:75px 0 0;
+        color:rgba(255,255,255,0.72);
+    }
+
+    .footer-logo{
+        width:185px;
+        height:auto;
+    }
+
+    .footer-description{
+        max-width:360px;
+        font-size:14px;
+        line-height:1.8;
+    }
+
+    .main-footer h5{
+        position:relative;
+        color:#ffffff;
+        font-size:17px;
+        margin-bottom:25px;
+        padding-bottom:12px;
+    }
+
+    .main-footer h5::after{
+        content:"";
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:35px;
+        height:2px;
+        background:var(--secondary);
+    }
+
+    .footer-links{
+        margin:0;
+        padding:0;
+    }
+
+    .footer-links li{
+        margin-bottom:11px;
+    }
+
+    .footer-links a{
+        color:rgba(255,255,255,0.68);
+        font-size:14px;
+        transition:0.3s ease;
+    }
+
+    .footer-links a::before{
+        content:"›";
+        margin-right:8px;
+        color:var(--secondary);
+    }
+
+    .footer-links a:hover{
+        color:#ffffff;
+        padding-left:5px;
+    }
+
+    .footer-contact p{
+        display:flex;
+        align-items:flex-start;
+        gap:11px;
+        font-size:14px;
+        line-height:1.6;
+        margin-bottom:14px;
+    }
+
+    .footer-contact i{
+        color:var(--secondary);
+        font-size:17px;
+        margin-top:2px;
+    }
+
+    .footer-social{
+        display:flex;
+        gap:9px;
+        margin-top:22px;
+    }
+
+    .footer-social a{
+        width:38px;
+        height:38px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:11px;
+        color:#ffffff;
+        background:rgba(255,255,255,0.08);
+        transition:0.3s ease;
+    }
+
+    .footer-social a:hover{
+        background:var(--secondary);
+        transform:translateY(-3px);
+    }
+
+    .footer-quote-btn{
+        margin-top:10px;
+        border:none;
+        border-radius:30px;
+        background:var(--secondary);
+        padding:11px 21px;
+        font-weight:600;
+    }
+
+    .footer-bottom{
+        border-top:1px solid rgba(255,255,255,0.10);
+        padding:22px 0;
+        margin-top:55px !important;
+    }
+
+    .footer-bottom p{
+        color:rgba(255,255,255,0.55);
+        font-size:13px;
+    }
+
+    .footer-legal{
+        display:flex;
+        justify-content:flex-end;
+        gap:20px;
+    }
+
+    .footer-legal a{
+        color:rgba(255,255,255,0.55);
+        font-size:13px;
+    }
+
+    .footer-legal a:hover{
+        color:#ffffff;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width:991px){
+
+        .about-hero{
+            min-height:500px;
+        }
+
+        .about-content,
+        .engineering-content{
+            padding-left:0;
+            padding-right:0;
+        }
+
+        .about-image-box{
+            margin-bottom:20px;
+        }
+
+        .footer-legal{
+            justify-content:flex-start;
+            margin-top:10px;
+        }
+
+    }
+
+    @media (max-width:767px){
+
+        .section-space{
+            padding:70px 0;
+        }
+
+        .about-hero{
+            min-height:480px;
+        }
+
+        .hero-content h1{
+            font-size:42px;
+        }
+
+        .hero-content p{
+            font-size:16px;
+        }
+
+        .about-image-box img,
+        .engineering-image img{
+            height:360px;
+        }
+
+        .about-image-box::after{
+            width:130px;
+            height:130px;
+        }
+
+        .about-badge{
+            left:15px;
+            bottom:15px;
+        }
+
+        .footer-bottom{
+            text-align:center;
+        }
+
+        .footer-legal{
+            justify-content:center;
+        }
+
+    }
+
+    @media (max-width:480px){
+
+        .top-bar{
+            font-size:11px;
+        }
+
+        .hero-content h1{
+            font-size:36px;
+        }
+
+        .hero-label{
+            font-size:11px;
+        }
+
+        .about-image-box{
+            padding-right:12px;
+            padding-bottom:12px;
+        }
+
+        .about-badge{
+            padding:10px 13px;
+        }
+
+        .about-badge-icon{
+            width:38px;
+            height:38px;
+            font-size:17px;
+        }
+
+        .about-badge strong{
+            font-size:12px;
+        }
+
+        .footer-legal{
+            flex-direction:column;
+            gap:7px;
+        }
+
+    }
+    </style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar text-white py-2">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <small><i class="bi bi-envelope me-1"></i>sales.tesconaqua@gmail.com</small>        
+                <span class="mx-3">|</span>
+                <small><i class="bi bi-telephone me-1"></i>+91 9160011136</small>
+            </div>
+
+            <div class="d-none d-md-block">
+                <small>Water Treatment & Engineering Solutions</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="logo">
+        </a>
+        
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                
+                <!-- SOLUTIONS -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Solutions/ro-systems.html">RO Systems</a></li>
+                        <li><a class="dropdown-item" href="Solutions/stp.html">Sewage Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="Solutions/etp.html">Effluent Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="Solutions/filtration.html">Filtration Systems</a></li>
+                        <li><a class="dropdown-item" href="Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
+                        <li><a class="dropdown-item" href="Solutions/uv-ozone.html">UV & Ozone Systems</a></li>
+                    </ul>
+                </li>
+
+                <!-- PRODUCTS -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Products/ro-plants.html">RO Plants</a></li>
+                        <li><a class="dropdown-item" href="Products/uv-systems.html">UV Systems</a></li>
+                        <li><a class="dropdown-item" href="Products/ozone-systems.html">Ozone Systems</a></li>
+                        <li><a class="dropdown-item" href="Products/filters.html">Water Filters</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link" href="industries.html">Industries</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item ms-lg-3"><a href="contact.html" class="btn btn-primary">Get a Quote<i class="bi bi-arrow-right ms-1"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="about-hero">
+    <div class="container">
+        <div class="hero-content">
+            <span class="hero-label"><i class="bi bi-buildings"></i>About Sandor Tescon Aqua</span>
+            
+            <h1>Engineering Better<span>Water Solutions</span></h1>
+            <p>Water treatment solutions designed around application requirements, water quality and operational needs.</p>
+            
+            <nav class="hero-breadcrumb" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT COMPANY -->
+<section class="section-space">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            
+            <!-- IMAGE -->
+            <div class="col-lg-6">
+                <div class="about-image-box">
+                    <img src="Assets/Images/about-water-treatment.jpg" alt="Water treatment engineering solution" loading="lazy">
+                    
+                    <div class="about-badge">
+                        <div class="about-badge-icon">
+                            <i class="bi bi-droplet-half"></i>
+                        </div>
+                        
+                        <div>
+                            <strong>Water Treatment</strong>
+                            <span>Engineering Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CONTENT -->
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <span class="section-label">Who We Are</span>
+                    
+                    <h2 class="section-title">Water Treatment & Engineering Solutions</h2>
+                    <p class="section-text">
+                        Sandor Tescon Aqua focuses on water
+                        treatment and wastewater treatment
+                        solutions for different applications
+                        and operating requirements.
+                    </p>
+
+                    <p class="section-text">
+                        Our approach is centered on understanding
+                        water quality, process requirements and
+                        treatment objectives before selecting the
+                        appropriate treatment technologies.
+                    </p>
+
+                    <p class="section-text">
+                        Depending on the application, treatment
+                        solutions may include reverse osmosis,
+                        filtration, UV disinfection, ozone treatment,
+                        sewage treatment and effluent treatment.
+                    </p>
+
+                    <p class="section-text">
+                        Each project can be developed around the
+                        specific requirements of the application,
+                        available space, water quality and desired
+                        treated-water characteristics.
+                    </p>
+                    
+                    <div class="about-check-list">
+                        <div class="about-check">
+                            <div class="about-check-icon">
+                                <i class="bi bi-check-lg"></i>
+                            </div>
+                            
+                            <div>
+                                <h6>Application-Based Design</h6>
+
+                                    <p>
+                                        Treatment solutions can be
+                                        selected according to project
+                                        requirements.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="about-check">
+
+                                <div class="about-check-icon">
+
+                                    <i class="bi bi-check-lg"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h6>
+                                        Integrated Treatment
+                                    </h6>
+
+                                    <p>
+                                        Multiple treatment technologies
+                                        can be combined when required.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="about-check">
+
+                                <div class="about-check-icon">
+
+                                    <i class="bi bi-check-lg"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h6>
+                                        Technical Support
+                                    </h6>
+
+                                    <p>
+                                        Project support can be structured
+                                        according to the agreed scope.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         OUR APPROACH
+    ====================================================== -->
+
+    <section class="section-space bg-soft">
+
+        <div class="container">
+
+            <div class="approach-heading">
+
+                <span class="section-label">
+                    Our Approach
+                </span>
+
+                <h2 class="section-title">
+                    From Water Analysis to Treatment
+                </h2>
+
+                <p class="section-text">
+
+                    A systematic approach helps identify the
+                    right treatment process for each application.
+
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <!-- 01 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            01 / ANALYZE
+                        </div>
+
+                        <div class="process-icon">
+
+                            <i class="bi bi-droplet-half"></i>
+
+                        </div>
+
+                        <h4>
+                            Water Understanding
+                        </h4>
+
+                        <p>
+
+                            Understanding the source water,
+                            water quality and treatment objectives
+                            helps establish the basis for system
+                            selection.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 02 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            02 / SELECT
+                        </div>
+
+                        <div class="process-icon">
+
+                            <i class="bi bi-diagram-3"></i>
+
+                        </div>
+
+                        <h4>
+                            Process Selection
+                        </h4>
+
+                        <p>
+
+                            Suitable treatment technologies can
+                            be evaluated according to the application
+                            and required treatment performance.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 03 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            03 / DESIGN
+                        </div>
+
+                        <div class="process-icon">
+
+                            <i class="bi bi-gear-wide-connected"></i>
+
+                        </div>
+
+                        <h4>
+                            System Design
+                        </h4>
+
+                        <p>
+
+                            Treatment systems can be configured
+                            according to process requirements,
+                            capacity and available installation
+                            conditions.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 04 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            04 / IMPLEMENT
+                        </div>
+
+                        <div class="process-icon">
+
+                            <i class="bi bi-tools"></i>
+
+                        </div>
+
+                        <h4>
+                            Implementation
+                        </h4>
+
+                        <p>
+
+                            Installation, commissioning and
+                            technical support can be included
+                            according to project requirements.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAPABILITIES
+    ====================================================== -->
+
+    <section class="section-space">
+
+        <div class="container">
+
+            <div class="approach-heading">
+
+                <span class="section-label">
+                    Our Capabilities
+                </span>
+
+                <h2 class="section-title">
+                    Water Treatment Technologies
+                </h2>
+
+                <p class="section-text">
+
+                    A range of treatment technologies can be
+                    considered according to water quality,
+                    process requirements and application.
+
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <!-- RO -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="technology-card">
+
+                        <div class="technology-icon">
+
+                            <i class="bi bi-water"></i>
+
+                        </div>
+
+                        <h4>
+                            Reverse Osmosis
+                        </h4>
+
+                        <p>
+
+                            RO systems can be used for reducing
+                            dissolved solids and producing treated
+                            water for a variety of applications.
+
+                        </p>
+
+                        <a
+                            href="Solutions/ro-systems.html"
+                            class="technology-link">
+
+                            Explore RO Systems
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- STP -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="technology-card">
+
+                        <div class="technology-icon">
+
+                            <i class="bi bi-recycle"></i>
+
+                        </div>
+
+                        <h4>
+                            Sewage Treatment
+                        </h4>
+
+                        <p>
+
+                            Sewage treatment systems are designed
+                            to treat wastewater generated from
+                            domestic and similar sources.
+
+                        </p>
+
+                        <a
+                            href="Solutions/stp.html"
+                            class="technology-link">
+
+                            Explore STP Solutions
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ETP -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="technology-card">
+
+                        <div class="technology-icon">
+
+                            <i class="bi bi-funnel"></i>
+
+                        </div>
+
+                        <h4>
+                            Effluent Treatment
+                        </h4>
+
+                        <p>
+
+                            ETP systems can be developed for
+                            treating industrial wastewater
+                            according to the characteristics
+                            of the effluent.
+
+                        </p>
+
+                        <a
+                            href="Solutions/etp.html"
+                            class="technology-link">
+
+                            Explore ETP Solutions
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FILTRATION -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="technology-card">
+
+                        <div class="technology-icon">
+
+                            <i class="bi bi-filter-circle"></i>
+
+                        </div>
+
+                        <h4>
+                            Filtration
+                        </h4>
+
+                        <p>
+
+                            Filtration processes can help remove
+                            suspended particles and other targeted
+                            contaminants from water.
+
+                        </p>
+
+                        <a
+                            href="Solutions/filtration.html"
+                            class="technology-link">
+
+                            Explore Filtration
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- UV -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="technology-card">
+
+                        <div class="technology-icon">
+
+                            <i class="bi bi-brightness-high"></i>
+
+                        </div>
+
+                        <h4>
+                            UV Disinfection
+                        </h4>
+
+                        <p>
+
+                            UV treatment can be used as a
+                            disinfection process in suitable
+                            water treatment applications.
+
+                        </p>
+
+                        <a
+                            href="Products/uv-systems.html"
+                            class="technology-link">
+
+                            Explore UV Systems
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OZONE -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="technology-card">
+
+                        <div class="technology-icon">
+
+                            <i class="bi bi-wind"></i>
+
+                        </div>
+
+                        <h4>
+                            Ozone Treatment
+                        </h4>
+
+                        <p>
+
+                            Ozone systems can be considered for
+                            oxidation, disinfection and other
+                            treatment applications.
+
+                        </p>
+
+                        <a
+                            href="Products/ozone-systems.html"
+                            class="technology-link">
+
+                            Explore Ozone Systems
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         APPLICATIONS
+    ====================================================== -->
+
+    <section class="section-space bg-soft">
+
+        <div class="container">
+
+            <div class="approach-heading">
+
+                <span class="section-label">
+                    Applications
+                </span>
+
+                <h2 class="section-title">
+                    Solutions for Different Industries
+                </h2>
+
+                <p class="section-text">
+
+                    Water treatment requirements vary between
+                    industries. Treatment systems can be selected
+                    according to the specific application.
+
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <!-- FOOD -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="application-card">
+
+                        <div class="application-icon">
+
+                            <i class="bi bi-cup-straw"></i>
+
+                        </div>
+
+                        <h5>
+                            Food & Beverage
+                        </h5>
+
+                        <p>
+                            Water treatment and process-water
+                            applications.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHARMA -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="application-card">
+
+                        <div class="application-icon">
+
+                            <i class="bi bi-capsule"></i>
+
+                        </div>
+
+                        <h5>
+                            Pharmaceutical
+                        </h5>
+
+                        <p>
+                            Treatment solutions for process
+                            and utility water requirements.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HEALTHCARE -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="application-card">
+
+                        <div class="application-icon">
+
+                            <i class="bi bi-hospital"></i>
+
+                        </div>
+
+                        <h5>
+                            Healthcare
+                        </h5>
+
+                        <p>
+                            Water treatment and wastewater
+                            management applications.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- COMMERCIAL -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="application-card">
+
+                        <div class="application-icon">
+
+                            <i class="bi bi-building"></i>
+
+                        </div>
+
+                        <h5>
+                            Commercial
+                        </h5>
+
+                        <p>
+                            Water and wastewater solutions
+                            for commercial facilities.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ENGINEERING APPROACH
+    ====================================================== -->
+
+    <section class="section-space">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+
+                <div class="col-lg-6">
+
+                    <div class="engineering-content">
+
+                        <span class="section-label">
+                            Engineering Approach
+                        </span>
+
+
+                        <h2 class="section-title">
+
+                            Designed Around Your
+                            Treatment Requirements
+
+                        </h2>
+
+
+                        <p class="section-text">
+
+                            Water treatment is not a one-size-fits-all
+                            process. Different water sources and
+                            applications require different treatment
+                            approaches.
+
+                        </p>
+
+
+                        <p class="section-text">
+
+                            Factors such as water quality, flow rate,
+                            treatment objectives, operating conditions
+                            and available space can influence system
+                            selection and design.
+
+                        </p>
+
+
+                        <div class="engineering-points">
+
+
+                            <div class="engineering-point">
+
+                                <div class="engineering-point-icon">
+
+                                    <i class="bi bi-check-lg"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Application-Based Design
+                                    </h5>
+
+                                    <p>
+                                        Treatment processes can be
+                                        selected according to
+                                        application requirements.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="engineering-point">
+
+                                <div class="engineering-point-icon">
+
+                                    <i class="bi bi-check-lg"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Integrated Treatment
+                                    </h5>
+
+                                    <p>
+                                        Multiple treatment technologies
+                                        can be combined when required.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="engineering-point">
+
+                                <div class="engineering-point-icon">
+
+                                    <i class="bi bi-check-lg"></i>
+
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Technical Support
+                                    </h5>
+
+                                    <p>
+                                        Project support can be structured
+                                        according to the agreed scope.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="engineering-image">
+
+                        <img
+                            src="Assets/Images/engineering-water-treatment.jpg"
+                            alt="Water treatment engineering"
+                            loading="lazy">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CTA
+    ====================================================== -->
+
+    <section class="about-cta">
+
+        <div class="container">
+
+            <div class="cta-content">
+
+                <div class="row align-items-center">
+
+
+                    <div class="col-lg-8">
+
+                        <h2>
+                            Looking for the Right
+                            Water Treatment Solution?
+                        </h2>
+
+                        <p>
+
+                            Share your water treatment requirements
+                            with us and discuss a suitable solution
+                            for your application.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+
+                        <a
+                            href="contact.html"
+                            class="cta-button">
+
+                            Request a Quote
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="main-footer">
+
+        <div class="container">
+
+            <div class="row g-5">
+
+
+                <!-- COMPANY -->
+
+                <div class="col-lg-4">
+
+                    <img
+                        src="Assets/Images/logo.png"
+                        alt="Sandor Tescon Aqua"
+                        class="footer-logo mb-3">
+
+
+                    <p class="footer-description">
+
+                        Water treatment and engineering solutions
+                        designed around application requirements,
+                        water quality and operational needs.
+
+                    </p>
+
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- QUICK LINKS -->
+
+                <div class="col-md-6 col-lg-2">
+
+                    <h5>
+                        Quick Links
+                    </h5>
+
+                    <ul class="footer-links list-unstyled">
+
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="industries.html">
+                                Industries
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="projects.html">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="faq.html">
+                                FAQ
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- SOLUTIONS -->
+                <div class="col-md-6 col-lg-3">
+                    <h5>Solutions</h5>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="Solutions/ro-systems.html">RO Systems</a></li>
+                        <li><a href="Solutions/stp.html">STP</a></li>
+                        <li><a href="Solutions/etp.html">ETP</a></li>
+                        <li><a href="Solutions/filtration.html">Filtration</a></li>
+                        <li><a href="Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
+                        <li><a href="Solutions/uv-ozone.html">UV & Ozone</a></li>
+                    </ul>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+
+                    <div class="footer-contact">
+                        <p><i class="bi bi-telephone"></i>+91 XXXXX XXXXX</p>
+                        <p><i class="bi bi-envelope"></i>info@yourdomain.com</p>
+                        <p><i class="bi bi-geo-alt"></i>Your business location</p>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary footer-quote-btn">Request a Quote</a>
+                </div>
+            </div>
+
+            <!-- FOOTER BOTTOM -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">©<span id="currentYear"></span>Sandor Tescon Aqua.All Rights Reserved.</p>
+                    </div>
+
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-legal">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="Assets/JS/script.js"></script>
+
+    <!-- Current Year -->
+    <script>
+        const yearElement =
+            document.getElementById("currentYear");
+        if (yearElement) {
+            yearElement.textContent =
+                new Date().getFullYear();
+        }
+    </script>
+
+</body>
+</html>

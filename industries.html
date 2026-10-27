@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Industries We Serve | Sandor Tescon Aqua</title>
+
+    <meta name="description" content="Sandor Tescon Aqua provides customized water treatment, RO, STP, ETP, filtration, UV and ozone solutions for commercial, industrial, healthcare, hospitality and other industries.">
+    <meta name="keywords" content="water treatment industries, industrial water treatment, RO plant, STP, ETP, filtration, wastewater treatment, Sandor Tescon Aqua">
+    <meta name="robots" content="index, follow">
+
+    <!-- Replace with your actual domain -->
+    <link rel="canonical" href="https://www.yourdomain.com/industries.html">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="Assets/Images/favicon.png">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <style>
+    /* GLOBAL */
+    body{
+        margin:0;
+        font-family:"Inter", sans-serif;
+        color:#173f4d;
+        background:#ffffff;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-family:"Poppins", sans-serif;
+    }
+
+    section p{
+        color:#64747b;
+        line-height:1.8;
+    }
+
+    /* TOP BAR */
+    .top-bar{
+        background:#073b4c;
+        color:#ffffff;
+        font-size:14px;
+        padding:9px 0;
+    }
+
+    .top-bar .container{
+        max-width:1200px;
+    }
+
+    .top-bar i{
+        margin-right:7px;
+        font-size:14px;
+        color:#65d6e8;
+    }
+
+    .top-bar .d-flex > div{
+        display:flex;
+        align-items:center;
+    }
+
+    /* NAVBAR */
+    .main-navbar{
+        background:rgba(255, 255, 255, 0.98);
+        border-bottom:1px solid #e7eef1;
+        box-shadow:0 4px 18px rgba(7, 59, 76, 0.07);
+        padding:10px 0;
+        z-index:1000;
+    }
+
+    .main-navbar .navbar-brand{
+        display:flex;
+        align-items:center;
+        padding:0;
+    }
+
+    .main-navbar .logo{
+        width:190px;
+        height:auto;
+        display:block;
+        object-fit:contain;
+    }
+
+    .main-navbar .navbar-nav{
+        gap:3px;
+    }
+
+    .main-navbar .nav-link{
+        position:relative;
+        color:#244752;
+        font-size:15px;
+        font-weight:600;
+        padding:10px 13px !important;
+        transition:
+            color 0.3s ease,
+            background-color 0.3s ease;
+    }
+
+    .main-navbar .nav-link::after{
+        content:"";
+        position:absolute;
+        left:13px;
+        right:13px;
+        bottom:3px;
+        height:2px;
+        background:#08a6c1;
+        transform:scaleX(0);
+        transform-origin:center;
+        transition:transform 0.3s ease;
+    }
+
+    .main-navbar .nav-link:hover{
+        color:#008da8;
+    }
+
+    .main-navbar .nav-link:hover::after{
+        transform:scaleX(1);
+    }
+
+    .main-navbar .nav-link.active{
+        color:#008da8;
+    }
+
+    .main-navbar .nav-link.active::after{
+        transform:scaleX(1);
+    }
+
+    /* DROPDOWN */
+    .main-navbar .dropdown-menu{
+        min-width:245px;
+        margin-top:12px;
+        padding:10px;
+        border:1px solid #e3edf0;
+        border-radius:12px;
+        background:#ffffff;
+        box-shadow:0 15px 35px rgba(7, 59, 76, 0.12);
+    }
+
+    .main-navbar .dropdown-item{
+        padding:10px 14px;
+        border-radius:8px;
+        color:#294b55;
+        font-size:14px;
+        font-weight:500;
+        transition:
+            background-color 0.25s ease,
+            color 0.25s ease,
+            padding-left 0.25s ease;
+    }
+
+    .main-navbar .dropdown-item:hover{
+        background:#edf9fb;
+        color:#008da8;
+        padding-left:19px;
+    }
+
+    /* QUOTE BUTTON */
+    .quote-btn{
+        border:none;
+        padding:10px 21px !important;
+        border-radius:7px;
+        background:linear-gradient(135deg, #007f98, #08aec8);
+        color:#ffffff !important;
+        font-size:14px;
+        font-weight:600;
+        box-shadow:0 7px 18px rgba(0, 142, 168, 0.20);
+        transition:all 0.3s ease;
+    }
+
+    .quote-btn:hover{
+        background:linear-gradient(135deg, #006b81, #009db8);
+        color:#ffffff !important;
+        transform:translateY(-2px);
+        box-shadow:0 11px 25px rgba(0, 142, 168, 0.28);
+    }
+
+    /* MOBILE NAVBAR */
+    .main-navbar .navbar-toggler{
+        border:1px solid #d4e5e9;
+        border-radius:8px;
+        padding:7px 10px;
+        box-shadow:none;
+    }
+
+    .main-navbar .navbar-toggler:focus{
+        box-shadow:0 0 0 3px rgba(8, 174, 200, 0.15);
+    }
+
+    .main-navbar .navbar-toggler-icon{
+        background-image:none;
+        width:24px;
+        height:18px;
+        position:relative;
+        border-top:2px solid #087f96;
+        border-bottom:2px solid #087f96;
+    }
+
+    .main-navbar .navbar-toggler-icon::before{
+        content:"";
+        position:absolute;
+        left:0;
+        top:6px;
+        width:24px;
+        height:2px;
+        background:#087f96;
+    }
+
+    /* INDUSTRIES HERO */
+    .industries-hero{
+        position:relative;
+        min-height:560px;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:
+            linear-gradient(
+                110deg,
+                rgba(3, 35, 55, 0.96),
+                rgba(4, 78, 100, 0.86),
+                rgba(0, 150, 170, 0.60)
+            ),
+            url("../Images/industries.jpg")
+            center / cover no-repeat;
+    }
+
+    /* HERO CIRCLE */
+    .industries-hero::before{
+        content:"";
+        position:absolute;
+        width:500px;
+        height:500px;
+        right:-180px;
+        top:-220px;
+        border-radius:50%;
+        background:rgba(73, 221, 239, 0.14);
+        filter:blur(10px);
+    }
+
+    /* HERO SECOND CIRCLE */
+    .industries-hero::after{
+        content:"";
+        position:absolute;
+        width:350px;
+        height:350px;
+        left:-180px;
+        bottom:-220px;
+        border-radius:50%;
+        background:rgba(0, 196, 255, 0.10);
+    }
+
+    .industries-hero .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .industries-hero-content{
+        max-width:800px;
+        padding:80px 0;
+    }
+
+    /* HERO LABEL */
+    .solution-label{
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        padding:9px 18px;
+        border-radius:50px;
+        background:rgba(255, 255, 255, 0.10);
+        border:1px solid rgba(255, 255, 255, 0.25);
+        backdrop-filter:blur(10px);
+        color:#b9f4ff;
+        font-size:13px;
+        font-weight:700;
+        letter-spacing:1.5px;
+        margin-bottom:20px;
+    }
+
+    /* HERO HEADING */
+    .industries-hero h1{
+        color:#ffffff;
+        font-size:clamp(42px, 6vw, 70px);
+        line-height:1.08;
+        font-weight:800;
+        letter-spacing:-1px;
+        margin-bottom:22px;
+    }
+
+    .industries-hero h1 span{
+        display:block;
+        color:#79e7f5;
+    }
+
+    .industries-hero p{
+        max-width:740px;
+        color:rgba(255, 255, 255, 0.88);
+        font-size:18px;
+        line-height:1.8;
+        margin-bottom:30px;
+    }
+
+    /* HERO BUTTONS */
+    .hero-buttons{
+        display:flex;
+        align-items:center;
+        gap:15px;
+        margin-top:30px;
+        flex-wrap:wrap;
+    }
+
+    .hero-btn-primary,
+    .hero-btn-outline{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        gap:8px;
+        padding:13px 25px;
+        border-radius:8px;
+        text-decoration:none;
+        font-size:15px;
+        font-weight:600;
+        transition:all 0.3s ease;
+    }
+
+    .hero-btn-primary{
+        min-width:190px;
+        background:linear-gradient(135deg, #007f98, #08aec8);
+        color:#ffffff;
+        border:2px solid transparent;
+        box-shadow:0 8px 22px rgba(0, 127, 152, 0.25);
+    }
+
+    .hero-btn-primary:hover{
+        color:#ffffff;
+        background:linear-gradient(135deg, #006b81, #009db8);
+        transform:translateY(-3px);
+    }
+
+    .hero-btn-outline{
+        min-width:180px;
+        background:transparent;
+        color:#ffffff;
+        border:2px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .hero-btn-outline:hover{
+        color:#073b4c;
+        background:#ffffff;
+        border-color:#ffffff;
+        transform:translateY(-3px);
+    }
+
+    /* SECTION */
+    .section-space{
+        padding:90px 0;
+    }
+
+    .section-label{
+        display:inline-block;
+        margin-bottom:12px;
+        font-size:13px;
+        font-weight:700;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        color:#0086a8;
+    }
+
+    section h2{
+        margin-bottom:18px;
+        font-size:38px;
+        font-weight:700;
+        line-height:1.2;
+        color:#123b4a;
+    }
+
+    section h2 span{
+        display:block;
+        color:#0086a8;
+        margin-top:5px;
+    }
+
+    /* INTRODUCTION */
+    .industry-intro{
+        background:#ffffff;
+    }
+
+    .industry-intro p{
+        font-size:16px;
+        margin-bottom:15px;
+    }
+
+    .content-link{
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        margin-top:10px;
+        color:#0086a8;
+        font-weight:700;
+        text-decoration:none;
+        transition:all 0.3s ease;
+    }
+
+    .content-link:hover{
+        color:#005f77;
+        transform:translateX(4px);
+    }
+
+    /* FEATURE CARD */
+    .industry-feature-card{
+        position:relative;
+        padding:38px 34px;
+        border-radius:22px;
+        background:linear-gradient(145deg, #eefaff, #f8fcfd);
+        border:1px solid #dcecf1;
+        box-shadow:0 15px 45px rgba(16, 42, 67, 0.09);
+        overflow:hidden;
+    }
+
+    .industry-feature-card::after{
+        content:"";
+        position:absolute;
+        width:220px;
+        height:220px;
+        right:-100px;
+        bottom:-120px;
+        border-radius:50%;
+        background:rgba(0, 174, 200, 0.10);
+    }
+
+    .feature-icon{
+        width:68px;
+        height:68px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:22px;
+        border-radius:18px;
+        background:linear-gradient(135deg, #087fce, #00a8c6);
+        color:#ffffff;
+        font-size:29px;
+        box-shadow:0 10px 25px rgba(0, 127, 152, 0.20);
+    }
+
+    .industry-feature-card h3{
+        font-size:24px;
+        color:#173f4d;
+        margin-bottom:13px;
+    }
+
+    .industry-feature-card p{
+        font-size:15px;
+        line-height:1.8;
+    }
+
+    .feature-list{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:13px;
+        margin-top:25px;
+    }
+
+    .feature-list div{
+        font-size:14px;
+        font-weight:600;
+        color:#365966;
+    }
+
+    .feature-list i{
+        color:#008fa8;
+        margin-right:6px;
+    }
+
+    /* LIGHT BACKGROUND */
+    .bg-light{
+        background:#f5fafc !important;
+    }
+
+    /* SECTION HEADING */
+    .section-heading{
+        max-width:720px;
+        margin:0 auto;
+    }
+
+    .section-heading p{
+        max-width:680px;
+        margin:0 auto;
+        color:#64747b;
+    }
+
+    /* INDUSTRY CARDS */
+    .solution-card{
+        position:relative;
+        height:100%;
+        background:#ffffff;
+        border:1px solid #e0edf4;
+        border-radius:20px;
+        padding:32px 28px;
+        box-shadow:0 8px 30px rgba(16, 42, 67, 0.06);
+        overflow:hidden;
+        transition:all 0.35s ease;
+    }
+
+    .solution-card::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:4px;
+        background:linear-gradient(90deg, #087fce, #00a8c6);
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:transform 0.35s ease;
+    }
+
+    .solution-card:hover{
+        transform:translateY(-8px);
+        border-color:#c8e8f5;
+        box-shadow:0 20px 50px rgba(16, 42, 67, 0.13);
+    }
+
+    .solution-card:hover::before{
+        transform:scaleX(1);
+    }
+
+    /* FIX INDUSTRY CARDS */
+    .solution-card{
+        position:relative;
+        height:100%;
+        background:#ffffff !important;
+        background-image:none !important;
+        border:1px solid #e0edf4;
+        border-radius:20px;
+        padding:32px 28px;
+        box-shadow:0 8px 30px rgba(16, 42, 67, 0.06);
+        overflow:hidden;
+        transition:all 0.35s ease;
+    }
+
+    /* Remove unwanted dark overlay */
+    .solution-card::after{
+        content:none !important;
+        display:none !important;
+    }
+
+    /* Keep only the blue hover line */
+    .solution-card::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:4px;
+        background:linear-gradient(90deg, #087fce, #00a8c6);
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:transform 0.35s ease;
+    }
+
+    .solution-card:hover::before{
+        transform:scaleX(1);
+    }
+
+/* INDUSTRY ICON */
+    .solution-icon{
+        width:68px;
+        height:68px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #e5f8ff, #d7f2fb);
+        color:#087fce;
+        font-size:29px;
+        margin-bottom:22px;
+        transition:all 0.3s ease;
+    }
+
+    .solution-card:hover .solution-icon{
+        background:linear-gradient(135deg, #087fce, #00a8c6);
+        color:#ffffff;
+        transform:scale(1.05);
+    }
+
+    .solution-card h4{
+        font-size:21px;
+        margin-bottom:13px;
+        color:#173f4d;
+    }
+
+    .solution-card p{
+        color:#667b8a;
+        font-size:15px;
+        line-height:1.75;
+        min-height:105px;
+    }
+
+    /* INDUSTRY LIST */
+    .industry-list{
+        list-style:none;
+        padding:0;
+        margin:15px 0 0;
+    }
+
+    .industry-list li{
+        position:relative;
+        padding-left:20px;
+        margin-bottom:8px;
+        color:#526b76;
+        font-size:14px;
+    }
+
+    .industry-list li::before{
+        content:"✓";
+        position:absolute;
+        left:0;
+        color:#008fa8;
+        font-weight:700;
+    }
+
+    /* PROCESS / CAPABILITY CARDS */
+    .process-card{
+        position:relative;
+        height:100%;
+        padding:32px 26px;
+        background:#ffffff;
+        border:1px solid #e4edf0;
+        border-radius:18px;
+        overflow:hidden;
+        transition:all 0.35s ease;
+        box-shadow:0 8px 30px rgba(18, 59, 74, 0.06);
+    }
+
+    .process-card::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:4px;
+        background:linear-gradient(90deg, #007c9e, #20b8d4);
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:transform 0.35s ease;
+    }
+
+    .process-card:hover{
+        transform:translateY(-8px);
+        border-color:#b9dfe7;
+        box-shadow:0 18px 40px rgba(18, 59, 74, 0.12);
+    }
+
+    .process-card:hover::before{
+        transform:scaleX(1);
+    }
+
+    .process-number{
+        width:58px;
+        height:58px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:22px;
+        border-radius:50%;
+        background:linear-gradient(135deg, #007c9e, #18b5cf);
+        color:#ffffff;
+        font-size:17px;
+        font-weight:700;
+        box-shadow:0 8px 20px rgba(0, 124, 158, 0.25);
+    }
+
+    .process-card h5{
+        margin-bottom:12px;
+        font-size:19px;
+        font-weight:700;
+        color:#173f4d;
+    }
+
+    .process-card p{
+        margin-bottom:0;
+        font-size:15px;
+        line-height:1.75;
+    }
+
+    /* APPLICATIONS */
+    .application-item{
+        height:100%;
+        padding:28px 24px;
+        background:#ffffff;
+        border:1px solid #e2edf0;
+        border-radius:16px;
+        box-shadow:0 6px 25px rgba(18, 59, 74, 0.05);
+        transition:
+            transform 0.3s ease,
+            box-shadow 0.3s ease,
+            border-color 0.3s ease;
+    }
+
+    .application-item:hover{
+        transform:translateY(-6px);
+        border-color:#a9dce6;
+        box-shadow:0 16px 35px rgba(18, 59, 74, 0.10);
+    }
+
+    .application-item i{
+        width:52px;
+        height:52px;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:18px;
+        border-radius:14px;
+        background:#e8f7fa;
+        color:#0086a8;
+        font-size:24px;
+        transition:all 0.3s ease;
+    }
+
+    .application-item:hover i{
+        background:#0086a8;
+        color:#ffffff;
+        transform:scale(1.08);
+    }
+
+    .application-item h5{
+        margin-bottom:10px;
+        font-size:18px;
+        font-weight:700;
+        color:#173f4d;
+    }
+
+    .application-item p{
+        margin-bottom:0;
+        font-size:14.5px;
+        line-height:1.7;
+    }
+
+    /* CTA */
+    .solution-cta{
+        position:relative;
+        overflow:hidden;
+        padding:85px 30px;
+        background:linear-gradient(135deg, #062f4f, #075985, #008fa3);
+        color:#ffffff;
+    }
+
+    .solution-cta::before{
+        content:"";
+        position:absolute;
+        width:450px;
+        height:450px;
+        right:-180px;
+        top:-230px;
+        border-radius:50%;
+        background:rgba(80, 220, 240, 0.12);
+    }
+
+    .solution-cta::after{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        left:-150px;
+        bottom:-190px;
+        border-radius:50%;
+        background:rgba(0, 220, 255, 0.08);
+    }
+
+    .solution-cta .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .solution-cta .section-label{
+        color:#8ee8ff;
+    }
+
+    .solution-cta h2{
+        color:#ffffff;
+        font-size:clamp(30px, 4vw, 44px);
+        margin-bottom:18px;
+    }
+
+    .solution-cta h2 span{
+        display:block;
+        color:#79e7f5;
+    }
+
+    .solution-cta p{
+        max-width:700px;
+        margin:0 auto 28px;
+        color:rgba(255, 255, 255, 0.86);
+        line-height:1.8;
+    }
+
+    .cta-btn{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        padding:13px 30px;
+        border-radius:50px;
+        background:#ffffff;
+        color:#05658c;
+        font-weight:700;
+        text-decoration:none;
+        transition:all 0.3s ease;
+        box-shadow:0 10px 30px rgba(0, 0, 0, 0.16);
+    }
+
+    .cta-btn:hover{
+        background:#dffaff;
+        color:#034e70;
+        transform:translateY(-4px);
+    }
+
+    /* FOOTER */
+    .footer-section{
+        position:relative;
+        overflow:hidden;
+        padding:75px 0 0;
+        color:#a9c0cc;
+        background:
+            radial-gradient(
+                circle at 85% 15%,
+                rgba(0, 190, 220, 0.12),
+                transparent 30%
+            ),
+
+            radial-gradient(
+                circle at 10% 90%,
+                rgba(0, 150, 190, 0.10),
+                transparent 30%
+            ),
+
+            linear-gradient(
+                135deg,
+                #031c2d 0%,
+                #062f49 50%,
+                #064b60 100%
+            );
+
+    }
+
+    .footer-section::before{
+        content:"";
+        position:absolute;
+        width:420px;
+        height:420px;
+        right:-200px;
+        top:-250px;
+        border-radius:50%;
+        background:rgba(60, 220, 240, 0.10);
+        filter:blur(10px);
+        pointer-events:none;
+    }
+
+    .footer-section::after{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        left:-170px;
+        bottom:-190px;
+        border-radius:50%;
+        background:rgba(0, 190, 220, 0.08);
+        filter:blur(10px);
+        pointer-events:none;
+    }
+
+    .footer-section .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .footer-logo{
+        display:block;
+        width:auto;
+        height:58px;
+        max-width:220px;
+        object-fit:contain;
+        margin-bottom:20px;
+        transition:transform 0.3s ease;
+    }
+
+    .footer-logo:hover{
+        transform:translateY(-3px);
+    }
+
+    .footer-section p{
+        max-width:400px;
+        margin:0;
+        color:#9eb7c4;
+        font-size:14px;
+        line-height:1.9;
+    }
+
+    .footer-section h5{
+        position:relative;
+        display:inline-block;
+        color:#ffffff;
+        font-family:"Poppins", sans-serif;
+        font-size:17px;
+        font-weight:600;
+        margin-bottom:24px;
+        padding-bottom:10px;
+    }
+
+    .footer-section h5::after{
+        content:"";
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:32px;
+        height:3px;
+        border-radius:10px;
+        background:linear-gradient(90deg, #35d5e8, #00a8c6);
+    }
+
+    /* FOOTER LINKS */
+    .footer-links{
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+
+    .footer-links li{
+        margin-bottom:12px;
+    }
+
+    .footer-links a{
+        position:relative;
+        display:inline-block;
+        color:#9eb7c4;
+        font-size:14px;
+        text-decoration:none;
+        transition:
+            color 0.3s ease,
+            transform 0.3s ease;
+    }
+
+    .footer-links a:hover{
+        color:#65e6f4;
+        transform:translateX(4px);
+    }
+
+    /* FOOTER CONTACT */
+    .footer-section .col-lg-3 p{
+        display:flex;
+        align-items:flex-start;
+        margin-bottom:15px;
+        color:#9eb7c4;
+        font-size:14px;
+        line-height:1.7;
+    }
+
+    .footer-section .col-lg-3 p i{
+        flex-shrink:0;
+        width:36px;
+        height:36px;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        margin-right:11px !important;
+        border-radius:10px;
+        background:rgba(67, 218, 235, 0.10);
+        border:1px solid rgba(67, 218, 235, 0.15);
+        color:#58dceb;
+        font-size:16px;
+    }
+
+    /* FOOTER LINE */
+    .footer-section hr{
+        height:1px;
+        border:0;
+        margin:48px 0 22px;
+        opacity:1;
+        background:
+            linear-gradient(
+                90deg,
+                transparent,
+                rgba(120, 220, 235, 0.25),
+                transparent
+            );
+
+    }
+
+    .footer-section .text-center{
+        padding:0 0 23px;
+    }
+
+    .footer-section .text-center p{
+        margin:0;
+        color:#7893a0;
+        font-size:13px;
+        line-height:1.6;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width:1199px){
+    
+        .main-navbar .nav-link{
+            font-size:14px;
+            padding-left:9px !important;
+            padding-right:9px !important;
+        }
+
+        .main-navbar .nav-link::after{
+            left:9px;
+            right:9px;
+        }
+
+        .main-navbar .logo{
+            width:175px;
+        }
+
+    }
+
+    @media (max-width:991px){
+        
+        .top-bar{
+            font-size:13px;
+        }
+
+        .main-navbar{
+            padding:11px 0;
+        }
+
+        .main-navbar .logo{
+            width:165px;
+        }
+
+        .main-navbar .navbar-collapse{
+            margin-top:15px;
+            padding:10px 0 5px;
+            border-top:1px solid #edf2f4;
+        }
+
+        .main-navbar .navbar-nav{
+            gap:2px;
+            align-items:stretch !important;
+        }
+
+        .main-navbar .nav-link{
+            padding:11px 12px !important;
+            border-radius:7px;
+        }
+
+        .main-navbar .nav-link:hover{
+            background:#f1fafb;
+        }
+
+        .main-navbar .nav-link::after{
+            display:none;
+        }
+
+        .main-navbar .dropdown-menu{
+            margin-top:3px;
+            padding:7px;
+            border:1px solid #e5eef0;
+            box-shadow:none;
+            background:#f8fcfd;
+        }
+
+        .main-navbar .quote-btn{
+            display:inline-block;
+            margin-top:8px;
+            text-align:center;
+        }
+
+        section h2{
+            font-size:34px;
+        }
+
+    }
+
+    @media (max-width:767px){
+        
+        .section-space{
+            padding:65px 0;
+        }
+
+        .industries-hero{
+            min-height:540px;
+        }
+
+        .industries-hero-content{
+            padding:60px 0;
+        }
+
+        .industries-hero h1{
+            font-size:42px;
+        }
+
+        .industries-hero p{
+            font-size:16px;
+        }
+
+        .hero-buttons{
+            flex-direction:column;
+            align-items:stretch;
+            gap:12px;
+        }
+
+        .hero-btn-primary,
+        .hero-btn-outline{
+            width:100%;
+            min-width:0;
+            text-align:center;
+        }
+
+        section h2{
+            font-size:30px;
+        }
+
+        .feature-list{
+            grid-template-columns:1fr;
+        }
+
+        .solution-card{
+            border-radius:17px;
+        }
+
+    }
+
+    @media (max-width:575px){
+
+        .top-bar{
+            padding:8px 0;
+            font-size:11px;
+        }
+
+        .top-bar .d-flex{
+            gap:10px;
+        }
+
+        .main-navbar .logo{
+            width:145px;
+        }
+
+        .industries-hero h1{
+            font-size:38px;
+        }
+
+        section h2{
+            font-size:27px;
+        }
+
+        .industry-feature-card{
+            padding:30px 24px;
+        }
+
+        .solution-card{
+           border-radius:15px;
+        }
+
+        .application-item{
+            border-radius:15px;
+       }
+
+    }
+    </style>
+</head>
+
+<body>
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <i class="bi bi-envelope"></i>
+                sales.tesconaqua@gmail.com
+            </div>
+
+            <div>
+                <i class="bi bi-telephone"></i>
+                +91 96761 11136
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container">
+
+        <!-- LOGO -->
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo">
+        </a>
+
+        <!-- MOBILE BUTTON -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAVIGATION -->
+        <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+                <!-- SOLUTIONS -->
+                <li class="nav-item dropdown"><a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown">Solutions</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Solutions/ro-systems.html">RO Systems</a></li>
+                        <li><a class="dropdown-item" href="Solutions/stp.html">Sewage Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="Solutions/etp.html">Effluent Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="Solutions/filtration.html">Filtration Systems</a></li>
+                        <li><a class="dropdown-item" href="Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
+                    </ul>
+                </li>
+
+                <!-- PRODUCTS -->
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Products/ro-plants.html">RO Plants</a></li>
+                        <li><a class="dropdown-item" href="Products/uv-systems.html">UV Systems</a></li>
+                        <li><a class="dropdown-item" href="Products/ozone-systems.html">Ozone Systems</a></li>
+                        <li><a class="dropdown-item" href="Products/filters.html">Water Filters</a></li>
+                    </ul>
+                </li>
+
+                <!-- INDUSTRIES -->
+                <li class="nav-item"><a class="nav-link active" href="industries.html">Industries</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+
+                <!-- QUOTE -->
+                <li class="nav-item ms-lg-3"><a class="btn quote-btn" href="contact.html">Get a Quote</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="industries-hero">
+    <div class="container">
+        <div class="industries-hero-content">
+            <span class="solution-label">
+                <i class="bi bi-buildings"></i>
+                INDUSTRIES WE SERVE
+            </span>
+
+            <h1>Water Treatment<span>Across Industries</span></h1>
+            <p>
+                Customized water and wastewater treatment
+                solutions designed to meet the unique
+                requirements of commercial, industrial and
+                institutional applications.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="contact.html" class="hero-btn-primary">Discuss Your Requirement<i class="bi bi-arrow-right"></i></a>
+                <a href="#industries" class="hero-btn-outline">Explore Industries</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- INTRODUCTION -->
+<section class="industry-intro section-space">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <!-- TEXT -->
+            <div class="col-lg-6">
+                <span class="section-label">INDUSTRY-FOCUSED SOLUTIONS</span>
+
+                <h2>Solutions Built Around<span>Your Application</span></h2>
+                <p>
+                    Every industry has different water quality,
+                    process and wastewater treatment requirements.
+                    Sandor Tescon Aqua provides customized solutions
+                    based on application, capacity and required
+                    water quality.
+                </p>
+                <p>
+                    Our treatment technologies can be combined
+                    to create practical and reliable systems for
+                    water purification, process water treatment,
+                    wastewater treatment and water reuse.
+                </p>
+                <a href="contact.html" class="content-link">Talk to Our Team<i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <!-- FEATURE CARD -->
+            <div class="col-lg-6">
+                <div class="industry-feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-droplet-half"></i>
+                    </div>
+
+                    <h3>Customized Water Management</h3>
+                    <p>
+                        We help select appropriate treatment
+                        technologies according to water source,
+                        application, capacity and treatment
+                        objectives.
+                    </p>
+
+                    <div class="feature-list">
+                        <div>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Water purification
+                        </div>
+
+                        <div>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Wastewater treatment
+                        </div>
+
+                        <div>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Process water treatment
+                        </div>
+
+                        <div>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Water reuse applications
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="industries-section section-space bg-light" id="industries">
+    <div class="container">
+        <div class="section-heading text-center">
+            <span class="section-label">APPLICATION AREAS</span>
+
+            <h2>Industries We<span>Serve</span></h2>
+            <p>Water treatment solutions designed for diverse commercial, institutional and industrial applications.</p>
+        </div>
+
+        <div class="row g-4 mt-4">
+            <!-- CARD 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-building"></i>
+                    </div>
+
+                    <h4>Commercial Buildings</h4>
+                    <p>Water purification and treatment systems for offices, commercial buildings and business facilities.</p>
+                    
+                    <ul class="industry-list">
+                        <li>Water purification</li>
+                        <li>Filtration systems</li>
+                        <li>RO systems</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-hospital"></i>
+                    </div>
+
+                    <h4>Healthcare Facilities</h4>
+                    <p>Water treatment solutions for healthcare facilities requiring reliable water quality management.</p>
+
+                    <ul class="industry-list">
+                        <li>RO systems</li>
+                        <li>UV systems</li>
+                        <li>Water filtration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-cup-hot"></i>
+                    </div>
+
+                    <h4>Food & Beverage</h4>
+                    <p>Water treatment solutions for production, process water and supporting applications.</p>
+
+                    <ul class="industry-list">
+                        <li>RO plants</li>
+                        <li>Filtration</li>
+                        <li>Process water treatment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-houses"></i>
+                    </div>
+
+                    <h4>Residential Communities</h4>
+                    <p>Water and wastewater treatment solutions for apartments, communities and residential developments.</p>
+
+                    <ul class="industry-list">
+                        <li>RO systems</li>
+                        <li>Filtration</li>
+                        <li>STP solutions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-gear-wide-connected"></i>
+                    </div>
+
+                    <h4>Manufacturing</h4>
+                    <p>Customized water and wastewater treatment systems for manufacturing and industrial facilities.</p>
+
+                    <ul class="industry-list">
+                        <li>ETP systems</li>
+                        <li>RO plants</li>
+                        <li>Wastewater treatment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-buildings"></i>
+                    </div>
+
+                    <h4>Hotels & Hospitality</h4>
+                    <p>Integrated water treatment solutions for hotels, resorts and hospitality facilities.</p>
+
+                    <ul class="industry-list">
+                        <li>Water purification</li>
+                        <li>STP solutions</li>
+                        <li>Water reuse</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-capsule"></i>
+                    </div>
+
+                    <h4>Pharmaceutical</h4>
+                    <p>Water treatment systems for applications requiring carefully controlled water quality.</p>
+
+                    <ul class="industry-list">
+                        <li>RO systems</li>
+                        <li>UV disinfection</li>
+                        <li>Filtration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-mortarboard"></i>
+                    </div>
+
+                    <h4>Educational Institutions</h4>
+                    <p>Water purification and wastewater solutions for schools, colleges and educational campuses.</p>
+
+                    <ul class="industry-list">
+                        <li>RO systems</li>
+                        <li>Water filtration</li>
+                        <li>STP systems</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 9 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="solution-card industry-card">
+                    <div class="solution-icon">
+                        <i class="bi bi-water"></i>
+                    </div>
+
+                    <h4>Industrial Water Treatment</h4>
+                    <p>Integrated solutions for industrial water, process water and wastewater treatment applications.</p>
+
+                    <ul class="industry-list">
+                        <li>ETP systems</li>
+                        <li>RO plants</li>
+                        <li>Filtration systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TREATMENT CAPABILITIES -->
+<section class="capabilities-section section-space">
+    <div class="container">
+        <div class="section-heading text-center">
+            <span class="section-label">OUR CAPABILITIES</span>
+
+            <h2>Complete Water Treatment<span>Technologies</span></h2>
+            <p>Different treatment technologies can be combined according to the requirements of each application.</p>
+        </div>
+
+        <div class="row g-4 mt-4">
+            <!-- 01 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        01
+                    </div>
+
+                    <h5>RO Systems</h5>
+                    <p>Reverse osmosis systems for reducing dissolved salts and improving water quality for suitable applications.</p>
+                </div>
+            </div>
+
+            <!-- 02 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        02
+                    </div>
+
+                    <h5>Filtration Systems</h5>
+                    <p>Multi-stage filtration solutions for removing suspended particles and improving water clarity.</p>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        03
+                    </div>
+
+                    <h5>STP Solutions</h5>
+                    <p>Sewage treatment solutions designed for appropriate residential, commercial and institutional applications.</p>
+                </div>
+            </div>
+
+            <!-- 04 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        04
+                    </div>
+
+                    <h5>ETP Solutions</h5>
+                    <p>Effluent treatment systems for industrial wastewater management and treatment.</p>
+                </div>
+            </div>
+
+            <!-- 05 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        05
+                    </div>
+
+                    <h5>UV Systems</h5>
+                    <p>UV treatment systems for suitable water disinfection applications without chemical dosing.</p>
+                </div>
+            </div>
+
+            <!-- 06 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        06
+                    </div>
+
+                    <h5>Ozone Systems</h5>
+                    <p>Ozone-based treatment solutions for suitable water treatment and oxidation applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- APPLICATIONS -->
+<section class="applications-section section-space bg-light">
+    <div class="container">
+        <div class="section-heading text-center">
+            <span class="section-label">APPLICATIONS</span>
+
+            <h2>Supporting Better<span>Water Management</span></h2>
+            <p>Our solutions can support a wide range of water management requirements.</p>
+        </div>
+
+        <div class="row g-4 mt-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="application-item">
+                    <i class="bi bi-droplet"></i>
+
+                    <h5>Water Purification</h5>
+                    <p>Treatment systems for improving water quality for appropriate uses.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="application-item">
+                    <i class="bi bi-funnel"></i>
+                    
+                    <h5>Filtration</h5>
+                    <p>Filtration solutions for suspended solids and particulate removal.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="application-item">
+                    <i class="bi bi-recycle"></i>
+
+                    <h5>Wastewater Treatment</h5>
+                    <p>Solutions for suitable sewage and industrial wastewater applications.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="application-item">
+                    <i class="bi bi-arrow-repeat"></i>
+
+                    <h5>Water Reuse</h5>
+                    <p>Properly treated water may be considered for suitable non-potable applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="solution-cta text-center">
+    <div class="container">
+        <span class="section-label">HAVE A WATER TREATMENT REQUIREMENT?</span>
+
+        <h2>Let's Design the Right Solution<span>for Your Industry</span></h2>
+        <p>
+            Tell us about your application, water source,
+            capacity and treatment requirements. Our team
+            can help you identify a suitable solution.
+        </p>
+
+        <a href="contact.html" class="cta-btn">Get a Quote
+            <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- COMPANY -->
+            <div class="col-lg-4">
+                <img src="Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo">
+
+                <p>
+                    Sandor Tescon Aqua provides water treatment,
+                    wastewater treatment and customized water
+                    treatment solutions for commercial and
+                    industrial applications.
+                </p>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-3">
+                <h5>Quick Links</h5>
+
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="col-lg-3">
+                <h5>Contact Us</h5>
+                <p><i class="bi bi-envelope"></i>sales.tesconaqua@gmail.com</p>
+                <p><i class="bi bi-telephone"></i>+91 96761 11136</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p>© 2026 Sandor Tescon Aqua. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

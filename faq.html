@@ -1,0 +1,3327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>FAQ | Sandor Tescon Aqua</title>
+
+    <meta name="description"
+          content="Frequently asked questions about RO plants, STP, ETP, water filtration, UV, ozone and wastewater treatment solutions by Sandor Tescon Aqua.">
+
+    <meta name="keywords"
+          content="water treatment FAQ, RO plant FAQ, STP FAQ, ETP FAQ, filtration FAQ, UV water treatment FAQ, ozone water treatment FAQ, Sandor Tescon Aqua">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <link rel="canonical"
+          href="https://www.yourdomain.com/faq.html">
+
+    <!-- FAVICON -->
+    <link rel="icon"
+          href="Assets/Images/favicon.png">
+
+    <!-- BOOTSTRAP -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet"
+          href="Assets/CSS/style.css">
+
+
+<style>
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:"Inter",sans-serif;
+    color:#173f4d;
+    background:#ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:"Poppins",sans-serif;
+}
+
+section p{
+    color:#64747b;
+    line-height:1.8;
+}
+
+
+/* =========================================================
+   TOP BAR
+========================================================= */
+
+.top-bar{
+    background:#073b4c;
+    color:#ffffff;
+    font-size:14px;
+    padding:9px 0;
+}
+
+.top-bar .container{
+    max-width:1200px;
+}
+
+.top-bar .d-flex > div{
+    display:flex;
+    align-items:center;
+}
+
+.top-bar i{
+    margin-right:7px;
+    font-size:14px;
+    color:#65d6e8;
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.main-navbar{
+    background:rgba(255,255,255,0.98);
+    border-bottom:1px solid #e7eef1;
+    box-shadow:0 4px 18px rgba(7,59,76,0.07);
+    padding:10px 0;
+    z-index:1000;
+}
+
+.main-navbar .navbar-brand{
+    display:flex;
+    align-items:center;
+    padding:0;
+}
+
+.main-navbar .logo{
+    width:190px;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+.main-navbar .navbar-nav{
+    gap:3px;
+}
+
+.main-navbar .nav-link{
+    position:relative;
+    color:#244752;
+    font-size:15px;
+    font-weight:600;
+    padding:10px 13px !important;
+    transition:
+        color .3s ease,
+        background-color .3s ease;
+}
+
+.main-navbar .nav-link::after{
+    content:"";
+    position:absolute;
+    left:13px;
+    right:13px;
+    bottom:3px;
+    height:2px;
+    background:#08a6c1;
+    transform:scaleX(0);
+    transform-origin:center;
+    transition:transform .3s ease;
+}
+
+.main-navbar .nav-link:hover{
+    color:#008da8;
+}
+
+.main-navbar .nav-link:hover::after{
+    transform:scaleX(1);
+}
+
+.main-navbar .nav-link.active{
+    color:#008da8;
+}
+
+.main-navbar .nav-link.active::after{
+    transform:scaleX(1);
+}
+
+
+/* =========================================================
+   DROPDOWN
+========================================================= */
+
+.main-navbar .dropdown-menu{
+    min-width:245px;
+    margin-top:12px;
+    padding:10px;
+    border:1px solid #e3edf0;
+    border-radius:12px;
+    background:#ffffff;
+    box-shadow:0 15px 35px rgba(7,59,76,.12);
+}
+
+.main-navbar .dropdown-item{
+    padding:10px 14px;
+    border-radius:8px;
+    color:#294b55;
+    font-size:14px;
+    font-weight:500;
+    transition:
+        background-color .25s ease,
+        color .25s ease,
+        padding-left .25s ease;
+}
+
+.main-navbar .dropdown-item:hover{
+    background:#edf9fb;
+    color:#008da8;
+    padding-left:19px;
+}
+
+
+/* =========================================================
+   QUOTE BUTTON
+========================================================= */
+
+.quote-btn{
+    border:none;
+    padding:10px 21px !important;
+    border-radius:7px;
+    background:linear-gradient(
+        135deg,
+        #007f98,
+        #08aec8
+    );
+    color:#ffffff !important;
+    font-size:14px;
+    font-weight:600;
+    box-shadow:0 7px 18px rgba(0,142,168,.20);
+    transition:all .3s ease;
+}
+
+.quote-btn:hover{
+    background:linear-gradient(
+        135deg,
+        #006b81,
+        #009db8
+    );
+    color:#ffffff !important;
+    transform:translateY(-2px);
+    box-shadow:0 11px 25px rgba(0,142,168,.28);
+}
+
+
+/* =========================================================
+   MOBILE NAVBAR
+========================================================= */
+
+.main-navbar .navbar-toggler{
+    border:1px solid #d4e5e9;
+    border-radius:8px;
+    padding:7px 10px;
+    box-shadow:none;
+}
+
+.main-navbar .navbar-toggler:focus{
+    box-shadow:0 0 0 3px rgba(8,174,200,.15);
+}
+
+.main-navbar .navbar-toggler-icon{
+    background-image:none;
+    width:24px;
+    height:18px;
+    position:relative;
+    border-top:2px solid #087f96;
+    border-bottom:2px solid #087f96;
+}
+
+.main-navbar .navbar-toggler-icon::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:6px;
+    width:24px;
+    height:2px;
+    background:#087f96;
+}
+
+
+/* =========================================================
+   FAQ HERO
+========================================================= */
+
+.faq-hero{
+    position:relative;
+    min-height:460px;
+
+    display:flex;
+    align-items:center;
+
+    overflow:hidden;
+
+    background:
+        linear-gradient(
+            110deg,
+            rgba(3,35,55,.96),
+            rgba(4,78,100,.88),
+            rgba(0,150,170,.60)
+        ),
+        url("Assets/Images/faq.jpg")
+        center / cover no-repeat;
+}
+
+.faq-hero::before{
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+    height:500px;
+
+    right:-180px;
+    top:-220px;
+
+    border-radius:50%;
+
+    background:rgba(73,221,239,.14);
+
+    filter:blur(10px);
+}
+
+.faq-hero::after{
+    content:"";
+
+    position:absolute;
+
+    width:350px;
+    height:350px;
+
+    left:-180px;
+    bottom:-220px;
+
+    border-radius:50%;
+
+    background:rgba(0,196,255,.10);
+}
+
+.faq-hero .container{
+    position:relative;
+    z-index:2;
+}
+
+.faq-hero-content{
+    max-width:820px;
+    padding:80px 0;
+}
+
+
+/* HERO LABEL */
+
+.faq-label{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    padding:9px 18px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.10);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    backdrop-filter:blur(10px);
+
+    color:#b9f4ff;
+
+    font-size:13px;
+    font-weight:700;
+
+    letter-spacing:1.5px;
+
+    margin-bottom:20px;
+}
+
+
+/* HERO HEADING */
+
+.faq-hero h1{
+    color:#ffffff;
+
+    font-size:clamp(
+        42px,
+        6vw,
+        70px
+    );
+
+    line-height:1.08;
+
+    font-weight:800;
+
+    letter-spacing:-1px;
+
+    margin-bottom:22px;
+}
+
+.faq-hero h1 span{
+    display:block;
+    color:#79e7f5;
+}
+
+.faq-hero p{
+    max-width:740px;
+
+    color:rgba(255,255,255,.88);
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin-bottom:0;
+}
+
+
+/* =========================================================
+   FAQ INTRO
+========================================================= */
+
+.section-space{
+    padding:90px 0;
+}
+
+.section-label{
+    display:inline-block;
+
+    margin-bottom:12px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#0086a8;
+}
+
+section h2{
+    margin-bottom:18px;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+    color:#123b4a;
+}
+
+section h2 span{
+    display:block;
+
+    color:#0086a8;
+
+    margin-top:5px;
+}
+
+.faq-intro{
+    max-width:750px;
+    margin:0 auto 45px;
+}
+
+.faq-intro p{
+    font-size:16px;
+}
+
+
+/* =========================================================
+   FAQ SECTION
+========================================================= */
+
+.faq-section{
+    background:#f5fafc;
+}
+
+.faq-wrapper{
+    max-width:950px;
+    margin:0 auto;
+}
+
+
+/* =========================================================
+   ACCORDION
+========================================================= */
+
+.faq-accordion{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.faq-item{
+    background:#ffffff;
+
+    border:1px solid #dfecef;
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 7px 25px
+        rgba(18,59,74,.05);
+
+    transition:
+        border-color .3s ease,
+        box-shadow .3s ease,
+        transform .3s ease;
+}
+
+.faq-item:hover{
+    border-color:#b9dfe7;
+
+    box-shadow:
+        0 13px 35px
+        rgba(18,59,74,.10);
+}
+
+.faq-question{
+    width:100%;
+
+    border:0;
+
+    background:#ffffff;
+
+    padding:22px 25px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:20px;
+
+    text-align:left;
+
+    color:#173f4d;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:
+        color .3s ease,
+        background .3s ease;
+}
+
+.faq-question:hover{
+    color:#0086a8;
+}
+
+.faq-question:focus{
+    outline:none;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(0,142,168,.12);
+}
+
+.faq-question .question-left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.question-icon{
+    width:42px;
+    height:42px;
+
+    flex-shrink:0;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border-radius:12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e5f8ff,
+            #d7f2fb
+        );
+
+    color:#087fce;
+
+    font-size:19px;
+
+    transition:all .3s ease;
+}
+
+.faq-item:hover .question-icon{
+    background:
+        linear-gradient(
+            135deg,
+            #087fce,
+            #00a8c6
+        );
+
+    color:#ffffff;
+}
+
+.faq-arrow{
+    width:34px;
+    height:34px;
+
+    flex-shrink:0;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#edf8fa;
+
+    color:#0086a8;
+
+    font-size:18px;
+
+    transition:
+        transform .3s ease,
+        background .3s ease,
+        color .3s ease;
+}
+
+.faq-question:not(.collapsed) .faq-arrow{
+    transform:rotate(180deg);
+
+    background:#0086a8;
+
+    color:#ffffff;
+}
+
+.faq-question:not(.collapsed){
+    color:#007f98;
+
+    background:#fbfeff;
+}
+
+.faq-answer{
+    border-top:1px solid #edf2f4;
+}
+
+.faq-answer .answer-content{
+    padding:22px 25px 25px 82px;
+}
+
+.faq-answer p{
+    margin:0;
+
+    color:#64747b;
+
+    font-size:15px;
+
+    line-height:1.85;
+}
+
+
+/* =========================================================
+   FAQ CATEGORY CARDS
+========================================================= */
+
+.category-section{
+    background:#ffffff;
+}
+
+.section-heading{
+    max-width:720px;
+    margin:0 auto;
+}
+
+.section-heading p{
+    max-width:680px;
+    margin:0 auto;
+    color:#64747b;
+}
+
+.category-card{
+    height:100%;
+
+    padding:30px 25px;
+
+    background:#ffffff;
+
+    border:1px solid #e0edf4;
+
+    border-radius:18px;
+
+    box-shadow:
+        0 8px 30px
+        rgba(16,42,67,.06);
+
+    text-align:center;
+
+    transition:all .35s ease;
+}
+
+.category-card:hover{
+    transform:translateY(-7px);
+
+    border-color:#b9dfe7;
+
+    box-shadow:
+        0 18px 40px
+        rgba(16,42,67,.11);
+}
+
+.category-icon{
+    width:65px;
+    height:65px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    margin:0 auto 18px;
+
+    border-radius:18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e5f8ff,
+            #d7f2fb
+        );
+
+    color:#087fce;
+
+    font-size:27px;
+
+    transition:all .3s ease;
+}
+
+.category-card:hover .category-icon{
+    background:
+        linear-gradient(
+            135deg,
+            #087fce,
+            #00a8c6
+        );
+
+    color:#ffffff;
+}
+
+.category-card h4{
+    font-size:19px;
+
+    color:#173f4d;
+
+    margin-bottom:10px;
+}
+
+.category-card p{
+    margin:0;
+
+    font-size:14px;
+
+    line-height:1.7;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.faq-cta{
+    position:relative;
+
+    overflow:hidden;
+
+    padding:85px 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #062f4f,
+            #075985,
+            #008fa3
+        );
+
+    color:#ffffff;
+}
+
+.faq-cta::before{
+    content:"";
+
+    position:absolute;
+
+    width:450px;
+    height:450px;
+
+    right:-180px;
+    top:-230px;
+
+    border-radius:50%;
+
+    background:
+        rgba(80,220,240,.12);
+}
+
+.faq-cta::after{
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    left:-150px;
+    bottom:-190px;
+
+    border-radius:50%;
+
+    background:
+        rgba(0,220,255,.08);
+}
+
+.faq-cta .container{
+    position:relative;
+
+    z-index:2;
+}
+
+.faq-cta .section-label{
+    color:#8ee8ff;
+}
+
+.faq-cta h2{
+    color:#ffffff;
+
+    font-size:
+        clamp(
+            30px,
+            4vw,
+            44px
+        );
+
+    margin-bottom:18px;
+}
+
+.faq-cta h2 span{
+    display:block;
+
+    color:#79e7f5;
+}
+
+.faq-cta p{
+    max-width:700px;
+
+    margin:0 auto 28px;
+
+    color:rgba(255,255,255,.86);
+
+    line-height:1.8;
+}
+
+.cta-btn{
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:13px 30px;
+
+    border-radius:50px;
+
+    background:#ffffff;
+
+    color:#05658c;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:all .3s ease;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0,0,0,.16);
+}
+
+.cta-btn:hover{
+    background:#dffaff;
+
+    color:#034e70;
+
+    transform:translateY(-4px);
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer-section{
+    position:relative;
+
+    overflow:hidden;
+
+    padding:75px 0 0;
+
+    color:#a9c0cc;
+
+    background:
+        radial-gradient(
+            circle at 85% 15%,
+            rgba(0,190,220,.12),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 10% 90%,
+            rgba(0,150,190,.10),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #031c2d 0%,
+            #062f49 50%,
+            #064b60 100%
+        );
+}
+
+.footer-section::before{
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+    height:420px;
+
+    right:-200px;
+    top:-250px;
+
+    border-radius:50%;
+
+    background:
+        rgba(60,220,240,.10);
+
+    filter:blur(10px);
+
+    pointer-events:none;
+}
+
+.footer-section::after{
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    left:-170px;
+    bottom:-190px;
+
+    border-radius:50%;
+
+    background:
+        rgba(0,190,220,.08);
+
+    filter:blur(10px);
+
+    pointer-events:none;
+}
+
+.footer-section .container{
+    position:relative;
+
+    z-index:2;
+}
+
+.footer-logo{
+    display:block;
+
+    width:auto;
+
+    height:58px;
+
+    max-width:220px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+    transition:transform .3s ease;
+}
+
+.footer-logo:hover{
+    transform:translateY(-3px);
+}
+
+.footer-section p{
+    max-width:400px;
+
+    margin:0;
+
+    color:#9eb7c4;
+
+    font-size:14px;
+
+    line-height:1.9;
+}
+
+.footer-section h5{
+    position:relative;
+
+    display:inline-block;
+
+    color:#ffffff;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    margin-bottom:24px;
+
+    padding-bottom:10px;
+}
+
+.footer-section h5::after{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:32px;
+    height:3px;
+
+    border-radius:10px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #35d5e8,
+            #00a8c6
+        );
+}
+
+
+/* FOOTER LINKS */
+
+.footer-links{
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+}
+
+.footer-links li{
+    margin-bottom:12px;
+}
+
+.footer-links a{
+    position:relative;
+
+    display:inline-block;
+
+    color:#9eb7c4;
+
+    font-size:14px;
+
+    text-decoration:none;
+
+    transition:
+        color .3s ease,
+        transform .3s ease;
+}
+
+.footer-links a:hover{
+    color:#65e6f4;
+
+    transform:translateX(4px);
+}
+
+
+/* FOOTER CONTACT */
+
+.footer-section .contact-info p{
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-bottom:15px;
+
+    color:#9eb7c4;
+
+    font-size:14px;
+
+    line-height:1.7;
+}
+
+.footer-section .contact-info p i{
+    flex-shrink:0;
+
+    width:36px;
+    height:36px;
+
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    margin-right:11px;
+
+    border-radius:10px;
+
+    background:
+        rgba(67,218,235,.10);
+
+    border:
+        1px solid
+        rgba(67,218,235,.15);
+
+    color:#58dceb;
+
+    font-size:16px;
+}
+
+
+/* FOOTER LINE */
+
+.footer-section hr{
+    height:1px;
+
+    border:0;
+
+    margin:48px 0 22px;
+
+    opacity:1;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(120,220,235,.25),
+            transparent
+        );
+}
+
+.footer-section .text-center{
+    padding:0 0 23px;
+}
+
+.footer-section .text-center p{
+    margin:0;
+
+    color:#7893a0;
+
+    font-size:13px;
+
+    line-height:1.6;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width:1199px){
+
+    .main-navbar .nav-link{
+        font-size:14px;
+
+        padding-left:9px !important;
+        padding-right:9px !important;
+    }
+
+    .main-navbar .nav-link::after{
+        left:9px;
+        right:9px;
+    }
+
+    .main-navbar .logo{
+        width:175px;
+    }
+}
+
+
+@media (max-width:991px){
+
+    .top-bar{
+        font-size:13px;
+    }
+
+    .main-navbar{
+        padding:11px 0;
+    }
+
+    .main-navbar .logo{
+        width:165px;
+    }
+
+    .main-navbar .navbar-collapse{
+        margin-top:15px;
+
+        padding:10px 0 5px;
+
+        border-top:1px solid #edf2f4;
+    }
+
+    .main-navbar .navbar-nav{
+        gap:2px;
+
+        align-items:stretch !important;
+    }
+
+    .main-navbar .nav-link{
+        padding:11px 12px !important;
+
+        border-radius:7px;
+    }
+
+    .main-navbar .nav-link:hover{
+        background:#f1fafb;
+    }
+
+    .main-navbar .nav-link::after{
+        display:none;
+    }
+
+    .main-navbar .dropdown-menu{
+        margin-top:3px;
+
+        padding:7px;
+
+        border:1px solid #e5eef0;
+
+        box-shadow:none;
+
+        background:#f8fcfd;
+    }
+
+    .main-navbar .quote-btn{
+        display:inline-block;
+
+        margin-top:8px;
+
+        text-align:center;
+    }
+
+    section h2{
+        font-size:34px;
+    }
+}
+
+
+@media (max-width:767px){
+
+    .section-space{
+        padding:65px 0;
+    }
+
+    .faq-hero{
+        min-height:470px;
+    }
+
+    .faq-hero-content{
+        padding:60px 0;
+    }
+
+    .faq-hero h1{
+        font-size:42px;
+    }
+
+    .faq-hero p{
+        font-size:16px;
+    }
+
+    section h2{
+        font-size:30px;
+    }
+
+    .faq-question{
+        padding:18px 17px;
+
+        font-size:15px;
+    }
+
+    .question-icon{
+        width:38px;
+        height:38px;
+
+        font-size:17px;
+    }
+
+    .faq-question .question-left{
+        gap:11px;
+    }
+
+    .faq-answer .answer-content{
+        padding:20px;
+    }
+
+    .faq-answer p{
+        font-size:14px;
+    }
+}
+
+
+@media (max-width:575px){
+
+    .top-bar{
+        padding:8px 0;
+
+        font-size:11px;
+    }
+
+    .top-bar .d-flex{
+        gap:10px;
+    }
+
+    .main-navbar .logo{
+        width:145px;
+    }
+
+    .faq-hero h1{
+        font-size:38px;
+    }
+
+    section h2{
+        font-size:27px;
+    }
+
+    .faq-question{
+        font-size:14px;
+    }
+
+    .faq-question .question-left{
+        align-items:flex-start;
+    }
+
+    .faq-answer .answer-content{
+        padding:18px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="top-bar">
+
+    <div class="container">
+
+        <div class="d-flex
+                    justify-content-between
+                    align-items-center">
+
+            <div>
+
+                <i class="bi bi-envelope"></i>
+
+                sales.tesconaqua@gmail.com
+
+            </div>
+
+
+            <div>
+
+                <i class="bi bi-telephone"></i>
+
+                +91 96761 11136
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="navbar navbar-expand-lg main-navbar sticky-top">
+
+    <div class="container">
+
+
+        <!-- LOGO -->
+
+        <a
+            class="navbar-brand"
+            href="index.html">
+
+            <img
+                src="Assets/Images/logo.png"
+                alt="Sandor Tescon Aqua Logo"
+                class="logo">
+
+        </a>
+
+
+        <!-- MOBILE BUTTON -->
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- NAVIGATION -->
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNavigation">
+
+            <ul
+                class="navbar-nav ms-auto align-items-lg-center">
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="index.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="about.html">
+
+                        About
+
+                    </a>
+
+                </li>
+
+
+                <!-- SOLUTIONS -->
+
+                <li class="nav-item dropdown">
+
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown">
+
+                        Solutions
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Solutions/ro-systems.html">
+
+                                RO Systems
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Solutions/stp.html">
+
+                                Sewage Treatment Plants
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Solutions/etp.html">
+
+                                Effluent Treatment Plants
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Solutions/filtration.html">
+
+                                Filtration Systems
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Solutions/wastewater-treatment.html">
+
+                                Wastewater Treatment
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+
+                <!-- PRODUCTS -->
+
+                <li class="nav-item dropdown">
+
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown">
+
+                        Products
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Products/ro-plants.html">
+
+                                RO Plants
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Products/uv-systems.html">
+
+                                UV Systems
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Products/ozone-systems.html">
+
+                                Ozone Systems
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="Products/filters.html">
+
+                                Water Filters
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+
+                <!-- INDUSTRIES -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="industries.html">
+
+                        Industries
+
+                    </a>
+
+                </li>
+
+
+                <!-- PROJECTS -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="projects.html">
+
+                        Projects
+
+                    </a>
+
+                </li>
+
+
+                <!-- FAQ -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link active"
+                        href="faq.html">
+
+                        FAQ
+
+                    </a>
+
+                </li>
+
+
+                <!-- QUOTE -->
+
+                <li class="nav-item ms-lg-3">
+
+                    <a
+                        class="btn quote-btn"
+                        href="contact.html">
+
+                        Get a Quote
+
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="faq-hero">
+
+    <div class="container">
+
+        <div class="faq-hero-content">
+
+            <span class="faq-label">
+
+                <i class="bi bi-question-circle"></i>
+
+                FREQUENTLY ASKED QUESTIONS
+
+            </span>
+
+
+            <h1>
+
+                Water Treatment
+
+                <span>FAQs & Answers</span>
+
+            </h1>
+
+
+            <p>
+
+                Find answers to common questions about
+                RO systems, STP, ETP, filtration, UV,
+                ozone and wastewater treatment solutions.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FAQ INTRO
+===================================================== -->
+
+<section class="section-space">
+
+    <div class="container">
+
+        <div class="faq-intro text-center">
+
+            <span class="section-label">
+
+                NEED TO KNOW MORE?
+
+            </span>
+
+            <h2>
+
+                Frequently Asked
+
+                <span>Questions</span>
+
+            </h2>
+
+            <p>
+
+                We have answered some common questions
+                about our water and wastewater treatment
+                solutions. If you have a specific
+                requirement, our team can help you
+                identify a suitable treatment approach.
+
+            </p>
+
+        </div>
+
+
+        <!-- FAQ -->
+
+        <div class="faq-wrapper">
+
+            <div class="accordion faq-accordion"
+                 id="faqAccordion">
+
+
+                <!-- 01 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq1"
+                            aria-expanded="false"
+                            aria-controls="faq1">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-droplet"></i>
+                                </span>
+
+                                What is a water treatment system?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq1"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    A water treatment system is a
+                                    combination of treatment processes
+                                    used to improve water quality for
+                                    a specific application. Depending
+                                    on the water source and required
+                                    quality, treatment may include
+                                    filtration, RO, UV, ozone or
+                                    other suitable processes.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 02 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq2"
+                            aria-expanded="false"
+                            aria-controls="faq2">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-funnel"></i>
+                                </span>
+
+                                What is an RO plant?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq2"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    An RO plant uses reverse osmosis
+                                    technology to reduce dissolved
+                                    salts and other unwanted substances
+                                    from water. RO systems can be
+                                    designed for suitable commercial,
+                                    institutional and industrial
+                                    applications.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 03 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq3"
+                            aria-expanded="false"
+                            aria-controls="faq3">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-recycle"></i>
+                                </span>
+
+                                What is an STP?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq3"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    STP stands for Sewage Treatment
+                                    Plant. It is designed to treat
+                                    sewage generated from applications
+                                    such as residential communities,
+                                    commercial buildings and
+                                    institutions before suitable
+                                    discharge or reuse.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 04 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq4"
+                            aria-expanded="false"
+                            aria-controls="faq4">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-buildings"></i>
+                                </span>
+
+                                What is an ETP?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq4"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    ETP stands for Effluent Treatment
+                                    Plant. It is used for treating
+                                    wastewater generated from industrial
+                                    or process operations. The treatment
+                                    configuration depends on the type
+                                    and characteristics of the effluent.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 05 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq5"
+                            aria-expanded="false"
+                            aria-controls="faq5">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-water"></i>
+                                </span>
+
+                                What types of water treatment solutions do you provide?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq5"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Solutions can include RO systems,
+                                    filtration systems, STP, ETP,
+                                    wastewater treatment, UV treatment
+                                    and ozone treatment depending on
+                                    the application and treatment
+                                    requirement.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 06 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq6"
+                            aria-expanded="false"
+                            aria-controls="faq6">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-filter"></i>
+                                </span>
+
+                                What is a filtration system?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq6"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    A filtration system removes
+                                    suspended particles and other
+                                    unwanted materials from water.
+                                    Filtration can be used as a
+                                    standalone treatment or as
+                                    pre-treatment for other processes.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 07 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq7"
+                            aria-expanded="false"
+                            aria-controls="faq7">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-lightning-charge"></i>
+                                </span>
+
+                                What is UV water treatment?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq7"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    UV water treatment uses ultraviolet
+                                    light as a disinfection process.
+                                    It can be considered for suitable
+                                    water treatment applications where
+                                    UV disinfection is appropriate.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 08 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq8"
+                            aria-expanded="false"
+                            aria-controls="faq8">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-wind"></i>
+                                </span>
+
+                                What is ozone treatment?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq8"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Ozone treatment uses ozone as an
+                                    oxidation and treatment process.
+                                    It can be incorporated into suitable
+                                    water treatment systems depending
+                                    on the required treatment objective.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 09 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq9"
+                            aria-expanded="false"
+                            aria-controls="faq9">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-speedometer2"></i>
+                                </span>
+
+                                How do I choose the right treatment system?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq9"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    The appropriate system depends on
+                                    factors such as water source,
+                                    water quality, required capacity,
+                                    treatment objective and operating
+                                    requirements. These factors should
+                                    be reviewed before selecting the
+                                    treatment technology.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 10 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq10"
+                            aria-expanded="false"
+                            aria-controls="faq10">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-droplet-half"></i>
+                                </span>
+
+                                Can different treatment technologies be combined?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq10"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Yes. Different treatment processes
+                                    can be combined when required.
+                                    For example, filtration may be used
+                                    as pre-treatment before RO, while
+                                    UV or ozone can be considered for
+                                    suitable downstream treatment needs.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 11 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq11"
+                            aria-expanded="false"
+                            aria-controls="faq11">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-building"></i>
+                                </span>
+
+                                Are your systems suitable for commercial applications?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq11"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Yes. Water treatment solutions can
+                                    be developed for suitable commercial
+                                    applications such as offices,
+                                    commercial buildings and other
+                                    facilities based on their specific
+                                    requirements.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 12 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq12"
+                            aria-expanded="false"
+                            aria-controls="faq12">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-gear-wide-connected"></i>
+                                </span>
+
+                                Are your solutions suitable for industrial applications?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq12"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Yes. Solutions can be developed for
+                                    suitable industrial water and
+                                    wastewater applications. The system
+                                    configuration depends on the process,
+                                    capacity, water characteristics and
+                                    required treatment objectives.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 13 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq13"
+                            aria-expanded="false"
+                            aria-controls="faq13">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-clipboard2-check"></i>
+                                </span>
+
+                                What information is required for a project quotation?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq13"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Useful information includes the
+                                    application, water source, required
+                                    capacity, available water-quality
+                                    information and treatment objective.
+                                    Additional process or operational
+                                    requirements can also help in
+                                    developing a suitable solution.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 14 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq14"
+                            aria-expanded="false"
+                            aria-controls="faq14">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-tools"></i>
+                                </span>
+
+                                Do water treatment systems require maintenance?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq14"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Yes. Regular inspection and
+                                    maintenance are important for
+                                    reliable operation. Maintenance
+                                    requirements depend on the type
+                                    of treatment system, operating
+                                    conditions and individual components.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 15 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq15"
+                            aria-expanded="false"
+                            aria-controls="faq15">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-arrow-repeat"></i>
+                                </span>
+
+                                Can treated wastewater be reused?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq15"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Treated wastewater may be considered
+                                    for suitable reuse applications when
+                                    the treated water quality meets the
+                                    requirements of the intended use.
+                                    The appropriate treatment process
+                                    depends on the reuse objective.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 16 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq16"
+                            aria-expanded="false"
+                            aria-controls="faq16">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-cup-hot"></i>
+                                </span>
+
+                                Can water treatment be used in food and beverage applications?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq16"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Yes. Suitable water treatment
+                                    technologies can be considered for
+                                    production and process-water
+                                    applications in the food and
+                                    beverage sector, subject to the
+                                    specific water-quality requirements.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 17 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq17"
+                            aria-expanded="false"
+                            aria-controls="faq17">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-hospital"></i>
+                                </span>
+
+                                Can water treatment systems be used in healthcare applications?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq17"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Suitable water treatment solutions
+                                    can be considered for healthcare
+                                    applications. The treatment process
+                                    should be selected according to the
+                                    required water quality and specific
+                                    application requirements.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 18 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq18"
+                            aria-expanded="false"
+                            aria-controls="faq18">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-diagram-3"></i>
+                                </span>
+
+                                Can you develop customized water treatment solutions?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq18"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Yes. Water treatment solutions can
+                                    be developed around the application,
+                                    capacity, source water, treatment
+                                    objectives and operational
+                                    requirements of a project.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 19 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq19"
+                            aria-expanded="false"
+                            aria-controls="faq19">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-file-earmark-text"></i>
+                                </span>
+
+                                How can I discuss my water treatment requirement?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq19"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    You can contact Sandor Tescon Aqua
+                                    with details about your application,
+                                    water source, capacity and treatment
+                                    objective. This information can help
+                                    the team understand the requirement
+                                    and discuss a suitable treatment
+                                    approach.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 20 -->
+
+                <div class="faq-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="faq-question collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq20"
+                            aria-expanded="false"
+                            aria-controls="faq20">
+
+                            <span class="question-left">
+
+                                <span class="question-icon">
+                                    <i class="bi bi-chat-dots"></i>
+                                </span>
+
+                                How can I get a quotation?
+
+                            </span>
+
+                            <span class="faq-arrow">
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+
+                        </button>
+
+                    </h2>
+
+
+                    <div
+                        id="faq20"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+
+                        <div class="faq-answer">
+
+                            <div class="answer-content">
+
+                                <p>
+                                    Click the "Get a Quote" button and
+                                    share your project requirements.
+                                    Providing information about the
+                                    application, water source, capacity
+                                    and treatment objective will help
+                                    the team understand your requirement
+                                    and prepare an appropriate response.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FAQ CATEGORIES
+===================================================== -->
+
+<section class="category-section section-space">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+
+            <span class="section-label">
+                OUR SOLUTIONS
+            </span>
+
+            <h2>
+                Water Treatment
+                <span>Technologies</span>
+            </h2>
+
+            <p>
+                Explore the main treatment technologies
+                that can be considered for different
+                water and wastewater applications.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+
+            <!-- RO -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="category-card">
+
+                    <div class="category-icon">
+
+                        <i class="bi bi-droplet"></i>
+
+                    </div>
+
+                    <h4>RO Systems</h4>
+
+                    <p>
+                        Reverse osmosis solutions for
+                        suitable water purification
+                        applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- STP -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="category-card">
+
+                    <div class="category-icon">
+
+                        <i class="bi bi-recycle"></i>
+
+                    </div>
+
+                    <h4>STP Solutions</h4>
+
+                    <p>
+                        Sewage treatment solutions for
+                        suitable residential, commercial
+                        and institutional applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ETP -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="category-card">
+
+                    <div class="category-icon">
+
+                        <i class="bi bi-buildings"></i>
+
+                    </div>
+
+                    <h4>ETP Solutions</h4>
+
+                    <p>
+                        Effluent treatment solutions for
+                        suitable industrial wastewater
+                        applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FILTRATION -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="category-card">
+
+                    <div class="category-icon">
+
+                        <i class="bi bi-funnel"></i>
+
+                    </div>
+
+                    <h4>Filtration</h4>
+
+                    <p>
+                        Filtration systems for improving
+                        water clarity and removing
+                        suspended particles.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="faq-cta text-center">
+
+    <div class="container">
+
+        <span class="section-label">
+            STILL HAVE QUESTIONS?
+        </span>
+
+        <h2>
+
+            Let's Discuss Your
+
+            <span>Water Treatment Requirement</span>
+
+        </h2>
+
+        <p>
+
+            Tell us about your application, water source,
+            capacity and treatment requirements.
+            Our team can help identify a suitable
+            treatment solution.
+
+        </p>
+
+        <a
+            href="contact.html"
+            class="cta-btn">
+
+            Contact Us
+
+            <i class="bi bi-arrow-right ms-2"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+
+            <!-- COMPANY -->
+
+            <div class="col-lg-4">
+
+                <img
+                    src="Assets/Images/logo.png"
+                    alt="Sandor Tescon Aqua"
+                    class="footer-logo">
+
+                <p>
+
+                    Sandor Tescon Aqua provides water
+                    treatment, wastewater treatment
+                    and customized water treatment
+                    solutions for commercial and
+                    industrial applications.
+
+                </p>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="col-lg-3">
+
+                <h5>
+                    Quick Links
+                </h5>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="industries.html">
+                            Industries
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CONTACT -->
+
+            <div class="col-lg-3 contact-info">
+
+                <h5>
+                    Contact Us
+                </h5>
+
+                <p>
+
+                    <i class="bi bi-envelope"></i>
+
+                    sales.tesconaqua@gmail.com
+
+                </p>
+
+                <p>
+
+                    <i class="bi bi-telephone"></i>
+
+                    +91 96761 11136
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div class="text-center">
+
+            <p>
+
+                © 2026 Sandor Tescon Aqua.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     BOOTSTRAP JS
+===================================================== -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+</body>
+
+</html>

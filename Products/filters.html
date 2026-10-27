@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Water Filters | Sandor Tescon Aqua</title>
+
+    <meta name="description" content="Sandor Tescon Aqua provides modern water filtration systems including multimedia filters, activated carbon filters, iron removal filters and customized water filtration solutions.">
+    <meta name="keywords" content="water filters, water filtration systems, multimedia filter, activated carbon filter, iron removal filter, industrial water filters, Sandor Tescon Aqua">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com/Products/filters.html">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../Assets/Images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../Assets/CSS/style.css">
+
+    <style>
+
+    /* WATER FILTERS PAGE */
+    body{
+        font-family:'Inter', sans-serif;
+        color:#263238;
+        background:#ffffff;
+    }
+
+    h1,h2,h3,h4,h5{
+        font-family:'Poppins', sans-serif;
+    }
+
+    /* HERO */
+    .filter-hero{
+        position:relative;
+        min-height:520px;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:
+            linear-gradient(
+            110deg,
+            rgba(3, 35, 55, 0.96) 0%,
+            rgba(4, 78, 100, 0.88) 45%,
+            rgba(0, 150, 170, 0.62) 100%
+            ),
+            url('../Assets/Images/water-filter-hero.jpg') center/cover no-repeat;
+    }
+
+    .filter-hero-content{
+        max-width:760px;
+        color:#ffffff;
+    }
+
+    .hero-label{
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        padding:8px 18px;
+        border-radius:50px;
+        background:rgba(255, 255, 255, 0.12);
+        color:#ffffff;
+        border:1px solid rgba(255, 255, 255, 0.25);
+        backdrop-filter:blur(8px);
+        font-size:14px;
+        font-weight:600;
+        letter-spacing:1px;
+        text-transform:uppercase;
+        margin-bottom:20px;
+    }
+
+    .filter-hero h1{
+        font-size:clamp(38px, 5vw, 68px);
+        line-height:1.1;
+        font-weight:700;
+        margin-bottom:22px;
+    }
+
+    .filter-hero p{
+        font-size:17px;
+        line-height:1.8;
+        max-width:680px;
+        color:rgba(255,255,255,0.9);
+        margin-bottom:30px;
+    }
+
+    .hero-buttons{
+        display:flex;
+        gap:15px;
+        flex-wrap:wrap;
+    }
+
+    .hero-btn-primary{
+        padding:13px 28px;
+        border-radius:50px;
+        background:#ffffff;
+        color:#075985;
+        font-weight:600;
+        text-decoration:none;
+        transition:0.3s;
+    }
+
+    .hero-btn-primary:hover{
+        background:#e0f2fe;
+        color:#075985;
+        transform:translateY(-2px);
+    }
+
+    .hero-btn-outline{
+        padding:13px 28px;
+        border-radius:50px;
+        border:1px solid rgba(255,255,255,0.7);
+        color:#ffffff;
+        font-weight:600;
+        text-decoration:none;
+        transition:0.3s;
+    }
+
+    .hero-btn-outline:hover{
+        background:#ffffff;
+        color:#075985;
+    }
+
+    /* SECTION */
+    .filter-section{
+        padding:90px 0;
+    } 
+
+    .section-label{
+        display:inline-block;
+        color:#0284c7;
+        font-size:13px;
+        font-weight:700;
+        letter-spacing:1.5px;
+        text-transform:uppercase;
+        margin-bottom:10px;
+    }
+
+    .section-title{
+        font-size:38px;
+        font-weight:700;
+        margin-bottom:18px;
+    }
+
+    .section-description{
+        max-width:760px;
+        margin:0 auto;
+        color:#64748b;
+        line-height:1.8;
+        font-size:17px;
+    }
+
+    /* INTRO */
+    .filter-intro{
+        background:#f8fbfd;
+    }
+    
+    .intro-image{
+        width:100%;
+        height:430px;
+        object-fit:cover;
+        border-radius:24px;
+    }
+
+    .intro-content{
+        padding-left:30px;
+    }
+
+    .intro-content h2{
+        font-size:38px;
+        font-weight:700;
+        margin-bottom:20px;
+    }
+
+    .intro-content p{
+        color:#64748b;
+        line-height:1.8;
+        font-size:16px;
+        margin-bottom:18px;
+    }
+
+    .intro-list{
+        padding:0;
+        margin:25px 0 0;
+        list-style:none;
+    }
+
+    .intro-list li{
+        display:flex;
+        gap:12px;
+        margin-bottom:14px;
+        color:#334155;
+    }
+
+    .intro-list i{
+        color:#0284c7;
+        font-size:20px;
+    }
+
+    /* FILTER CARDS */
+    .filter-card{
+        height:100%;
+        background:#ffffff;
+        border:1px solid #e5edf3;
+        border-radius:22px;
+        padding:32px;
+        transition:all 0.35s ease;
+        box-shadow:0 10px 35px rgba(15, 23, 42, 0.05);
+    }
+
+    .filter-card:hover{
+        transform:translateY(-8px);
+        box-shadow:0 20px 45px rgba(15, 23, 42, 0.10);
+        border-color:#bae6fd;
+    }
+
+    .filter-icon{
+        width:64px;
+        height:64px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:#e0f2fe;
+        color:#0284c7;
+        font-size:30px;
+        margin-bottom:24px;
+    }
+
+    .filter-card h3{
+        font-size:22px;
+        margin-bottom:14px;
+    }
+
+    .filter-card p{
+        color:#64748b;
+        line-height:1.7;
+        margin-bottom:20px;
+    }
+
+    .filter-card ul{
+        padding-left:0;
+        list-style:none;
+        margin:0;
+    }
+
+    .filter-card li{
+        color:#475569;
+        margin-bottom:9px;
+        font-size:14px;
+    }
+
+    .filter-card li i{
+        color:#0284c7;
+        margin-right:7px;
+    }
+
+    /* PROCESS */
+    .process-section{
+        background:#f8fafc;
+    }
+
+    .process-card{
+        text-align:center;
+        padding:25px 15px;
+        position:relative;
+    }
+
+    .process-number{
+        width:58px;
+        height:58px;
+        margin:0 auto 20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        background:#0284c7;
+        color:#ffffff;
+        font-size:20px;
+        font-weight:700;
+    }
+
+    .process-card h4{
+        font-size:19px;
+        margin-bottom:10px;
+    }
+
+    .process-card p{
+        color:#64748b;
+        font-size:14px;
+        line-height:1.7;
+    }
+
+    /* BENEFITS */
+    .benefit-box{
+        height:100%;
+        padding:30px;
+        border-radius:20px;
+        background:#ffffff;
+        border:1px solid #e5edf3;
+        transition:0.3s;
+    }
+
+    .benefit-box:hover{
+        transform:translateY(-5px);
+        box-shadow:0 15px 35px rgba(15,23,42,0.08);
+    }
+
+    .benefit-box i{
+        font-size:30px;
+        color:#0284c7;
+        margin-bottom:18px;
+        display:block;
+    }
+
+    .benefit-box h4{
+        font-size:19px;
+        margin-bottom:10px;
+    }
+
+    .benefit-box p{
+        color:#64748b;
+        font-size:14px;
+        line-height:1.7;
+        margin:0;
+    }
+
+    /* APPLICATIONS */
+    .application-item{
+        display:flex;
+        align-items:flex-start;
+        gap:15px;
+        padding:22px;
+        border-radius:16px;
+        background:#f8fafc;
+        margin-bottom:15px;
+    }
+
+    .application-item i{
+        font-size:24px;
+        color:#0284c7;
+    }
+
+    .application-item h4{
+        font-size:18px;
+        margin-bottom:5px;
+    }
+
+    .application-item p{
+        color:#64748b;
+        margin:0;
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    /* CTA */
+    .filter-cta{
+        position:relative;
+        overflow:hidden;
+        padding:75px 30px;
+        border-radius:30px;
+        background:linear-gradient(135deg, #062f4f 0%, #075985 45%, #008fa3 100%);
+        color:#ffffff;
+        box-shadow:0 20px 50px rgba(3, 65, 90, 0.20);
+    }
+
+    /* CTA LABEL */
+    .filter-cta .hero-label{
+        display:inline-block;
+        padding:8px 18px;
+        margin-bottom:18px;
+        border-radius:50px;
+        background:rgba(255,255,255,0.18);
+        border:1px solid rgba(255,255,255,0.45);
+        color:#ffffff;
+        font-size:14px;
+        font-weight:700;
+        letter-spacing:1.2px;
+        text-transform:uppercase;
+        text-shadow:0 1px 3px rgba(0,0,0,0.25);
+    }
+
+    .filter-cta h2{
+        position:relative;
+        z-index:2;
+        color:#ffffff;
+        font-size:38px;
+        font-weight:700;
+        margin-bottom:18px;
+    }
+
+    .filter-cta p{
+        position:relative;
+        z-index:2;
+        max-width:700px;
+        margin:0 auto 28px;
+        color:rgba(255,255,255,0.92);
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .filter-cta::before{
+        content:"";
+        position:absolute;
+        width:420px;
+        height:420px;
+        right:-160px;
+        top:-220px;
+        border-radius:50%;
+        background:rgba(96, 230, 255, 0.14);
+        filter:blur(5px);
+    }
+
+    .filter-cta::after{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        left:-150px;
+        bottom:-200px;
+        border-radius:50%;
+        background:rgba(0, 220, 255, 0.10);
+    }
+
+    .filter-cta .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .cta-btn{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        background:#ffffff;
+        color:#05658c;
+        padding:13px 30px;
+        border-radius:50px;
+        text-decoration:none;
+        font-weight:700;
+        box-shadow:0 10px 25px rgba(0, 0, 0, 0.15);
+        transition:all 0.3s ease;
+    }
+
+    .cta-btn:hover{
+        background:#dffaff;
+        color:#034e70;
+        transform:translateY(-4px);
+        box-shadow:0 15px 30px rgba(0, 0, 0, 0.20);
+    }
+
+    /* MODERN FOOTER */
+    .footer-section{
+        position:relative;
+        background:linear-gradient(135deg, #061f33 0%, #073b59 55%, #07556f 100%);
+        color:#b8cbd6;
+        padding:70px 0 0;
+        overflow:hidden;
+    }
+
+    /* Decorative background glow */
+    .footer-section::before{
+        content:"";
+        position:absolute;
+        width:420px;
+        height:420px;
+        right:-180px;
+        top:-220px;
+        border-radius:50%;
+        background:rgba(66, 214, 236, 0.08);
+        filter:blur(10px);
+    }
+
+    .footer-section::after{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        left:-150px;
+        bottom:-180px;
+        border-radius:50%;
+        background:rgba(0, 174, 239, 0.07);
+        filter:blur(8px);
+    }
+
+    .footer-section .container{
+        position:relative;
+        z-index:2;
+    }
+
+    /* FOOTER LOGO */
+    .footer-logo{
+        width:auto;
+        height:58px;
+        max-width:220px;
+        object-fit:contain;
+        display:block;
+        margin-bottom:20px;
+    }
+
+    /* COMPANY DESCRIPTION */
+    .footer-section > .container > .row > .col-lg-4 p{
+        max-width:390px;
+        color:#a9bfcb;
+        font-size:14px;
+        line-height:1.85;
+        margin-bottom:0;
+    }
+
+    /* FOOTER HEADINGS */
+    .footer-section h5{
+        position:relative;
+        color:#ffffff;
+        font-family:"Poppins", sans-serif;
+        font-size:17px;
+        font-weight:600;
+        margin-bottom:22px;
+        padding-bottom:11px;
+    }
+
+    /* Small aqua line under heading */
+    .footer-section h5::after{
+        content:"";
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:32px;
+        height:2px;
+        background:#48d7ee;
+        border-radius:10px;
+    }
+
+    /* FOOTER LINKS */
+    .footer-links{
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+
+    .footer-links li{
+        margin-bottom:11px;
+    }
+
+    .footer-links a{
+        position:relative;
+        color:#a9bfcb;
+        font-size:14px;
+        text-decoration:none;
+        transition:all 0.3s ease;
+    }
+
+    .footer-links a::before{
+        content:"›";
+        margin-right:7px;
+        color:#48d7ee;
+        opacity:0;
+        transform:translateX(-5px);
+        display:inline-block;
+        transition:all 0.3s ease;
+    }
+
+    .footer-links a:hover{
+        color:#6ee8f7;
+        padding-left:4px;
+    }
+
+    .footer-links a:hover::before{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    /* CONTACT INFORMATION */
+    .footer-section .col-lg-3 p{
+        display:flex;
+        align-items:flex-start;
+        color:#a9bfcb;
+        font-size:14px;
+        line-height:1.7;
+        margin-bottom:14px;
+    }
+
+    .footer-section .col-lg-3 p i{
+        flex-shrink:0;
+        width:35px;
+        height:35px;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        margin-right:10px !important;
+        border-radius:10px;
+        background:rgba(72, 215, 238, 0.10);
+        color:#5ee3f2;
+        font-size:16px;
+        transition:all 0.3s ease;
+    }
+
+    .footer-section .col-lg-3 p:hover i{
+        background:#48d7ee;
+        color:#062f4f;
+        transform:translateY(-2px);
+    }
+
+    /* FOOTER HR */
+    .footer-section hr{
+        border:0;
+        height:1px;
+        background:rgba(255, 255, 255, 0.10);
+        margin:45px 0 20px;
+        opacity:1;
+    }
+
+    /* COPYRIGHT */
+    .footer-section .text-center{
+        padding-bottom:22px;
+    }
+
+    .footer-section .text-center p{
+        color:#819aa8;
+        font-size:13px;
+        line-height:1.6;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width:991px){
+        
+        .footer-section{
+            padding-top:60px;
+        }
+
+        .footer-section .row{
+            row-gap:40px !important;
+        }
+
+    }
+
+    @media (max-width:767px){
+        
+        .footer-section{
+            padding-top:50px;
+        }
+
+        .footer-logo{
+            height:50px;
+            max-width:195px;
+        }
+
+        .footer-section h5{
+            margin-bottom:17px;
+        }
+
+        .footer-section .col-lg-4 p{
+            max-width:100%;
+        }
+
+        .footer-section hr{
+            margin-top:35px;
+        }
+
+    }
+     
+    /* MOBILE */
+    @media (max-width:991px){
+        .intro-content{
+            padding-left:0;
+            margin-top:30px;
+        }
+
+        .filter-hero{
+            min-height:500px;
+        }
+
+    }
+
+    @media (max-width:576px){
+
+        .filter-section{
+            padding:65px 0;
+        }
+
+        .filter-hero{
+            min-height:560px;
+        }
+
+        .filter-hero h1{
+            font-size:40px;
+        }
+
+        .filter-hero p{
+            font-size:16px;
+        }
+
+        .section-title{
+            font-size:30px;
+        }
+
+        .intro-image{
+            height:300px;
+        }
+
+        .filter-cta{
+            padding:55px 20px;
+        }
+
+        .filter-cta h2{
+            font-size:30px;
+        }
+
+    }
+    </style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <i class="bi bi-envelope"></i>
+                sales.tesconaqua@gmail.com
+            </div>
+
+            <div>
+                <i class="bi bi-telephone"></i>
+                +91 96761 11136
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="../index.html">
+            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo"></a>
+
+        <!-- Mobile Menu -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+
+                <!-- SOLUTIONS -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../Solutions/ro-systems.html">RO Systems</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/stp.html">Sewage Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/etp.html">Effluent Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/filtration.html">Filtration Systems</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
+                    </ul>
+                </li>
+
+                <!-- PRODUCTS -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="ro-plants.html">RO Plants</a></li>
+                        <li><a class="dropdown-item" href="uv-systems.html">UV Systems</a></li>
+                        <li><a class="dropdown-item" href="ozone-systems.html">Ozone Systems</a></li>
+                        <li><a class="dropdown-item active" href="filters.html">Water Filters</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="../industries.html">Industries</a></li>
+                <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="../faq.html">FAQ</a></li>
+
+                <!-- QUOTE -->
+                <li class="nav-item ms-lg-3"><a class="btn btn-primary quote-btn" href="../contact.html">Get a Quote</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="filter-hero">
+    <div class="container">
+        <div class="filter-hero-content">
+            <div class="hero-label">
+                <i class="bi bi-droplet-half"></i>
+                Advanced Water Filtration
+            </div>
+
+            <h1>Clean Water Starts With Better Filtration</h1>
+            <p>
+                Reliable water filtration systems designed to reduce
+                suspended solids, turbidity, colour, odour and other
+                unwanted impurities for a wide range of applications.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="../contact.html" class="hero-btn-primary">Request a Quote<i class="bi bi-arrow-right ms-2"></i></a>
+                <a href="#filter-systems" class="hero-btn-outline">Explore Filters</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- INTRODUCTION -->
+<section class="filter-section filter-intro">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <img src="../Assets/Images/water-filter.jpg" alt="Industrial Water Filtration System" class="intro-image">
+            </div>
+
+            <div class="col-lg-6">
+                <div class="intro-content">
+                    <span class="section-label">WATER FILTRATION</span>
+                    <h2>Efficient Filtration for Better Water Quality</h2>
+                    <p>
+                        Sandor Tescon Aqua provides engineered water
+                        filtration solutions for commercial, industrial
+                        and institutional applications.
+                    </p>
+
+                    <p>
+                        Our filtration systems are selected according
+                        to raw-water quality, flow requirements,
+                        operating conditions and desired water quality.
+                    </p>
+
+                    <ul class="intro-list">
+                        <li><i class="bi bi-check-circle-fill"></i>Effective removal of suspended particles</li>
+                        <li><i class="bi bi-check-circle-fill"></i>Reduction of turbidity and unwanted impurities</li>
+                        <li><i class="bi bi-check-circle-fill"></i>Suitable for commercial and industrial applications</li>
+                        <li><i class="bi bi-check-circle-fill"></i>Customized filtration configurations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FILTER SYSTEMS -->
+<section class="filter-section" id="filter-systems">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-label">OUR FILTER SYSTEMS</span>
+            <h2 class="section-title">Water Filtration Solutions</h2>
+            <p class="section-description">
+                Select the appropriate filtration technology based
+                on your water quality, treatment objective and
+                operating requirements.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <!-- MULTIMEDIA -->
+            <div class="col-lg-4 col-md-6">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <i class="bi bi-layers"></i>
+                    </div>
+
+                    <h3>Multimedia Filters</h3>
+                    <p>Multi-layer filtration systems designed to reduce suspended solids, turbidity and particulate matter from water.</p>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>Sand filtration</li>
+                        <li><i class="bi bi-check2"></i>Multi-grade media</li>
+                        <li><i class="bi bi-check2"></i>Turbidity reduction</li>
+                        <li><i class="bi bi-check2"></i>Pre-treatment for RO systems</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ACTIVATED CARBON -->
+            <div class="col-lg-4 col-md-6">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <i class="bi bi-circle-square"></i>
+                    </div>
+
+                    <h3>Activated Carbon Filters</h3>
+                    <p>Activated carbon filtration systems help reduce chlorine, colour, odour and selected organic compounds.</p>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>Chlorine reduction</li>
+                        <li><i class="bi bi-check2"></i>Colour reduction</li>
+                        <li><i class="bi bi-check2"></i>Odour control</li>
+                        <li><i class="bi bi-check2"></i>Organic contaminant reduction</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- IRON REMOVAL -->
+            <div class="col-lg-4 col-md-6">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <i class="bi bi-droplet"></i>
+                    </div>
+
+                    <h3>Iron Removal Filters</h3>
+                    <p>Specialized filtration systems designed to reduce iron and related impurities from groundwater and process water.</p>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>Iron reduction</li>
+                        <li><i class="bi bi-check2"></i>Groundwater treatment</li>
+                        <li><i class="bi bi-check2"></i>Media-based filtration</li>
+                        <li><i class="bi bi-check2"></i>Customized design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SOFTENER -->
+            <div class="col-lg-4 col-md-6">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <i class="bi bi-water"></i>
+                    </div>
+
+                    <h3>Water Softeners</h3>
+                    <p>Water softening systems designed to reduce hardness-causing minerals and protect downstream equipment.</p>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>Hardness reduction</li>
+                        <li><i class="bi bi-check2"></i>Scale control</li>
+                        <li><i class="bi bi-check2"></i>Equipment protection</li>
+                        <li><i class="bi bi-check2"></i>Industrial applications</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARTRIDGE -->
+            <div class="col-lg-4 col-md-6">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <i class="bi bi-funnel"></i>
+                    </div>
+
+                    <h3>Cartridge Filters</h3>
+                    <p>Compact filtration systems suitable for polishing water and protecting sensitive downstream treatment equipment.</p>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>Fine particle filtration</li>
+                        <li><i class="bi bi-check2"></i>RO pre-filtration</li>
+                        <li><i class="bi bi-check2"></i>Compact installation</li>
+                        <li><i class="bi bi-check2"></i>Easy cartridge replacement</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CUSTOM -->
+            <div class="col-lg-4 col-md-6">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <i class="bi bi-gear-wide-connected"></i>
+                    </div>
+
+                    <h3>Customized Filters</h3>
+                    <p>
+                        Customized filtration systems engineered
+                        according to raw-water characteristics,
+                        capacity and treatment requirements.
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>Custom capacity</li>
+                        <li><i class="bi bi-check2"></i>Application-specific design</li>
+                        <li><i class="bi bi-check2"></i>Multiple filtration stages</li>
+                        <li><i class="bi bi-check2"></i>Complete treatment solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FILTRATION PROCESS -->
+<section class="filter-section process-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-label">HOW IT WORKS</span>
+
+            <h2 class="section-title">A Simple Filtration Process</h2>
+            <p class="section-description">
+                A properly designed filtration system can be
+                integrated with other water-treatment technologies
+                to achieve the required water quality.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        01
+                    </div>
+
+                    <h4>Raw Water</h4>
+                    <p>Raw water enters the filtration system for treatment.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        02
+                    </div>
+
+                    <h4>Pre-Filtration</h4>
+                    <p>Larger particles and suspended matter are reduced through suitable media.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        03
+                    </div>
+
+                    <h4>Fine Filtration</h4>
+                    <p> Additional filtration stages improve clarity and water quality.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="process-card">
+                    <div class="process-number">
+                        04
+                    </div>
+
+                    <h4>Treated Water</h4>
+                    <p>Filtered water proceeds to the next treatment stage or application.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="filter-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-label">KEY BENEFITS</span>
+            <h2 class="section-title">Why Choose Proper Filtration?</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="benefit-box">
+                    <i class="bi bi-shield-check"></i>
+                    <h4>Equipment Protection</h4>
+                    <p>Helps protect downstream treatment equipment from suspended particles and other impurities.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="benefit-box">
+                    <i class="bi bi-droplet-half"></i>
+                    <h4>Better Water Quality</h4>
+                    <p>Helps improve water clarity and reduce selected unwanted contaminants.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="benefit-box">
+                    <i class="bi bi-gear"></i>
+                    <h4>Reliable Operation</h4>
+                    <p>Properly selected filtration systems support consistent treatment performance.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="benefit-box">
+                    <i class="bi bi-sliders"></i>
+                    <h4>Customized Design</h4>
+                    <p>Filtration stages can be configured according to application requirements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- APPLICATIONS -->
+<section class="filter-section process-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+                <span class="section-label">APPLICATIONS</span>
+                <h2 class="section-title">Filtration for Different Industries</h2>
+                <p class="text-secondary lh-lg">
+                    Water filtration systems can be integrated
+                    into a wide range of commercial, industrial
+                    and institutional water-treatment applications.
+                </p>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="application-item">
+                    <i class="bi bi-building"></i>
+                    <div>
+                        <h4>Commercial Buildings</h4>
+                        <p>Filtration solutions for buildings, facilities and commercial water systems.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <i class="bi bi-hospital"></i>
+                    <div>
+                        <h4>Hospitals & Institutions</h4>
+                        <p>Water pre-treatment and filtration for institutional water systems.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <i class="fa-solid fa-industry"></i>
+                    <div>
+                        <h4>Industrial Facilities</h4>
+                        <p> Process-water filtration and pre-treatment applications.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <i class="bi bi-cup-straw"></i>
+                    <div>
+                        <h4>Food & Beverage</h4>
+                        <p>Filtration as part of water-treatment systems used in food and beverage facilities.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <i class="bi bi-water"></i>
+                    <div>
+                        <h4>Water Treatment Plants</h4>
+                        <p>Filtration systems integrated with RO, UV, ozone and other treatment processes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="filter-section">
+    <div class="container">
+        <div class="filter-cta text-center">
+            <span class="hero-label">NEED A FILTRATION SOLUTION?</span>
+
+            <h2>Let's Design the Right Filter for Your Water</h2>
+            <p>
+                Share your water-treatment requirements with our
+                team and get a filtration solution based on your
+                application, capacity and water quality.
+            </p>
+            <a href="../contact.html" class="cta-btn">Get a Quote<i class="bi bi-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- COMPANY -->
+            <div class="col-lg-4">
+                <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo mb-3">
+                <p>
+                    Sandor Tescon Aqua provides water treatment,
+                    wastewater treatment and customized water
+                    treatment solutions for commercial and
+                    industrial applications.
+                </p>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-2">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../industries.html">Industries</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- PRODUCTS -->
+            <div class="col-lg-3">
+                <h5>Products</h5>
+                <ul class="footer-links">
+                    <li><a href="ro-plants.html">RO Plants</a></li>
+                    <li><a href="uv-systems.html">UV Systems</a></li>
+                    <li><a href="ozone-systems.html">Ozone Systems</a></li>
+                    <li><a href="filters.html">Water Filters</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="col-lg-3">
+                <h5>Contact</h5>
+                <p><i class="bi bi-telephone me-2"></i>+91 96761 11136</p>
+                <p><i class="bi bi-envelope me-2"></i>sales.tesconaqua@gmail.com</p>
+                <p><i class="bi bi-geo-alt me-2"></i>Hyderabad, Telangana, India</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p class="mb-0">© <span id="currentYear"></span>Sandor Tescon Aqua.All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- FOOTER YEAR -->
+<script>
+    document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+</script>
+
+</body>
+</html>
