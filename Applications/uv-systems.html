@@ -1,843 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>UV Systems | Sandor Tescon Aqua</title>
 
-    <meta name="description"
-        content="Sandor Tescon Aqua provides UV water treatment and ultraviolet disinfection systems for drinking water, industrial water treatment, wastewater treatment and commercial applications.">
-
-    <meta name="keywords"
-        content="UV systems, UV water treatment, ultraviolet disinfection system, industrial UV system, UV water purifier, UV sterilizer, commercial UV disinfection, water treatment UV systems, Sandor Tescon Aqua">
-
+    <meta name="description" content="Sandor Tescon Aqua provides UV water treatment and ultraviolet disinfection systems for drinking water, industrial water treatment, wastewater treatment and commercial applications.">
+    <meta name="keywords" content="UV systems, UV water treatment, ultraviolet disinfection system, industrial UV system, UV water purifier, UV sterilizer, commercial UV disinfection, water treatment UV systems, Sandor Tescon Aqua">
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical"
-        href="https://www.yourdomain.com/Products/uv-systems.html">
-
+    <link rel="canonical" href="https://www.yourdomain.com/Products/uv-systems.html">
     <link rel="icon" href="../Assets/Images/favicon.png">
 
     <!-- Bootstrap -->
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap Icons -->
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="../Assets/CSS/style.css">
 
-
     <style>
-
-    /* =========================================================
-       UV SYSTEMS PAGE
-    ========================================================= */
-
-    :root {
-
-        --primary: #007f9b;
-        --primary-dark: #063b52;
-        --secondary: #00a6b8;
-        --dark: #102f40;
-        --text: #5d6d76;
-        --light: #f4f9fb;
-        --border: #e3edf1;
-        --white: #ffffff;
-
+    
+    /* UV SYSTEMS PAGE */
+    :root{
+        --primary:#007f9b;
+        --primary-dark:#063b52;
+        --secondary:#00a6b8;
+        --dark:#102f40;
+        --text:#5d6d76;
+        --light:#f4f9fb;
+        --border:#e3edf1;
+        --white:#ffffff;
     }
 
-
-    /* =========================================================
-       HERO
-    ========================================================= */
-
-    .page-hero {
-
-        position: relative;
-        min-height: 560px;
-
-        display: flex;
-        align-items: center;
-
-        overflow: hidden;
-
-        background: linear-gradient(
-            110deg,
-            #032a3b,
-            #00677e
-        );
-
+    /* HERO */
+    .page-hero{
+        position:relative;
+        min-height:560px;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:
+            linear-gradient(
+                110deg,
+                rgba(3,42,59,0.96),
+                rgba(7, 167, 203, 0.86)
+            ),
+            url("../Assets/Images/uv-system.jpg")
+            center / cover no-repeat;
     }
 
-
-    .page-hero::before {
-
-        content: "";
-
-        position: absolute;
-
-        width: 500px;
-        height: 500px;
-
-        border-radius: 50%;
-
-        background: rgba(0, 188, 212, 0.12);
-
-        top: -220px;
-        right: -100px;
-
+    .page-hero::before{
+        content:"";
+        position:absolute;
+        width:500px;
+        height:500px;
+        border-radius:50%;
+        background:rgba(0, 188, 212, 0.12);
+        top:-220px;
+        right:-100px;
     }
 
-
-    .page-hero::after {
-
-        content: "";
-
-        position: absolute;
-
-        width: 350px;
-        height: 350px;
-
-        border-radius: 50%;
-
-        border: 1px solid rgba(255,255,255,0.12);
-
-        bottom: -180px;
-        left: -80px;
-
+    .page-hero::after{
+        content:"";
+        position:absolute;
+        width:350px;
+        height:350px;
+        border-radius:50%;
+        border:1px solid rgba(255,255,255,0.12);
+        bottom:-180px;
+        left:-80px;
     }
 
-
-    .page-hero .container {
-
-        position: relative;
-        z-index: 2;
-
+    .page-hero .container{
+        position:relative;
+        z-index:2;
     }
 
-
-    .page-hero-content {
-
-        color: #ffffff;
-        padding: 80px 0;
-
+    .page-hero-content{
+        color:#ffffff;
+        padding:80px 0;
     }
 
-
-    .hero-label {
-
-        display: inline-flex;
-        align-items: center;
-        gap: 9px;
-
-        padding: 9px 16px;
-
-        border: 1px solid rgba(255,255,255,0.22);
-        border-radius: 50px;
-
-        background: rgba(255,255,255,0.08);
-
-        backdrop-filter: blur(10px);
-
-        color: #d8f9ff;
-
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 2px;
-
-        margin-bottom: 24px;
-
+    .hero-label{
+        display:inline-flex;
+        align-items:center;
+        gap:9px;
+        padding:9px 16px;
+        border:1px solid rgba(255,255,255,0.22);
+        border-radius:50px;
+        background:rgba(255,255,255,0.08);
+        backdrop-filter:blur(10px);
+        color:#d8f9ff;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:2px;
+        margin-bottom:24px;
     }
 
-
-    .hero-label i {
-        font-size: 15px;
+    .hero-label i{
+        font-size:15px;
     }
 
-
-    .page-hero-content h1 {
-
-        font-family: "Poppins", sans-serif;
-
-        font-size: clamp(42px, 5vw, 65px);
-
-        font-weight: 700;
-        line-height: 1.12;
-
-        letter-spacing: -1.5px;
-
-        margin-bottom: 25px;
-
-        color: #ffffff;
-
+    .page-hero-content h1{
+        font-family:"Poppins", sans-serif;
+        font-size:clamp(42px, 5vw, 65px);
+        font-weight:700;
+        line-height:1.12;
+        letter-spacing:-1.5px;
+        margin-bottom:25px;
+        color:#ffffff;
     }
 
-
-    .page-hero-content h1 span {
-        color: #70e7f2;
+    .page-hero-content h1 span{
+        color:#70e7f2;
     }
 
-
-    .page-hero-content > p {
-
-        max-width: 650px;
-
-        font-size: 17px;
-        line-height: 1.8;
-
-        color: rgba(255,255,255,0.82);
-
-        margin-bottom: 35px;
-
+    .page-hero-content > p{
+        max-width:650px;
+        font-size:17px;
+        line-height:1.8;
+        color:rgba(255,255,255,0.82);
+        margin-bottom:35px;
     }
-
 
     /* HERO BUTTONS */
-
-    .hero-buttons {
-
-        display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
-
+    .hero-buttons{
+        display:flex;
+        flex-wrap:wrap;
+        gap:14px;
     }
-
 
     .hero-btn-primary,
-    .hero-btn-outline {
-
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-
-        padding: 14px 24px;
-
-        border-radius: 10px;
-
-        font-weight: 600;
-        text-decoration: none;
-
+    .hero-btn-outline{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        padding:14px 24px;
+        border-radius:10px;
+        font-weight:600;
+        text-decoration:none;
         transition: all 0.3s ease;
-
     }
 
-
-    .hero-btn-primary {
-
-        background: #ffffff;
-        color: #063b52;
-
+    .hero-btn-primary{
+        background:#ffffff;
+        color:#063b52;
     }
 
-
-    .hero-btn-primary:hover {
-
-        transform: translateY(-3px);
-        background: #e9fbff;
-        color: #063b52;
-
+    .hero-btn-primary:hover{
+        transform:translateY(-3px);
+        background:#e9fbff;
+        color:#063b52;
     }
 
-
-    .hero-btn-outline {
-
-        color: #ffffff;
-
-        border: 1px solid rgba(255,255,255,0.35);
-
-        background: rgba(255,255,255,0.06);
-
+    .hero-btn-outline{
+        color:#ffffff;
+        border:1px solid rgba(255,255,255,0.35);
+        background:rgba(255,255,255,0.06);
     }
 
-
-    .hero-btn-outline:hover {
-
-        transform: translateY(-3px);
-
-        background: rgba(255,255,255,0.14);
-
-        color: #ffffff;
-
+    .hero-btn-outline:hover{
+        transform:translateY(-3px);
+        background:rgba(255,255,255,0.14);
+        color:#ffffff;
     }
-
 
     /* HERO IMAGE */
-
-    .page-hero-image {
-
-        text-align: center;
-        width: 100%;
-
+    .page-hero-image{
+        text-align:center;
+        width:100%;
     }
 
-
-    .page-hero-image img {
-
-        width: 115%;
-        max-width: 650px;
-        max-height: 550px;
-
-        object-fit: contain;
-
-        border-radius: 18px;
-
-        transform: scale(1.08);
-
+    .page-hero-image img{
+        width:115%;
+        max-width:650px;
+        max-height:550px;
+        object-fit:contain;
+        border-radius:18px;
+        transform:scale(1.08);
     }
 
-
-    /* =========================================================
-       COMMON SECTIONS
-    ========================================================= */
-
-    .section-space {
-        padding: 100px 0;
+    /* COMMON SECTIONS */
+    .section-space{
+        padding:100px 0;
     }
 
-
-    .section-label {
-
-        display: inline-block;
-
-        color: var(--primary);
-
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 2px;
-
-        margin-bottom: 14px;
-
+    .section-label{
+        display:inline-block;
+        color:var(--primary);
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:2px;
+        margin-bottom:14px;
     }
 
-
-    .section-title {
-
-        font-family: "Poppins", sans-serif;
-
-        color: var(--dark);
-
-        font-size: clamp(30px, 4vw, 46px);
-
-        font-weight: 700;
-        line-height: 1.18;
-
-        margin-bottom: 20px;
-
+    .section-title{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:clamp(30px, 4vw, 46px);
+        font-weight:700;
+        line-height:1.18;
+        margin-bottom:20px;
     }
 
-
-    .section-text {
-
-        color: var(--text);
-
-        font-size: 16px;
-        line-height: 1.9;
-
+    .section-text{
+        color:var(--text);
+        font-size:16px;
+        line-height:1.9;
     }
 
-
-    /* =========================================================
-       INTRODUCTION
-    ========================================================= */
-
-    .intro-section {
-        background: #ffffff;
+    /* INTRODUCTION */
+    .intro-section{
+        background:#ffffff;
     }
 
-
-    .intro-card {
-
-        position: relative;
-
-        background: linear-gradient(
-            145deg,
-            #ffffff,
-            #f6fbfc
-        );
-
-        border: 1px solid var(--border);
-        border-radius: 24px;
-
-        padding: 42px;
-
-        height: 100%;
-        overflow: hidden;
-
-        transition: all 0.35s ease;
-
+    .intro-card{
+        position:relative;
+        background:linear-gradient(145deg, #ffffff, #f6fbfc);
+        border:1px solid var(--border);
+        border-radius:24px;
+        padding:42px;
+        height:100%;
+        overflow:hidden;
+        transition:all 0.35s ease;
     }
 
-
-    .intro-card::before {
-
-        content: "";
-
-        position: absolute;
-
-        width: 180px;
-        height: 180px;
-
-        border-radius: 50%;
-
-        background: rgba(0,166,184,0.06);
-
-        right: -70px;
-        top: -70px;
-
+    .intro-card::before{
+        content:"";
+        position:absolute;
+        width:180px;
+        height:180px;
+        border-radius:50%;
+        background:rgba(0,166,184,0.06);
+        right:-70px;
+        top:-70px;
     }
 
-
-    .intro-card:hover {
-
-        transform: translateY(-6px);
-
-        border-color: #b8dfe7;
-
-        box-shadow: 0 20px 50px rgba(0,70,90,0.09);
-
+    .intro-card:hover{
+        transform:translateY(-6px);
+        border-color:#b8dfe7;
+        box-shadow:0 20px 50px rgba(0,70,90,0.09);
     }
 
-
-    .intro-icon {
-
-        position: relative;
-
-        width: 68px;
-        height: 68px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-radius: 18px;
-
-        background: linear-gradient(
-            135deg,
-            #e2f8fb,
-            #f2fdff
-        );
-
-        color: var(--primary);
-
-        font-size: 29px;
-
-        margin-bottom: 25px;
-
+    .intro-icon{
+        position:relative;
+        width:68px;
+        height:68px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #e2f8fb, #f2fdff);
+        color:var(--primary);
+        font-size:29px;
+        margin-bottom:25px;
     }
-
 
     .intro-card h3,
-    .intro-card h4 {
-
-        position: relative;
-
-        font-family: "Poppins", sans-serif;
-
-        color: var(--dark);
-
-        font-size: 23px;
-        font-weight: 600;
-
-        margin-bottom: 15px;
-
+    .intro-card h4{
+        position:relative;
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:23px;
+        font-weight:600;
+        margin-bottom:15px;
     }
 
-
-    .intro-card p {
-
-        position: relative;
-
-        color: var(--text);
-
-        line-height: 1.85;
-        margin-bottom: 0;
-
+    .intro-card p{
+        position:relative;
+        color:var(--text);
+        line-height:1.85;
+        margin-bottom:0;
     }
 
-
-    /* =========================================================
-       APPLICATION CARDS
-    ========================================================= */
-
-    .applications-section {
-        background: var(--light);
+    /* APPLICATION CARDS */
+    .applications-section{
+        background:var(--light);
     }
 
-
-    .application-card {
-
-        position: relative;
-
-        height: 100%;
-
-        background: #ffffff;
-
-        border: 1px solid var(--border);
-        border-radius: 22px;
-
-        padding: 34px;
-
-        overflow: hidden;
-
-        transition: all 0.35s ease;
-
+    .application-card{
+        position:relative;
+        height:100%;
+        background:#ffffff;
+        border:1px solid var(--border);
+        border-radius:22px;
+        padding:34px;
+        overflow:hidden;
+        transition:all 0.35s ease;
     }
 
-
-    .application-card::before {
-
-        content: "";
-
-        position: absolute;
-
-        left: 0;
-        top: 0;
-
-        width: 100%;
-        height: 3px;
-
-        background: linear-gradient(
-            90deg,
-            var(--primary),
-            var(--secondary)
-        );
-
-        transform: scaleX(0);
-        transform-origin: left;
-
-        transition: transform 0.35s ease;
-
+    .application-card::before{
+        content:"";
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:3px;
+        background:linear-gradient(90deg,var(--primary),var(--secondary));
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:transform 0.35s ease;
     }
 
-
-    .application-card:hover::before {
-        transform: scaleX(1);
+    .application-card:hover::before{
+        transform:scaleX(1);
     }
 
-
-    .application-card:hover {
-
-        transform: translateY(-8px);
-
-        border-color: #c9e5eb;
-
-        box-shadow: 0 20px 45px rgba(13,72,91,0.10);
-
+    .application-card:hover{
+        transform:translateY(-8px);
+        border-color:#c9e5eb;
+        box-shadow:0 20px 45px rgba(13,72,91,0.10);
     }
 
-
-    .application-icon {
-
-        width: 62px;
-        height: 62px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-radius: 17px;
-
-        background: #eaf9fb;
-        color: var(--primary);
-
-        font-size: 27px;
-
-        margin-bottom: 24px;
-
-        transition: all 0.3s ease;
-
+    .application-icon{
+        width:62px;
+        height:62px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:17px;
+        background:#eaf9fb;
+        color:var(--primary);
+        font-size:27px;
+        margin-bottom:24px;
+        transition:all 0.3s ease;
     }
 
-
-    .application-card:hover .application-icon {
-
-        background: var(--primary);
-        color: #ffffff;
-
-        transform: scale(1.05);
-
+    .application-card:hover .application-icon{
+        background:var(--primary);
+        color:#ffffff;
+        transform:scale(1.05);
     }
 
-
-    .application-card h4 {
-
-        font-family: "Poppins", sans-serif;
-
-        color: var(--dark);
-
-        font-size: 20px;
-        font-weight: 600;
-
-        margin-bottom: 13px;
-
+    .application-card h4{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:20px;
+        font-weight:600;
+        margin-bottom:13px;
     }
 
-
-    .application-card p {
-
-        color: var(--text);
-
-        font-size: 15px;
-        line-height: 1.8;
-
-        margin-bottom: 0;
-
+    .application-card p{
+        color:var(--text);
+        font-size:15px;
+        line-height:1.8;
+        margin-bottom:0;
     }
 
-
-    /* =========================================================
-       REQUIREMENTS
-    ========================================================= */
-
-    .requirement-list {
-
-        list-style: none;
-        padding: 0;
-        margin: 0;
-
+    /* REQUIREMENTS */
+    .requirement-list{
+        list-style:none;
+        padding:0;
+        margin:0;
     }
 
-
-    .requirement-list li {
-
-        display: flex;
-        align-items: flex-start;
-
-        gap: 14px;
-
-        padding: 15px 0;
-
-        border-bottom: 1px solid #edf2f4;
-
-        color: #566871;
-        line-height: 1.7;
-
+    .requirement-list li{
+        display:flex;
+        align-items:flex-start;
+        gap:14px;
+        padding:15px 0;
+        border-bottom:1px solid #edf2f4;
+        color:#566871;
+        line-height:1.7;
     }
 
-
-    .requirement-list li:last-child {
-        border-bottom: none;
+    .requirement-list li:last-child{
+        border-bottom:none;
     }
 
-
-    .requirement-list i {
-
-        flex-shrink: 0;
-
-        width: 25px;
-        height: 25px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-radius: 50%;
-
-        background: #e7f8fa;
-        color: var(--primary);
-
-        font-size: 14px;
-
-        margin-top: 2px;
-
+    .requirement-list i{
+        flex-shrink:0;
+        width:25px;
+        height:25px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        background:#e7f8fa;
+        color:var(--primary);
+        font-size:14px;
+        margin-top:2px;
     }
 
-
-    /* =========================================================
-       SOLUTION CARDS
-    ========================================================= */
-
-    .solution-card {
-
-        position: relative;
-
-        height: 100%;
-
-        padding: 35px;
-
-        background: #ffffff;
-
-        border: 1px solid var(--border);
-        border-radius: 22px;
-
-        transition: all 0.35s ease;
-
-        overflow: hidden;
-
+    /* SOLUTION CARDS */
+    .solution-card{
+        position:relative;
+        height:100%;
+        padding:35px;
+        background:#ffffff;
+        border:1px solid var(--border);
+        border-radius:22px;
+        transition:all 0.35s ease;
+        overflow:hidden;
     }
 
-
-    .solution-card:hover {
-
-        transform: translateY(-7px);
-
-        border-color: #b8dfe7;
-
-        box-shadow: 0 18px 45px rgba(13,72,91,0.10);
-
+    .solution-card:hover{
+        transform:translateY(-7px);
+        border-color:#b8dfe7;
+        box-shadow:0 18px 45px rgba(13,72,91,0.10);
     }
 
-
-    .solution-icon {
-
-        width: 58px;
-        height: 58px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-radius: 16px;
-
-        background: #eaf8fa;
-        color: var(--primary);
-
-        font-size: 25px;
-
-        margin-bottom: 22px;
-
+    .solution-icon{
+        width:58px;
+        height:58px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:16px;
+        background:#eaf8fa;
+        color:var(--primary);
+        font-size:25px;
+        margin-bottom:22px;
     }
 
-
-    .solution-card h4 {
-
-        font-family: "Poppins", sans-serif;
-
-        color: var(--dark);
-
-        font-size: 20px;
-        font-weight: 600;
-
-        margin-bottom: 12px;
-
+    .solution-card h4{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:20px;
+        font-weight:600;
+        margin-bottom:12px;
     }
 
-
-    .solution-card p {
-
-        color: var(--text);
-
-        line-height: 1.8;
-        margin-bottom: 0;
-
+    .solution-card p{
+        color:var(--text);
+        line-height:1.8;
+        margin-bottom:0;
     }
 
-
-    /* =========================================================
-       PROCESS
-    ========================================================= */
-
-    .process-section {
-        background: #ffffff;
+    /* PROCESS */
+    .process-section{
+        background:#ffffff;
     }
 
-
-    .process-card {
-
-        position: relative;
-
-        text-align: center;
-
-        padding: 25px 20px;
-
+    .process-card{
+        position:relative;
+        text-align:center;
+        padding:25px 20px;
     }
 
-
-    .process-number {
-
-        width: 64px;
-        height: 64px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        margin: 0 auto 23px;
-
-        border-radius: 50%;
-
-        background: linear-gradient(
-            135deg,
-            var(--primary),
-            var(--secondary)
-        );
-
-        color: #ffffff;
-
-        font-size: 18px;
-        font-weight: 700;
-
-        box-shadow: 0 10px 25px rgba(0,134,168,0.20);
-
+    .process-number{
+        width:64px;
+        height:64px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin:0 auto 23px;
+        border-radius:50%;
+        background:linear-gradient(135deg,var(--primary),var(--secondary));
+        color:#ffffff;
+        font-size:18px;
+        font-weight:700;
+        box-shadow:0 10px 25px rgba(0,134,168,0.20);
     }
 
-
-    .process-card h5 {
-
-        font-family: "Poppins", sans-serif;
-
-        color: var(--dark);
-
-        font-size: 18px;
-        font-weight: 600;
-
-        margin-bottom: 10px;
-
+    .process-card h5{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:18px;
+        font-weight:600;
+        margin-bottom:10px;
     }
 
+    .process-card p{
+        max-width:240px;
+        margin:auto;
+        color:var(--text);
+        font-size:14px;
+        line-height:1.75;
+    } 
 
-    .process-card p {
-
-        max-width: 240px;
-
-        margin: auto;
-
-        color: var(--text);
-
-        font-size: 14px;
-        line-height: 1.75;
-
-    }
-
-
-    /* =========================================================
-       CTA
-    ========================================================= */
-
-    .water-cta {
-
-        position: relative;
-
-        overflow: hidden;
-
-        padding: 75px 50px;
-
-        border-radius: 28px;
-
-        text-align: center;
-
-        color: #ffffff;
-
+    /* CTA */
+    .water-cta{
+        position:relative;
+        overflow:hidden;
+        padding:75px 50px;
+        border-radius:28px;
+        text-align:center;
+        color:#ffffff;
         background:
             radial-gradient(
                 circle at 90% 10%,
@@ -849,423 +499,278 @@
                 #06384f,
                 #007f9b
             );
-
     }
 
-
-    .water-cta::before {
-
-        content: "";
-
-        position: absolute;
-
-        width: 300px;
-        height: 300px;
-
-        border-radius: 50%;
-
-        border: 1px solid rgba(255,255,255,0.10);
-
-        right: -100px;
-        bottom: -160px;
-
+    .water-cta::before{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        border-radius:50%;
+        border:1px solid rgba(255,255,255,0.10);
+        right:-100px;
+        bottom:-160px;
     }
 
-
-    .water-cta h2 {
-
-        position: relative;
-
-        font-family: "Poppins", sans-serif;
-
-        font-size: clamp(30px,4vw,45px);
-
-        font-weight: 700;
-
-        margin-bottom: 16px;
-
-        color: #ffffff;
-
+    .water-cta h2{
+        position:relative;
+        font-family:"Poppins", sans-serif;
+        font-size:clamp(30px,4vw,45px);
+        font-weight:700;
+        margin-bottom:16px;
+        color:#ffffff;
     }
 
-
-    .water-cta p {
-
-        position: relative;
-
-        max-width: 700px;
-
-        margin: 0 auto 30px;
-
-        color: rgba(255,255,255,0.82);
-
-        line-height: 1.8;
-
+    .water-cta p{
+        position:relative;
+        max-width:700px;
+        margin:0 auto 30px;
+        color:rgba(255,255,255,0.82);
+        line-height:1.8;
     }
 
-
-    .water-cta .btn {
-
-        position: relative;
-
-        padding: 14px 28px;
-
-        border: none;
-        border-radius: 10px;
-
-        background: #ffffff;
-        color: var(--primary-dark);
-
-        font-weight: 600;
-
-        transition: all 0.3s ease;
-
+    .water-cta .btn{
+        position:relative;
+        padding:14px 28px;
+        border:none;
+        border-radius:10px;
+        background:#ffffff;
+        color:var(--primary-dark);
+        font-weight:600;
+        transition:all 0.3s ease;
     }
 
-
-    .water-cta .btn:hover {
-
-        transform: translateY(-3px);
-
-        background: #e9fbff;
-
+    .water-cta .btn:hover{
+        transform:translateY(-3px);
+        background:#e9fbff;
     }
 
-
-    /* =========================================================
-       FOOTER
-    ========================================================= */
-
-    .footer-section {
-
-        position: relative;
-
-        overflow: hidden;
-
-        padding: 75px 0 0;
-
-        color: #a9c0cc;
-
-        background: linear-gradient(
-            135deg,
-            #031c2d,
-            #062f49 50%,
-            #064b60
-        );
-
+    /* FOOTER */
+    .footer-section{
+        position:relative;
+        overflow:hidden;
+        padding:75px 0 0;
+        color:#a9c0cc;
+        background:linear-gradient(135deg, #031c2d, #062f49 50%, #064b60);
     }
 
-
-    .footer-section .container {
-        position: relative;
-        z-index: 2;
+    .footer-section .container{
+        position:relative;
+        z-index:2;
     }
 
-
-    .footer-logo {
-
-        display: block;
-
-        width: auto;
-        height: 58px;
-        max-width: 220px;
-
-        object-fit: contain;
-
-        margin-bottom: 20px;
-
+    .footer-logo{
+        display:block;
+        width:auto;
+        height:58px;
+        max-width:220px;
+        object-fit:contain;
+        margin-bottom:20px;
     }
 
-
-    .footer-section p {
-
-        max-width: 400px;
-
-        margin: 0;
-
-        color: #9eb7c4;
-
-        font-size: 14px;
-        line-height: 1.9;
-
+    .footer-section p{
+        max-width:400px;
+        margin:0;
+        color:#9eb7c4;
+        font-size:14px;
+        line-height:1.9;
     }
 
-
-    .footer-section h5 {
-
-        position: relative;
-
-        display: inline-block;
-
-        color: #ffffff;
-
-        font-family: "Poppins", sans-serif;
-
-        font-size: 17px;
-        font-weight: 600;
-
-        margin-bottom: 24px;
-        padding-bottom: 10px;
-
+    .footer-section h5{
+        position:relative;
+        display:inline-block;
+        color:#ffffff;
+        font-family:"Poppins", sans-serif;
+        font-size:17px;
+        font-weight:600;
+        margin-bottom:24px;
+        padding-bottom:10px;
     }
 
-
-    .footer-section h5::after {
-
-        content: "";
-
-        position: absolute;
-
-        left: 0;
-        bottom: 0;
-
-        width: 32px;
-        height: 3px;
-
-        border-radius: 10px;
-
-        background: linear-gradient(
-            90deg,
-            #35d5e8,
-            #00a8c6
-        );
-
+    .footer-section h5::after{
+        content:"";
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:32px;
+        height:3px;
+        border-radius:10px;
+        background:linear-gradient(90deg, #35d5e8, #00a8c6);
     }
 
-
-    .footer-links {
-
-        list-style: none;
-
-        padding: 0;
-        margin: 0;
-
+    .footer-links{
+        list-style:none;
+        padding:0;
+        margin:0;
     }
 
-
-    .footer-links li {
-        margin-bottom: 12px;
+    .footer-links li{
+        margin-bottom:12px;
     }
 
-
-    .footer-links a {
-
-        color: #9eb7c4;
-
-        font-size: 14px;
-        text-decoration: none;
-
-        transition: all 0.3s ease;
-
+    .footer-links a{
+        color:#9eb7c4;
+        font-size:14px;
+        text-decoration:none;
+        transition:all 0.3s ease;
     }
 
-
-    .footer-links a:hover {
-        color: #65e6f4;
-        padding-left: 4px;
+    .footer-links a:hover{
+        color:#65e6f4;
+        padding-left:4px;
     }
 
-
-    .footer-contact {
-
-        display: flex;
-        align-items: flex-start;
-
-        margin-bottom: 15px;
-
-        color: #9eb7c4;
-
-        font-size: 14px;
-        line-height: 1.7;
-
+    .footer-contact{
+        display:flex;
+        align-items:flex-start;
+        margin-bottom:15px;
+        color:#9eb7c4;
+        font-size:14px;
+        line-height:1.7;
     }
 
-
-    .footer-contact i {
-
-        flex-shrink: 0;
-
-        width: 36px;
-        height: 36px;
-
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-
-        margin-right: 11px;
-
-        border-radius: 10px;
-
-        background: rgba(67,218,235,0.10);
-
-        border: 1px solid rgba(67,218,235,0.15);
-
-        color: #58dceb;
-
-        font-size: 16px;
-
+    .footer-contact i{
+        flex-shrink:0;
+        width:36px;
+        height:36px;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        margin-right:11px;
+        border-radius:10px;
+        background:rgba(67,218,235,0.10);
+        border:1px solid rgba(67,218,235,0.15);
+        color:#58dceb;
+        font-size:16px;
     }
 
-
-    .footer-section hr {
-
-        height: 1px;
-        border: 0;
-
-        margin: 48px 0 22px;
-
-        opacity: 1;
-
-        background: linear-gradient(
+    .footer-section hr{
+        height:1px;
+        border:0;
+        margin:48px 0 22px;
+        opacity:1;
+        background:linear-gradient(
             90deg,
             transparent,
             rgba(120,220,235,0.25),
             transparent
         );
-
     }
 
-
-    .footer-section .copyright {
-
-        padding: 0 0 23px;
-
-        text-align: center;
-
+    .footer-section .copyright{
+        padding:0 0 23px;
+        text-align:center;
     }
 
-
-    .footer-section .copyright p {
-
-        max-width: none;
-
-        margin: 0;
-
-        color: #7893a0;
-
-        font-size: 13px;
-
+    .footer-section .copyright p{
+        max-width:none;
+        margin:0;
+        color:#7893a0;
+        font-size:13px;
     }
 
-
-    /* =========================================================
-       RESPONSIVE
-    ========================================================= */
-
-    @media (max-width: 991px) {
-
-        .page-hero {
-            min-height: auto;
+    /* RESPONSIVE */
+    @media (max-width:991px){
+        .page-hero{
+            min-height:auto;
         }
 
-        .page-hero-content {
-            padding: 65px 0 20px;
+        .page-hero-content{
+            padding:65px 0 20px;
         }
 
-        .page-hero-image {
-            padding-bottom: 50px;
+        .page-hero-image{
+            padding-bottom:50px;
         }
 
-        .page-hero-image img {
-            width: 100%;
-            max-width: 550px;
-            transform: none;
+        .page-hero-image img{
+            width:100%;
+            max-width:550px;
+            transform:none;
         }
 
-        .section-space {
-            padding: 80px 0;
+        .section-space{
+            padding:80px 0;
         }
 
     }
 
+    @media (max-width:767px){
 
-    @media (max-width: 767px) {
-
-        .page-hero {
-            text-align: center;
+        .page-hero{
+            text-align:center;
         }
 
-        .page-hero-content {
-            padding: 60px 15px 15px;
+        .page-hero-content{
+            padding:60px 15px 15px;
         }
 
-        .page-hero-content h1 {
-            font-size: 40px;
-            letter-spacing: -1px;
+        .page-hero-content h1{
+            font-size:40px;
+            letter-spacing:-1px;
         }
 
-        .page-hero-content > p {
-            font-size: 16px;
+        .page-hero-content > p{
+            font-size:16px;
         }
 
-        .hero-buttons {
-            justify-content: center;
+        .hero-buttons{
+            justify-content:center;
         }
 
         .hero-btn-primary,
-        .hero-btn-outline {
-            width: 100%;
-            max-width: 280px;
+        .hero-btn-outline{
+            width:100%;
+            max-width:280px;
         }
 
-        .page-hero-image {
-            margin-top: 15px;
+        .page-hero-image{
+            margin-top:15px;
         }
 
-        .page-hero-image img {
-            width: 100%;
-            max-height: 400px;
+        .page-hero-image img{
+            width:100%;
+            max-height:400px;
         }
 
-        .section-space {
-            padding: 65px 0;
+        .section-space{
+            padding:65px 0;
         }
 
         .intro-card,
         .application-card,
-        .solution-card {
-            padding: 28px;
+        .solution-card{
+            padding:28px;
         }
 
-        .water-cta {
-            padding: 50px 25px;
-            border-radius: 22px;
+        .water-cta{
+            padding:50px 25px;
+            border-radius:22px;
         }
 
     }
 
+    @media (max-width:480px){
 
-    @media (max-width: 480px) {
-
-        .page-hero-content h1 {
-            font-size: 34px;
+        .page-hero-content h1{
+            font-size:34px;
         }
 
-        .hero-label {
-            font-size: 10px;
-            letter-spacing: 1.5px;
+        .hero-label{
+            font-size:10px;
+            letter-spacing:1.5px;
         }
 
     }
 
     </style>
-
 </head>
 
-
 <body>
-
-
-<!-- =========================================================
-     TOP BAR
-========================================================= -->
-
+<!--  TOP BAR -->
 <div class="top-bar">
-
     <div class="container">
-
         <div class="d-flex justify-content-between align-items-center">
-
             <div>
                 <i class="bi bi-envelope"></i>
                 sales.tesconaqua@gmail.com
@@ -1275,31 +780,16 @@
                 <i class="bi bi-telephone"></i>
                 +91 96761 11136
             </div>
-
         </div>
-
     </div>
-
 </div>
 
-
-<!-- =========================================================
-     NAVIGATION
-========================================================= -->
-
+<!-- NAVIGATION -->
 <nav class="navbar navbar-expand-lg main-navbar sticky-top">
-
     <div class="container">
-
         <a class="navbar-brand" href="../index.html">
-
-            <img
-                src="../Assets/Images/logo.png"
-                alt="Sandor Tescon Aqua Logo"
-                class="logo">
-
+            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo">
         </a>
-
 
         <button
             class="navbar-toggler"
@@ -1309,26 +799,13 @@
             aria-controls="mainNavigation"
             aria-expanded="false"
             aria-label="Toggle navigation">
-
             <span class="navbar-toggler-icon"></span>
-
         </button>
 
-
         <div class="collapse navbar-collapse" id="mainNavigation">
-
             <ul class="navbar-nav ms-auto align-items-lg-center">
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../about.html">About</a>
-                </li>
-
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
 
                 <!-- Applications -->
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Applications</a>
@@ -1346,597 +823,254 @@
 
                 <!-- SOLUTIONS -->
                 <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        Solutions
-
-                    </a>
-
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
                     <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="../Solutions/ro-systems.html">
-                                RO Systems
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="../Solutions/stp.html">
-                                Sewage Treatment Plants
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="../Solutions/etp.html">
-                                Effluent Treatment Plants
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="../Solutions/filtration.html">
-                                Filtration Systems
-                            </a>
-                        </li>
-
+                        <li><a class="dropdown-item" href="../Solutions/ro-systems.html">RO Systems</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/stp.html">Sewage Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/etp.html">Effluent Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/filtration.html">Filtration Systems</a></li>
                     </ul>
-
                 </li>
-
 
                 <!-- PRODUCTS -->
-
                 <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle active"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        Products
-
-                    </a>
-
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Products</a>
                     <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="ro-plants.html">
-                                RO Plants
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="packaged-drinking-water-plant.html">
-                                Packaged Drinking Water Plants
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="dialysis-ro-plant.html">
-                                Dialysis RO Plants
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="ozone-generators.html">
-                                Ozone Generators
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item active"
-                               href="uv-systems.html">
-                                UV Systems
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="filters.html">
-                                Water Filters
-                            </a>
-                        </li>
-
+                        <li><a class="dropdown-item" href="ro-plants.html">RO Plants</a></li>
+                        <li><a class="dropdown-item" href="packaged-drinking-water-plant.html">Packaged Drinking Water Plants</a></li>
+                        <li><a class="dropdown-item" href="dialysis-ro-plant.html">Dialysis RO Plants</a></li>
+                        <li><a class="dropdown-item" href="ozone-generators.html">Ozone Generators</a></li>
+                        <li><a class="dropdown-item active" href="uv-systems.html">UV Systems</a></li>
+                        <li><a class="dropdown-item" href="filters.html">Water Filters</a></li>
                     </ul>
-
                 </li>
 
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../industries.html">
-                        Industries
-                    </a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../projects.html">
-                        Projects
-                    </a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../faq.html">
-                        FAQ
-                    </a>
-                </li>
-
-
-                <li class="nav-item ms-lg-3">
-
-                    <a class="btn btn-primary quote-btn"
-                       href="../contact.html">
-
-                        Get a Quote
-
-                    </a>
-
-                </li>
-
+                <li class="nav-item"><a class="nav-link" href="../industries.html">Industries</a></li>
+                <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="../faq.html">FAQ</a></li>
+                <li class="nav-item ms-lg-3"><a class="btn btn-primary quote-btn" href="../contact.html">Get a Quote</a></li>
             </ul>
-
         </div>
-
     </div>
-
 </nav>
 
-
-<!-- =========================================================
-     HERO
-========================================================= -->
-
+<!-- HERO  -->
 <section class="page-hero">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
 
-
             <!-- LEFT CONTENT -->
-
             <div class="col-lg-7">
-
                 <div class="page-hero-content">
+                    <span class="hero-label"><i class="bi bi-brightness-high"></i>UV WATER TREATMENT SYSTEMS</span>
 
-                    <span class="hero-label">
-
-                        <i class="bi bi-brightness-high"></i>
-
-                        UV WATER TREATMENT SYSTEMS
-
-                    </span>
-
-
-                    <h1>
-
-                        Advanced
-
-                        <span>UV Disinfection Systems</span>
-
-                        for Pure Water Treatment
-
-                    </h1>
-
-
+                    <h1>Advanced<span>UV Disinfection Systems</span>for Pure Water Treatment</h1>
                     <p>
-
                         Reliable ultraviolet water treatment
                         systems designed for drinking water,
                         industrial water treatment, commercial
                         applications and water disinfection.
-
                     </p>
 
-
                     <div class="hero-buttons">
-
-                        <a href="../contact.html"
-                           class="hero-btn-primary">
-
-                            Discuss Your Requirement
-
-                            <i class="bi bi-arrow-right"></i>
-
-                        </a>
-
-
-                        <a href="../contact.html"
-                           class="hero-btn-outline">
-
-                            Explore UV Solutions
-
-                        </a>
-
+                        <a href="../contact.html" class="hero-btn-primary">Discuss Your Requirement<i class="bi bi-arrow-right"></i></a>
+                        <a href="../contact.html" class="hero-btn-outline">Explore UV Solutions</a>
                     </div>
-
                 </div>
-
             </div>
-
 
             <!-- RIGHT IMAGE -->
-
             <div class="col-lg-5">
-
                 <div class="page-hero-image">
-
-                    <img
-                        src="/Assets/Images/4.jpg"
-                        alt="Industrial UV Water Disinfection System"
-                        class="img-fluid">
-
+                    <img src="../Assets/Images/uv-system.jpg" alt="UV System" class="img-fluid">
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     INTRODUCTION
-========================================================= -->
-
+<!-- INTRODUCTION -->
 <section class="section-space intro-section">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
-
-
             <div class="col-lg-7">
+                <span class="section-label">UV WATER TREATMENT</span>
 
-                <span class="section-label">
-                    UV WATER TREATMENT
-                </span>
-
-
-                <h2 class="section-title">
-
-                    Advanced Ultraviolet
-                    Disinfection Technology
-
-                </h2>
-
-
+                <h2 class="section-title">Advanced Ultraviolet Disinfection Technology</h2>
                 <p class="section-text">
-
                     Ultraviolet (UV) water treatment is a
                     disinfection process that uses UV-C light
                     to inactivate microorganisms in water.
                     It provides a physical disinfection
                     method without requiring the addition
                     of chemical disinfectants.
-
                 </p>
 
-
                 <p class="section-text">
-
                     Sandor Tescon Aqua provides UV water
                     treatment solutions for drinking water
                     systems, commercial facilities,
                     industrial processes and suitable
                     wastewater treatment applications.
-
                 </p>
 
-
                 <p class="section-text">
-
                     UV systems can be selected according
                     to water flow rate, UV transmittance,
                     water quality, required UV dose and
                     operating conditions.
-
                 </p>
-
             </div>
 
-
             <div class="col-lg-5">
-
                 <div class="intro-card">
-
                     <div class="intro-icon">
-
                         <i class="bi bi-brightness-high"></i>
-
                     </div>
 
-
-                    <h4>
-                        UV Disinfection Technology
-                    </h4>
-
-
+                    <h4>UV Disinfection Technology</h4>
                     <p>
-
                         UV-C radiation is used to inactivate
                         microorganisms as water passes
                         through a specially designed UV
                         chamber. Proper system sizing and
                         operating conditions are essential
                         for effective disinfection.
-
                     </p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     UV SYSTEM COMPONENTS
-========================================================= -->
-
+<!-- UV SYSTEM COMPONENTS -->
 <section class="section-space applications-section">
-
     <div class="container">
-
-
         <div class="text-center mb-5">
+            <span class="section-label">UV SYSTEM COMPONENTS</span>
 
-            <span class="section-label">
-                UV SYSTEM COMPONENTS
-            </span>
-
-
-            <h2 class="section-title">
-                Key Components of UV Systems
-            </h2>
-
-
-            <p class="section-text mx-auto"
-               style="max-width:760px;">
-
+            <h2 class="section-title">Key Components of UV Systems</h2>
+            <p class="section-text mx-auto" style="max-width:760px;">
                 A UV disinfection system incorporates
                 specialized components to provide
                 controlled ultraviolet treatment and
                 reliable operation.
-
             </p>
-
         </div>
 
-
         <div class="row g-4">
-
-
             <!-- UV CHAMBER -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="application-card">
-
                     <div class="application-icon">
                         <i class="bi bi-box-seam"></i>
                     </div>
 
-
-                    <h4>
-                        UV Reactor Chamber
-                    </h4>
-
-
+                    <h4>UV Reactor Chamber</h4>
                     <p>
-
                         The UV chamber provides a controlled
                         flow passage where water is exposed
                         to ultraviolet radiation for
                         disinfection.
-
                     </p>
-
                 </div>
-
             </div>
 
-
             <!-- UV LAMP -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="application-card">
-
                     <div class="application-icon">
                         <i class="bi bi-lightbulb"></i>
                     </div>
 
-
-                    <h4>
-                        UV-C Lamps
-                    </h4>
-
-
+                    <h4>UV-C Lamps</h4>
                     <p>
-
                         UV-C lamps generate ultraviolet
                         radiation used for microorganism
                         inactivation during the treatment
                         process.
-
                     </p>
-
                 </div>
-
             </div>
 
-
             <!-- QUARTZ SLEEVE -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="application-card">
-
                     <div class="application-icon">
                         <i class="bi bi-shield"></i>
                     </div>
 
-
-                    <h4>
-                        Quartz Sleeves
-                    </h4>
-
-
+                    <h4>Quartz Sleeves</h4>
                     <p>
-
                         Quartz sleeves protect UV lamps
                         from direct water contact while
                         allowing ultraviolet radiation
                         to pass into the treatment chamber.
-
                     </p>
-
                 </div>
-
             </div>
 
-
             <!-- CONTROL PANEL -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="application-card">
-
                     <div class="application-icon">
                         <i class="bi bi-sliders"></i>
                     </div>
 
-
-                    <h4>
-                        Control Panel
-                    </h4>
-
-
+                    <h4>Control Panel</h4>
                     <p>
-
                         Electrical control panels support
                         UV system operation, lamp control
                         and monitoring functions.
-
                     </p>
-
                 </div>
-
             </div>
 
-
             <!-- BALLAST -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="application-card">
-
                     <div class="application-icon">
                         <i class="bi bi-lightning-charge"></i>
                     </div>
 
-
-                    <h4>
-                        Electronic Ballast
-                    </h4>
-
-
+                    <h4>Electronic Ballast</h4>
                     <p>
-
                         Electronic ballast units provide
                         the required electrical power
                         for UV lamp operation.
-
                     </p>
-
                 </div>
-
             </div>
 
-
             <!-- MONITORING -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="application-card">
-
                     <div class="application-icon">
                         <i class="bi bi-speedometer2"></i>
                     </div>
 
-
-                    <h4>
-                        Monitoring System
-                    </h4>
-
-
+                    <h4>Monitoring System</h4>
                     <p>
-
                         UV intensity sensors and monitoring
                         equipment can be incorporated
                         according to the required system
                         configuration.
-
                     </p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     APPLICATIONS
-========================================================= -->
-
+<!-- APPLICATIONS -->
 <section class="section-space">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
-
-
             <div class="col-lg-6">
+                <span class="section-label">APPLICATIONS</span>
 
-                <span class="section-label">
-                    APPLICATIONS
-                </span>
-
-
-                <h2 class="section-title">
-
-                    UV Water Disinfection
-                    Applications
-
-                </h2>
-
-
+                <h2 class="section-title">UV Water Disinfection Applications</h2>
                 <p class="section-text">
-
                     UV disinfection systems can be
                     integrated into different water
                     treatment processes where
@@ -1944,859 +1078,350 @@
                     System selection depends on water
                     quality, flow rate and the required
                     UV dose.
-
                 </p>
 
-
                 <ul class="requirement-list mt-4">
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Drinking water treatment</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Commercial water treatment</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Industrial water treatment</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>RO plant water disinfection</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Food and beverage processing</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Swimming pool water treatment</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Suitable wastewater treatment applications</span>
-                    </li>
-
-
+                    <li><i class="bi bi-check-circle-fill"></i><span>Drinking water treatment</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Commercial water treatment</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Industrial water treatment</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>RO plant water disinfection</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Food and beverage processing</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Swimming pool water treatment</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Suitable wastewater treatment applications</span></li>
                 </ul>
-
             </div>
 
-
             <div class="col-lg-6">
-
                 <div class="row g-4">
-
-
                     <div class="col-sm-6">
-
                         <div class="solution-card">
-
                             <div class="solution-icon">
                                 <i class="bi bi-droplet-half"></i>
                             </div>
 
-
-                            <h4>
-                                Drinking Water
-                            </h4>
-
-
-                            <p>
-
-                                UV disinfection systems for
-                                suitable drinking water
-                                treatment applications.
-
-                            </p>
-
+                            <h4>Drinking Water</h4>
+                            <p>UV disinfection systems for suitable drinking water treatment applications.</p>
                         </div>
-
                     </div>
 
-
                     <div class="col-sm-6">
-
                         <div class="solution-card">
-
                             <div class="solution-icon">
                                 <i class="bi bi-building"></i>
                             </div>
 
-
-                            <h4>
-                                Commercial Use
-                            </h4>
-
-
-                            <p>
-
-                                UV water treatment systems
-                                for commercial buildings,
-                                facilities and institutions.
-
-                            </p>
-
+                            <h4>Commercial Use</h4>
+                            <p>UV water treatment systems for commercial buildings, facilities and institutions.</p>
                         </div>
-
                     </div>
 
-
                     <div class="col-sm-6">
-
                         <div class="solution-card">
-
                             <div class="solution-icon">
                                 <i class="bi bi-gear-wide-connected"></i>
                             </div>
 
-
-                            <h4>
-                                Industrial Use
-                            </h4>
-
-
-                            <p>
-
-                                UV disinfection integration
-                                for industrial water
-                                treatment processes.
-
-                            </p>
-
+                            <h4>Industrial Use</h4>
+                            <p>UV disinfection integration for industrial water treatment processes.</p>
                         </div>
-
                     </div>
 
-
                     <div class="col-sm-6">
-
                         <div class="solution-card">
-
                             <div class="solution-icon">
                                 <i class="bi bi-water"></i>
                             </div>
 
-
-                            <h4>
-                                RO Systems
-                            </h4>
-
-
-                            <p>
-
-                                UV treatment can be used
-                                at suitable stages of
-                                reverse osmosis water
-                                treatment systems.
-
-                            </p>
-
+                            <h4>RO Systems</h4>
+                            <p>UV treatment can be used at suitable stages of reverse osmosis water treatment systems.</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     UV SOLUTIONS
-========================================================= -->
-
+<!-- UV SOLUTIONS -->
 <section class="section-space applications-section">
-
     <div class="container">
-
-
         <div class="text-center mb-5">
+            <span class="section-label">UV SOLUTIONS</span>
 
-            <span class="section-label">
-                UV SOLUTIONS
-            </span>
-
-
-            <h2 class="section-title">
-                UV Treatment Solutions
-            </h2>
-
-
-            <p class="section-text mx-auto"
-               style="max-width:760px;">
-
+            <h2 class="section-title">UV Treatment Solutions</h2>
+            <p class="section-text mx-auto" style="max-width:760px;">
                 Different UV treatment configurations
                 can be selected according to flow rate,
                 treatment requirements and installation
                 conditions.
-
             </p>
-
         </div>
 
-
         <div class="row g-4">
-
-
             <!-- INDUSTRIAL UV -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="solution-card">
-
                     <div class="solution-icon">
                         <i class="bi bi-gear-wide-connected"></i>
                     </div>
 
-
-                    <h4>
-                        Industrial UV Systems
-                    </h4>
-
-
-                    <p>
-
-                        UV disinfection equipment for
-                        industrial water treatment and
-                        process water applications.
-
-                    </p>
-
+                    <h4>Industrial UV Systems</h4>
+                    <p>UV disinfection equipment for industrial water treatment and process water applications.</p>
                 </div>
-
             </div>
 
-
             <!-- COMMERCIAL UV -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="solution-card">
-
                     <div class="solution-icon">
                         <i class="bi bi-buildings"></i>
                     </div>
 
-
-                    <h4>
-                        Commercial UV Systems
-                    </h4>
-
-
-                    <p>
-
-                        UV water disinfection solutions
-                        for commercial buildings,
-                        institutions and facilities.
-
-                    </p>
-
+                    <h4>Commercial UV Systems</h4>
+                    <p>UV water disinfection solutions for commercial buildings, institutions and facilities.</p>
                 </div>
-
             </div>
 
-
             <!-- RO UV -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="solution-card">
-
                     <div class="solution-icon">
                         <i class="bi bi-water"></i>
                     </div>
 
-
-                    <h4>
-                        RO Plant UV Systems
-                    </h4>
-
-
-                    <p>
-
-                        UV disinfection systems for
-                        integration with suitable
-                        reverse osmosis plants.
-
-                    </p>
-
+                    <h4>RO Plant UV Systems</h4>
+                    <p>UV disinfection systems for integration with suitable reverse osmosis plants.</p>
                 </div>
-
             </div>
 
-
             <!-- DRINKING WATER -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="solution-card">
-
                     <div class="solution-icon">
                         <i class="bi bi-cup-straw"></i>
                     </div>
 
-
-                    <h4>
-                        Drinking Water UV Systems
-                    </h4>
-
-
-                    <p>
-
-                        Ultraviolet disinfection solutions
-                        for suitable drinking water
-                        treatment requirements.
-
-                    </p>
-
+                    <h4>Drinking Water UV Systems</h4>
+                    <p>Ultraviolet disinfection solutions for suitable drinking water treatment requirements.</p>
                 </div>
-
             </div>
 
-
             <!-- PROCESS WATER -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="solution-card">
-
                     <div class="solution-icon">
                         <i class="bi bi-droplet"></i>
                     </div>
 
-
-                    <h4>
-                        Process Water UV Systems
-                    </h4>
-
-
-                    <p>
-
-                        UV treatment configurations
-                        for suitable industrial and
-                        commercial process water.
-
-                    </p>
-
+                    <h4>Process Water UV Systems</h4>
+                    <p>UV treatment configurations for suitable industrial and commercial process water.</p>
                 </div>
-
             </div>
 
-
             <!-- CUSTOMIZED UV -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="solution-card">
-
                     <div class="solution-icon">
                         <i class="bi bi-sliders"></i>
                     </div>
 
-
-                    <h4>
-                        Customized UV Solutions
-                    </h4>
-
-
-                    <p>
-
-                        UV system configurations
-                        selected according to project
-                        flow rate and treatment
-                        requirements.
-
-                    </p>
-
+                    <h4>Customized UV Solutions</h4>
+                    <p>UV system configurations selected according to project flow rate and treatment requirements.</p>
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     UV TREATMENT PROCESS
-========================================================= -->
-
+<!-- UV TREATMENT PROCESS -->
 <section class="section-space process-section">
-
     <div class="container">
-
-
         <div class="text-center mb-5">
+            <span class="section-label">UV TREATMENT PROCESS</span>
 
-            <span class="section-label">
-                UV TREATMENT PROCESS
-            </span>
-
-
-            <h2 class="section-title">
-                How UV Water Disinfection Works
-            </h2>
-
-
-            <p class="section-text mx-auto"
-               style="max-width:760px;">
-
+            <h2 class="section-title">How UV Water Disinfection Works</h2>
+            <p class="section-text mx-auto" style="max-width:760px;">
                 UV water treatment uses ultraviolet
                 radiation to inactivate microorganisms
                 as water flows through a specially
                 designed disinfection chamber.
-
             </p>
-
         </div>
 
-
         <div class="row g-4">
-
-
             <!-- STEP 1 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="process-card">
-
                     <div class="process-number">
                         01
                     </div>
 
-
-                    <h5>
-                        Water Pre-Treatment
-                    </h5>
-
-
-                    <p>
-
-                        Water is suitably filtered
-                        to reduce suspended particles
-                        and improve UV transmission.
-
-                    </p>
-
+                    <h5>Water Pre-Treatment</h5>
+                    <p>Water is suitably filtered to reduce suspended particles and improve UV transmission.</p>
                 </div>
-
             </div>
 
-
             <!-- STEP 2 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="process-card">
-
                     <div class="process-number">
                         02
                     </div>
 
-
-                    <h5>
-                        UV Exposure
-                    </h5>
-
-
-                    <p>
-
-                        Water passes through the UV
-                        reactor chamber and is exposed
-                        to UV-C radiation.
-
-                    </p>
-
+                    <h5>UV Exposure</h5>
+                    <p>Water passes through the UV reactor chamber and is exposed to UV-C radiation.</p>
                 </div>
-
             </div>
 
-
             <!-- STEP 3 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="process-card">
-
                     <div class="process-number">
                         03
                     </div>
 
-
-                    <h5>
-                        Microorganism Inactivation
-                    </h5>
-
-
+                    <h5>Microorganism Inactivation</h5>
                     <p>
-
                         UV-C radiation damages the
                         genetic material of susceptible
                         microorganisms, preventing
                         their replication.
-
                     </p>
-
                 </div>
-
             </div>
 
-
             <!-- STEP 4 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="process-card">
-
                     <div class="process-number">
                         04
                     </div>
 
-
-                    <h5>
-                        Treated Water
-                    </h5>
-
-
-                    <p>
-
-                        Disinfected water moves to
-                        the next treatment stage
-                        or point of use.
-
-                    </p>
-
+                    <h5>Treated Water</h5>
+                    <p>Disinfected water moves to the next treatment stage or point of use.</p>
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     UV SYSTEM REQUIREMENTS
-========================================================= -->
-
+<!-- UV SYSTEM REQUIREMENTS -->
 <section class="section-space">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
-
-
             <div class="col-lg-6">
+                <span class="section-label">SYSTEM SELECTION</span>
 
-                <span class="section-label">
-                    SYSTEM SELECTION
-                </span>
-
-
-                <h2 class="section-title">
-
-                    Selecting the Right
-                    UV Disinfection System
-
-                </h2>
-
-
+                <h2 class="section-title">Selecting the Right UV Disinfection System</h2>
                 <p class="section-text">
-
                     Proper UV system selection is
                     important for achieving the required
                     disinfection performance. The system
                     should be designed based on the
                     actual water characteristics and
                     operating requirements.
-
                 </p>
 
-
                 <ul class="requirement-list mt-4">
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Required water flow rate</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Water quality and UV transmittance</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Required UV disinfection dose</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Operating pressure and temperature</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Installation and piping requirements</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>UV lamp and quartz sleeve maintenance</span>
-                    </li>
-
-
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Monitoring and control requirements</span>
-                    </li>
-
-
+                    <li><i class="bi bi-check-circle-fill"></i><span>Required water flow rate</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Water quality and UV transmittance</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Required UV disinfection dose</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Operating pressure and temperature</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Installation and piping requirements</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>UV lamp and quartz sleeve maintenance</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Monitoring and control requirements</span></li>
                 </ul>
-
             </div>
 
-
             <div class="col-lg-6">
-
                 <div class="intro-card">
-
                     <div class="intro-icon">
                         <i class="bi bi-clipboard-check"></i>
                     </div>
 
-
-                    <h4>
-                        Customized UV System Design
-                    </h4>
-
-
+                    <h4>Customized UV System Design</h4>
                     <p>
-
                         Sandor Tescon Aqua considers
                         application requirements, water
                         quality, flow rate and installation
                         conditions when identifying a
                         suitable UV treatment configuration.
-
                     </p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     CTA
-========================================================= -->
-
+<!-- CTA -->
 <section class="section-space">
-
     <div class="container">
-
         <div class="water-cta">
 
-
-            <h2>
-                Looking for a Reliable UV System?
-            </h2>
-
-
+            <h2>Looking for a Reliable UV System?</h2>
             <p>
-
                 Share your water treatment application,
                 required flow rate, water quality and
                 project requirements with us. Our team
                 can help identify a suitable UV
                 disinfection solution for your
                 application.
-
             </p>
 
-
-            <a href="../contact.html"
-               class="btn btn-light">
-
-                Discuss Your Requirement
-
-                <i class="bi bi-arrow-right ms-2"></i>
-
-            </a>
-
-
+            <a href="../contact.html" class="btn btn-light">Discuss Your Requirement<i class="bi bi-arrow-right ms-2"></i></a>
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
+<!-- FOOTER -->
 <footer class="footer-section">
-
     <div class="container">
-
         <div class="row g-4">
 
-
             <!-- COMPANY -->
-
             <div class="col-lg-4">
-
-                <img
-                    src="../Assets/Images/logo.png"
-                    alt="Sandor Tescon Aqua"
-                    class="footer-logo">
-
+                <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo">
 
                 <p>
-
                     Sandor Tescon Aqua provides water
                     treatment, wastewater treatment and
                     customized water treatment solutions
                     for commercial and industrial
                     applications.
-
                 </p>
-
             </div>
-
 
             <!-- QUICK LINKS -->
-
             <div class="col-lg-3">
-
-                <h5>
-                    Quick Links
-                </h5>
-
+                <h5>Quick Links</h5>
 
                 <ul class="footer-links">
-
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="../about.html">About</a>
-                    </li>
-
-                    <li>
-                        <a href="../industries.html">Industries</a>
-                    </li>
-
-                    <li>
-                        <a href="../projects.html">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="../faq.html">FAQ</a>
-                    </li>
-
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../industries.html">Industries</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../faq.html">FAQ</a></li>
                 </ul>
-
             </div>
-
 
             <!-- CONTACT -->
-
             <div class="col-lg-3">
-
-                <h5>
-                    Contact Us
-                </h5>
-
-
-                <p class="footer-contact">
-
-                    <i class="bi bi-envelope"></i>
-
-                    sales.tesconaqua@gmail.com
-
-                </p>
-
-
-                <p class="footer-contact">
-
-                    <i class="bi bi-telephone"></i>
-
-                    +91 96761 11136
-
-                </p>
-
+                <h5>Contact Us</h5>
+                <p class="footer-contact"><i class="bi bi-envelope"></i>sales.tesconaqua@gmail.com</p>
+                <p class="footer-contact"><i class="bi bi-telephone"></i>+91 96761 11136</p>
             </div>
-
-
         </div>
-
 
         <hr>
 
-
         <div class="copyright">
-
-            <p>
-
-                © 2026 Sandor Tescon Aqua.
-                All Rights Reserved.
-
-            </p>
-
+            <p>© 2026 Sandor Tescon Aqua. All Rights Reserved.</p>
         </div>
-
     </div>
-
 </footer>
 
-
-<!-- =========================================================
-     BOOTSTRAP JS
-========================================================= -->
-
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
-
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
