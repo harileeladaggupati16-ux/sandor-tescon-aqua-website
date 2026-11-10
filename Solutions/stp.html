@@ -29,11 +29,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="../Assets/CSS/style.css"> -->
-    
     <style>   
-
     /* MODERN SEWAGE TREATMENT PLANT CSS */
     body{
         font-family:"Inter", sans-serif;
@@ -42,12 +38,7 @@
         line-height:1.7;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6{
+    h1,h2,h3,h4,h5,h6{
         font-family:"Poppins", sans-serif;
         font-weight:600;
         color:#12344d;
@@ -57,523 +48,371 @@
         color:#5f6f7d;
     }
 
-    /* TOP BAR */
-    .top-bar{
-        background:#073b5c;
+    /* STP PAGE HERO */
+   .page-hero{
+        position:relative;
+        min-height:430px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        overflow:hidden;
+        background:linear-gradient(135deg, rgba(4, 47, 69, 0.94), rgba(0, 126, 155, 0.84)),
+            url("../Images/stp.jpg") center/cover no-repeat;
+    }
+
+    .page-hero::before{
+        content:"";
+        position:absolute;
+        width:500px;
+        height:500px;
+        border-radius:50%;
+        background:rgba(255, 255, 255, 0.06);
+        right:-180px;
+        top:-220px;
+    }
+
+    .page-hero::after{
+        content:"";
+        position:absolute;
+        width:350px;
+        height:350px;
+        border-radius:50%;
+        background:rgba(255, 255, 255, 0.05);
+        left:-160px;
+        bottom:-200px;
+    }
+
+    .page-hero .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .page-hero h1{
         color:#ffffff;
-        font-size:14px;
-        padding:9px 0;
+        font-size:clamp(38px, 5vw, 64px);
+        font-weight:700;
+        letter-spacing:-1px;
+        margin-bottom:20px;
     }
 
-    .top-bar i{
-        margin-right:7px;
+    .page-hero p{
+        max-width:760px;
+        margin:auto;
+        color:rgba(255, 255, 255, 0.90);
+        font-size:18px;
     }
 
-    /* NAVBAR */
-    .main-navbar{
-        background:rgba(255, 255, 255, 0.97);
-        border-bottom:1px solid #e8eef2;
-        box-shadow:0 5px 25px rgba(12, 54, 77, 0.07);
-        padding:10px 0;
+    /* SECTION SPACING */
+    section.py-5{
+        padding-top:90px !important;
+        padding-bottom:90px !important;
     }
 
-    .logo{
-        max-height:58px;
-        width:auto;
+    /* SECTION HEADINGS */
+    section h2{
+        font-size:36px;
+        font-weight:700;
+        margin-bottom:18px;
+        letter-spacing:-0.5px;
     }
 
-    .navbar-nav .nav-link{
-        color:#163f58;
-        font-weight:500;
+    section h2::after{
+        content:"";
+        display:block;
+        width:55px;
+        height:4px;
+        border-radius:10px;
+        background:linear-gradient(90deg, #008ca8, #4dc9d7);
+        margin-top:15px;
+    }
+
+    .text-center h2::after{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    /* INTRODUCTION IMAGE */
+    .py-5 img.img-fluid{
+        transition:transform 0.5s ease;
+    }
+
+    .py-5 img.img-fluid:hover{
+        transform:scale(1.02);
+    }
+
+    /* STP INTRODUCTION */
+    .py-5 .rounded.shadow{
+        border-radius:22px !important;
+        box-shadow:0 18px 45px rgba(14, 58, 78, 0.14) !important;
+    }
+
+    .col-lg-6 h2{
+        line-height:1.25;
+    }
+
+    .col-lg-6 p{
+        font-size:16px;
+        margin-bottom:16px;
+    }
+
+    /* LIGHT BACKGROUND SECTIONS */
+    .bg-light{
+        background:linear-gradient(180deg, #f4fbfd 0%, #ffffff 100%) !important;
+    }
+
+    /* FEATURE CARDS */
+    .card{
+        border-radius:20px !important;
+        overflow:hidden;
+        background:#ffffff;
+        transition:
+            transform 0.35s ease,
+            box-shadow 0.35s ease;
+    }
+
+    .card:hover{
+        transform:translateY(-8px);
+        box-shadow:0 18px 40px rgba(10, 68, 90, 0.13) !important;
+    }
+
+    .card h4,
+    .card h5{
+        color:#123e57;
+        font-weight:600;
+    }
+
+    .card p{
         font-size:15px;
-        padding:10px 14px !important;
-        transition:all 0.3s ease;
+        margin-bottom:0;
     }
 
-    .navbar-nav .nav-link:hover,
-    .navbar-nav .nav-link.active{
+
+    /* ICONS */
+    .fs-1{
+        color:#008ca8 !important;
+    }
+
+    .card .bi{
+        display:inline-flex;
+        width:70px;
+        height:70px;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #e5f8fb, #f2fcfd);
+    }
+
+    /* TREATMENT PROCESS */
+    .py-5 .text-center h5{
+        margin-top:18px;
+        font-size:18px;
+    }
+
+    .py-5 .text-center > .mb-3 .bi{
+        width:78px;
+        height:78px;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        background:#eaf8fa;
         color:#008ca8;
+        box-shadow:0 8px 25px rgba(0, 140, 168, 0.10);
     }
 
-    .dropdown-menu{
-        border:none;
-        border-radius:12px;
-        padding:10px;
-        box-shadow:0 15px 40px rgba(14, 55, 77, 0.12);
+    .py-5 .text-center > .mb-3 .bi:hover{
+        background:#008ca8;
+        color:#ffffff;
     }
 
-    .dropdown-item{
-        border-radius:8px;
-        padding:10px 14px;
-        color:#29485b;
-        transition:all 0.25s ease;
+    /* APPLICATION CARDS */
+    .bg-light .card{
+        min-height:260px;
     }
 
-    .dropdown-item:hover,
-    .dropdown-item.active{
-        background:#e9f8fb;
-        color:#008ca8;
+    .bg-light .card-body{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
     }
 
-    /* QUOTE BUTTON */
-    .quote-btn{
+    .bg-light .card h5{
+        font-size:19px;
+    }
+
+    .bg-light .card p{
+        margin-top:8px;
+    }
+
+    /* CTA SECTION */
+    .py-5 .btn-primary{
         background:linear-gradient(135deg, #008ca8, #006f91);
         border:none;
         border-radius:30px;
-        padding:10px 22px !important;
-        color:#ffffff !important;
+        padding:13px 30px;
         font-weight:600;
-        box-shadow:0 7px 18px rgba(0, 140, 168, 0.22);
+        box-shadow:0 10px 25px rgba(0, 140, 168, 0.20);
         transition:all 0.3s ease;
     }
 
-    .quote-btn:hover{
-        transform:translateY(-2px);
-        box-shadow:0 10px 25px rgba(0, 140, 168, 0.30);
+    .py-5 .btn-primary:hover{
+        transform:translateY(-3px);
+        box-shadow:0 15px 30px rgba(0, 140, 168, 0.28);
     }
 
-    /* STP PAGE HERO */
-   .page-hero{
-    position:relative;
-    min-height:430px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    overflow:hidden;
-    background:linear-gradient(135deg, rgba(4, 47, 69, 0.94), rgba(0, 126, 155, 0.84)),
-        url("../Images/stp.jpg") center/cover no-repeat;
-}
-
-.page-hero::before{
-    content:"";
-    position:absolute;
-    width:500px;
-    height:500px;
-    border-radius:50%;
-    background:rgba(255, 255, 255, 0.06);
-    right:-180px;
-    top:-220px;
-}
-
-.page-hero::after{
-    content:"";
-    position:absolute;
-    width:350px;
-    height:350px;
-    border-radius:50%;
-    background:rgba(255, 255, 255, 0.05);
-    left:-160px;
-    bottom:-200px;
-}
-
-.page-hero .container{
-    position:relative;
-    z-index:2;
-}
-
-.page-hero h1{
-    color:#ffffff;
-    font-size:clamp(38px, 5vw, 64px);
-    font-weight:700;
-    letter-spacing:-1px;
-    margin-bottom:20px;
-}
-
-.page-hero p{
-    max-width:760px;
-    margin:auto;
-    color:rgba(255, 255, 255, 0.90);
-    font-size:18px;
-}
-
-/* SECTION SPACING */
-section.py-5{
-    padding-top:90px !important;
-    padding-bottom:90px !important;
-}
-
-/* SECTION HEADINGS */
-section h2{
-    font-size:36px;
-    font-weight:700;
-    margin-bottom:18px;
-    letter-spacing:-0.5px;
-}
-
-section h2::after{
-    content:"";
-    display:block;
-    width:55px;
-    height:4px;
-    border-radius:10px;
-    background:linear-gradient(90deg, #008ca8, #4dc9d7);
-    margin-top:15px;
-}
-
-.text-center h2::after{
-    margin-left:auto;
-    margin-right:auto;
-}
-
-/* INTRODUCTION IMAGE */
-.py-5 img.img-fluid{
-    transition:transform 0.5s ease;
-}
-
-.py-5 img.img-fluid:hover{
-    transform:scale(1.02);
-}
-
-/* STP INTRODUCTION */
-.py-5 .rounded.shadow{
-    border-radius:22px !important;
-    box-shadow:0 18px 45px rgba(14, 58, 78, 0.14) !important;
-}
-
-.col-lg-6 h2{
-    line-height:1.25;
-}
-
-.col-lg-6 p{
-    font-size:16px;
-    margin-bottom:16px;
-}
-
-/* LIGHT BACKGROUND SECTIONS */
-.bg-light{
-    background:linear-gradient(180deg, #f4fbfd 0%, #ffffff 100%) !important;
-}
-
-/* FEATURE CARDS */
-.card{
-    border-radius:20px !important;
-    overflow:hidden;
-    background:#ffffff;
-    transition:
-        transform 0.35s ease,
-        box-shadow 0.35s ease;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 40px rgba(10, 68, 90, 0.13) !important;
-}
-
-.card h4,
-.card h5{
-    color:#123e57;
-    font-weight:600;
-}
-
-.card p{
-    font-size:15px;
-    margin-bottom:0;
-}
-
-
-/* ICONS */
-.fs-1{
-    color:#008ca8 !important;
-}
-
-.card .bi{
-    display:inline-flex;
-    width:70px;
-    height:70px;
-    align-items:center;
-    justify-content:center;
-    border-radius:18px;
-    background:linear-gradient(135deg, #e5f8fb, #f2fcfd);
-}
-
-/* TREATMENT PROCESS */
-.py-5 .text-center h5{
-    margin-top:18px;
-    font-size:18px;
-}
-
-.py-5 .text-center > .mb-3 .bi{
-    width:78px;
-    height:78px;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    border-radius:50%;
-    background:#eaf8fa;
-    color:#008ca8;
-    box-shadow:0 8px 25px rgba(0, 140, 168, 0.10);
-}
-
-.py-5 .text-center > .mb-3 .bi:hover{
-    background:#008ca8;
-    color:#ffffff;
-}
-
-/* APPLICATION CARDS */
-.bg-light .card{
-    min-height:260px;
-}
-
-.bg-light .card-body{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-.bg-light .card h5{
-    font-size:19px;
-}
-
-.bg-light .card p{
-    margin-top:8px;
-}
-
-/* CTA SECTION */
-.py-5 .btn-primary{
-    background:linear-gradient(135deg, #008ca8, #006f91);
-    border:none;
-    border-radius:30px;
-    padding:13px 30px;
-    font-weight:600;
-    box-shadow:0 10px 25px rgba(0, 140, 168, 0.20);
-    transition:all 0.3s ease;
-}
-
-.py-5 .btn-primary:hover{
-    transform:translateY(-3px);
-    box-shadow:0 15px 30px rgba(0, 140, 168, 0.28);
-}
-
-/* FOOTER */
-.footer-section{
-    background:#082f45;
-    color:#ffffff;
-    padding:65px 0 25px;
-}
-
-.footer-section p{
-    color:rgba(255, 255, 255, 0.72);
-}
-
-.footer-section h5{
-    color:#ffffff;
-    font-size:18px;
-    margin-bottom:20px;
-}
-
-.footer-logo{
-    max-width:180px;
-    height:auto;
-}
-
-.footer-section ul li{
-    margin-bottom:9px;
-}
-
-.footer-section a{
-    color:rgba(255, 255, 255, 0.75);
-    text-decoration:none;
-    transition:all 0.25s ease;
-}
-
-.footer-section a:hover{
-    color:#58d1df;
-    padding-left:4px;
-}
-
-.footer-section hr{
-    border-color:rgba(255, 255, 255, 0.12);
-    margin:40px 0 20px;
-}
-
-.footer-section .btn{
-    border-radius:25px;
-}
-
-/* MOBILE NAVIGATION */
-.navbar-toggler{
-    border:none;
-    box-shadow:none !important;
-}
-
-.navbar-toggler:focus{
-    box-shadow:none;
-}
-
-@media (max-width:991px){
-
-    .navbar-nav{
-        padding-top:15px;
-    }
-
-    .navbar-nav .nav-link{
-        padding:10px 5px !important;
-    }
-
-    .quote-btn{
-        display:inline-block;
-        margin-top:10px;
-    }
-
-}
-
-/* TABLET */
-@media (max-width:768px){
-
-    .top-bar{
-        font-size:12px;
-    }
-
-    .page-hero{
-        min-height:360px;
-        padding:70px 20px;
-    }
-
-    .page-hero h1{
-        font-size:40px;
-    }
-
-    .page-hero p{
-        font-size:16px;
-    }
-
-    section.py-5{
-        padding-top:65px !important;
-        padding-bottom:65px !important;
-    }
-
-    section h2{
-        font-size:30px;
-    }
-
-}
-
-/* MOBILE */
-@media (max-width:576px){
-
-    .top-bar .container > .d-flex{
-        flex-direction:column;
-        gap:5px;
-        text-align:center;
-    }
-
-    .logo{
-        max-height:48px;
-    }
-
-    .page-hero{
-        min-height:330px;
-    }
-
-    .page-hero h1{
-        font-size:32px;
-    }
-
-    .page-hero p{
-        font-size:15px;
-    }
-
-    section.py-5{
-        padding-top:55px !important;
-        padding-bottom:55px !important;
-    }
-
-    section h2{
-        font-size:27px;
-    }
-
-    .card{
-        border-radius:16px !important;
-    }
-
+    /* FOOTER */
     .footer-section{
-        padding-top:50px;
+        background:#082f45;
+        color:#ffffff;
+        padding:65px 0 25px;
     }
 
-}
+    .footer-section p{
+        color:rgba(255, 255, 255, 0.72);
+    }
+
+    .footer-section h5{
+        color:#ffffff;
+        font-size:18px;
+        margin-bottom:20px;
+    }
+
+    .footer-logo{
+        max-width:180px;
+        height:auto;
+    }
+
+    .footer-section ul li{
+        margin-bottom:9px;
+    }
+
+    .footer-section a{
+        color:rgba(255, 255, 255, 0.75);
+        text-decoration:none;
+        transition:all 0.25s ease;
+    }
+
+    .footer-section a:hover{
+        color:#58d1df;
+        padding-left:4px;
+    }
+
+    .footer-section hr{
+        border-color:rgba(255, 255, 255, 0.12);
+        margin:40px 0 20px;
+    }
+
+    .footer-section .btn{
+        border-radius:25px;
+    }
+
+    /* MOBILE NAVIGATION */
+    .navbar-toggler{
+        border:none;
+        box-shadow:none !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow:none;
+    }
+
+    @media (max-width:991px){
+
+        .navbar-nav{
+            padding-top:15px;
+        }
+
+        .navbar-nav .nav-link{
+            padding:10px 5px !important;
+        }
+
+        .quote-btn{
+            display:inline-block;
+            margin-top:10px;
+        }
+
+    }
+
+    /* TABLET */
+    @media (max-width:768px){
+
+        .top-bar{
+            font-size:12px;
+        }
+
+        .page-hero{
+            min-height:360px;
+            padding:70px 20px;
+        }
+
+        .page-hero h1{
+            font-size:40px;
+        }
+
+        .page-hero p{
+            font-size:16px;
+        }
+
+        section.py-5{
+            padding-top:65px !important;
+            padding-bottom:65px !important;
+        }
+
+        section h2{
+            font-size:30px;
+        }
+
+    }
+
+    /* MOBILE */
+    @media (max-width:576px){
+
+        .top-bar .container > .d-flex{
+            flex-direction:column;
+            gap:5px;
+            text-align:center;
+        }
+
+        .logo{
+            max-height:48px;
+        }
+
+        .page-hero{
+            min-height:330px;
+        }
+
+        .page-hero h1{
+            font-size:32px;
+        }
+
+        .page-hero p{
+            font-size:15px;
+        }
+
+        section.py-5{
+            padding-top:55px !important;
+            padding-bottom:55px !important;
+        }
+
+        section h2{
+            font-size:27px;
+        }
+
+        .card{
+            border-radius:16px !important;
+        }
+
+        .footer-section{
+            padding-top:50px;
+        }
+
+    }
     </style>    
 </head>
 
 <body>
-
-<!-- TOP BAR -->
-<div class="top-bar">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <div>
-                <i class="bi bi-envelope"></i>
-                sales.tesconaqua@gmail.com
-            </div>
-
-            <div>
-                <i class="bi bi-telephone"></i>
-                +91 96761 11136
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- NAVIGATION BAR -->
-<nav class="navbar navbar-expand-lg main-navbar sticky-top">
-    <div class="container">
-
-        <!-- Logo -->
-        <a class="navbar-brand" href="../index.html">
-            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo">
-        </a>
-
-        <!-- Mobile Menu Button -->
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainNavigation"
-            aria-controls="mainNavigation"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navigation -->
-        <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
-
-                <!-- SOLUTIONS -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="ro-systems.html">RO Systems</a></li>
-                        <li><a class="dropdown-item active" href="stp.html">Sewage Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="etp.html">Effluent Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="filtration.html">Filtration Systems</a></li>
-                        <li><a class="dropdown-item" href="wastewater-treatment.html">Wastewater Treatment</a></li>
-                    </ul>
-                </li>
-
-                <!-- PRODUCTS -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
-
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../Products/ro-plants.html">RO Plants</a></li>
-                        <li><a class="dropdown-item" href="../Products/uv-systems.html">UV Systems</a></li>
-                        <li><a class="dropdown-item" href="../Products/ozone-systems.html">Ozone Systems</a></li>
-                        <li><a class="dropdown-item" href="../Products/filters.html">Water Filters</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item"><a class="nav-link" href="../industries.html">Industries</a></li>
-                <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="../faq.html">FAQ</a></li>
-
-                <!-- CONTACT BUTTON -->
-                <li class="nav-item ms-lg-3"><a class="btn btn-primary quote-btn" href="../contact.html">Get a Quote</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<!-- NAVBAR LOAD -->
+<div id="navbar-container"></div>
 
 <!-- PAGE HERO -->
 <section class="page-hero">
@@ -787,53 +626,14 @@ section h2::after{
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row g-4">
-            
-            <!-- COMPANY -->
-            <div class="col-lg-4">
-                <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo mb-3">
-                <p>
-                    Sandor Tescon Aqua provides water treatment,
-                    wastewater treatment and customized water
-                    treatment solutions for commercial and
-                    industrial applications.
-                </p>
-            </div>
-            
-            <!-- SOLUTIONS -->
-            <div class="col-lg-4">
-                <h5>Solutions</h5>
-                <ul class="list-unstyled">
-                    <li><a href="ro-systems.html">RO Systems</a></li>
-                    <li><a href="stp.html">Sewage Treatment Plants</a></li>
-                    <li><a href="etp.html">Effluent Treatment Plants</a></li>
-                    <li><a href="filtration.html">Filtration Systems</a></li>
-                    <li><a href="wastewater-treatment.html">Wastewater Treatment</a></li>
-                </ul>
-            </div>
-
-            <!-- CONTACT -->
-            <div class="col-lg-4">
-                <h5>Contact Us</h5>
-                <p><i class="bi bi-envelope"></i>sales.tesconaqua@gmail.com</p>
-                <p><i class="bi bi-telephone"></i>+91 96761 11136</p>
-
-                <a href="../contact.html" class="btn btn-primary">Contact Us</a>
-            </div>
-        </div>
-        <hr>
-
-        <div class="text-center">
-            <p class="mb-0">© 2026 Sandor Tescon Aqua. All Rights Reserved.</p>
-        </div>
-    </div>
-</footer>
+<!-- FOOTER LOAD -->
+<div id="footer-container"></div>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Common Navbar and Footer -->
+<script src="/Assets/JS/include.js"></script>
 
 </body>
 </html>

@@ -174,7 +174,7 @@
     .hero-btn-outline{
         color:#ffffff;
         border:1px solid rgba(255,255,255,0.35);
-        background: rgba(255,255,255,0.06);
+        background:rgba(255,255,255,0.06);
     }
 
     .hero-btn-outline:hover{
@@ -200,6 +200,7 @@
 
     /* RESPONSIVE */
     @media (max-width:991px){
+        
         .page-hero{
             padding:65px 0;
         }
@@ -210,7 +211,7 @@
 
     }
 
-    @media (max-width: 576px){
+    @media (max-width:576px){
 
         .page-hero{
             padding:50px 0;
@@ -836,92 +837,9 @@
 </head>
 
 <body>
-<!-- TOP BAR -->
-<div class="top-bar">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <div>
-                <i class="bi bi-envelope"></i>
-                sales.tesconaqua@gmail.com
-            </div>
 
-            <div>
-                <i class="bi bi-telephone"></i>
-                +91 96761 11136
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- NAVIGATION -->
-<nav class="navbar navbar-expand-lg main-navbar sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo">
-        </a>
-
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainNavigation"
-            aria-controls="mainNavigation"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
-
-                <!-- Applications -->
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Applications</a>
-                    <ul class="dropdown-menu">
-                        <!-- <li><a class="dropdown-item" href="Applications/commercial.html">Commercial Applications</a></li>
-                        <li><a class="dropdown-item" href="Applications/industrial.html">Industrial Applications</a></li> -->
-                        <li><a class="dropdown-item" href="../Applications/packaged-drinking-water-plant.html">Packaged Drinking Water Plant</a></li>
-                        <li><a class="dropdown-item" href="../Applications/dialysis-ro-plant.html">Dialysis RO Plant</a></li>
-                        <li><a class="dropdown-item" href="../Applications/industrial-ro-plant.html">Industrial RO Plant</a></li>
-                        <li><a class="dropdown-item" href="../Applications/water-softener.html">Water Softener</a></li>
-                        <li><a class="dropdown-item" href="../Applications/ozone-generators.html">Ozone Generator</a></li>
-                        <li><a class="dropdown-item" href="../Applications/uv-systems.html">UV Systems</a></li>
-                    </ul>
-                </li>
-
-                <!-- SOLUTIONS -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
-
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../Solutions/ro-systems.html">RO Systems</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/stp.html">Sewage Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/etp.html">Effluent Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/filtration.html">Filtration Systems</a></li>
-                    </ul>
-                </li>
-
-                <!-- PRODUCTS -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="ro-plants.html">RO Plants</a></li>
-                        <li><a class="dropdown-item" href="packaged-drinking-water-plant.html">Packaged Drinking Water Plants</a></li>
-                        <li><a class="dropdown-item" href="dialysis-ro-plant.html">Dialysis RO Plants</a></li>
-                        <li><a class="dropdown-item active" href="ozone-generators.html">Ozone Generators</a></li>
-                        <li><a class="dropdown-item" href="filters.html">Water Filters</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item"><a class="nav-link" href="../industries.html">Industries</a></li>
-                <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="../faq.html">FAQ</a></li>
-                <li class="nav-item ms-lg-3"><a class="btn btn-primary quote-btn" href="../contact.html">Get a Quote</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<!-- NAVBAR LOAD -->
+<div id="navbar-container"></div>
 
 <!-- HERO -->
 <section class="page-hero">
@@ -1382,55 +1300,14 @@
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row g-4">
-
-            <!-- COMPANY -->
-            <div class="col-lg-4">
-                <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo">
-
-                <p>
-                    Sandor Tescon Aqua provides water
-                    treatment, wastewater treatment and
-                    customized water treatment solutions
-                    for commercial and industrial
-                    applications.
-                </p>
-            </div>
-
-            <!-- QUICK LINKS -->
-            <div class="col-lg-3">
-                <h5>Quick Links</h5>
-
-                <ul class="footer-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../industries.html">Industries</a></li>
-                    <li><a href="../projects.html">Projects</a></li>
-                    <li><a href="../faq.html">FAQ</a></li>
-                </ul>
-            </div>
-
-            <!-- CONTACT -->
-            <div class="col-lg-3">
-                <h5>Contact Us</h5>
-                <p class="footer-contact"><i class="bi bi-envelope"></i>sales.tesconaqua@gmail.com</p>
-                <p class="footer-contact"><i class="bi bi-telephone"></i>+91 96761 11136</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="copyright">
-            <p>© 2026 Sandor Tescon Aqua. All Rights Reserved.</p>
-        </div>
-    </div>
-</footer>
+<!-- FOOTER LOAD -->
+<div id="footer-container"></div>
 
 <!-- BOOTSTRAP JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Common Navbar and Footer -->
+<script src="/Assets/JS/include.js"></script>
 
 </body>
 </html>

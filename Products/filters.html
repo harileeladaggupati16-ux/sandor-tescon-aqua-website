@@ -724,83 +724,8 @@
 </head>
 
 <body>
-
-<!-- TOP BAR -->
-<div class="top-bar">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <div>
-                <i class="bi bi-envelope"></i>
-                sales.tesconaqua@gmail.com
-            </div>
-
-            <div>
-                <i class="bi bi-telephone"></i>
-                +91 96761 11136
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- NAVIGATION -->
-<nav class="navbar navbar-expand-lg main-navbar sticky-top">
-    <div class="container">
-
-        <!-- Logo -->
-        <a class="navbar-brand" href="../index.html">
-            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo"></a>
-
-        <!-- Mobile Menu -->
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainNavigation"
-            aria-controls="mainNavigation"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navigation -->
-        <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
-
-                <!-- SOLUTIONS -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../Solutions/ro-systems.html">RO Systems</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/stp.html">Sewage Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/etp.html">Effluent Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/filtration.html">Filtration Systems</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
-                    </ul>
-                </li>
-
-                <!-- PRODUCTS -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="ro-plants.html">RO Plants</a></li>
-                        <li><a class="dropdown-item" href="uv-systems.html">UV Systems</a></li>
-                        <li><a class="dropdown-item" href="ozone-systems.html">Ozone Systems</a></li>
-                        <li><a class="dropdown-item active" href="filters.html">Water Filters</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item"><a class="nav-link" href="../industries.html">Industries</a></li>
-                <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="../faq.html">FAQ</a></li>
-
-                <!-- QUOTE -->
-                <li class="nav-item ms-lg-3"><a class="btn btn-primary quote-btn" href="../contact.html">Get a Quote</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<!-- NAVBAR LOAD -->
+<div id="navbar-container"></div>
 
 <!-- HERO -->
 <section class="filter-hero">
@@ -1173,70 +1098,14 @@
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row g-4">
-
-            <!-- COMPANY -->
-            <div class="col-lg-4">
-                <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo mb-3">
-                <p>
-                    Sandor Tescon Aqua provides water treatment,
-                    wastewater treatment and customized water
-                    treatment solutions for commercial and
-                    industrial applications.
-                </p>
-            </div>
-
-            <!-- QUICK LINKS -->
-            <div class="col-lg-2">
-                <h5>Quick Links</h5>
-                <ul class="footer-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../industries.html">Industries</a></li>
-                    <li><a href="../projects.html">Projects</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- PRODUCTS -->
-            <div class="col-lg-3">
-                <h5>Products</h5>
-                <ul class="footer-links">
-                    <li><a href="ro-plants.html">RO Plants</a></li>
-                    <li><a href="uv-systems.html">UV Systems</a></li>
-                    <li><a href="ozone-systems.html">Ozone Systems</a></li>
-                    <li><a href="filters.html">Water Filters</a></li>
-                </ul>
-            </div>
-
-            <!-- CONTACT -->
-            <div class="col-lg-3">
-                <h5>Contact</h5>
-                <p><i class="bi bi-telephone me-2"></i>+91 96761 11136</p>
-                <p><i class="bi bi-envelope me-2"></i>sales.tesconaqua@gmail.com</p>
-                <p><i class="bi bi-geo-alt me-2"></i>Hyderabad, Telangana, India</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="text-center">
-            <p class="mb-0">© <span id="currentYear"></span>Sandor Tescon Aqua.All Rights Reserved.</p>
-        </div>
-    </div>
-</footer>
+<!-- FOOTER LOAD -->
+<div id="footer-container"></div>
 
 <!-- BOOTSTRAP JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- FOOTER YEAR -->
-<script>
-    document.getElementById("currentYear").textContent =
-        new Date().getFullYear();
-</script>
+<!-- Common Navbar and Footer -->
+<script src="/Assets/JS/include.js"></script>
 
 </body>
 </html>

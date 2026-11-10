@@ -28,11 +28,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="../Assets/CSS/style.css"> -->
-
     <style>
-    /* SANDOR TESCON AQUA MODERN WATER TREATMENT WEBSITE CSS */
+    /* WATER TREATMENT WEBSITE CSS */
     :root{
         --primary:#087fce;
         --primary-dark:#05649f;
@@ -81,169 +78,6 @@
     a{
         text-decoration:none;
         transition:all 0.3s ease;
-    }
-
-    /* TOP BAR */
-    .top-bar{
-        background:linear-gradient(90deg, #062f4f, #075f91);
-        color:#ffffff;
-        font-size:14px;
-        padding:8px 0;
-    }
-
-    .top-bar .container > .d-flex{
-        gap:20px;
-    }
-
-    .top-bar i{
-        margin-right:7px;
-        color:#72d6ff;
-    }
-
-    .top-bar div{
-        display:flex;
-        align-items:center;
-    }
-
-    /* NAVBAR */
-    .main-navbar{
-        background:rgba(255, 255, 255, 0.97);
-        padding:13px 0;
-        box-shadow:0 4px 25px rgba(0, 0, 0, 0.06);
-        backdrop-filter:blur(15px);
-        z-index:1000;
-    }
-
-    .navbar-brand{
-        display:flex;
-        align-items:center;
-        padding:0;
-        margin:0;
-    }
-
-    .logo{
-        display:block;
-        width:auto;
-        height:58px;
-        max-width:225px;
-        object-fit:contain;
-        background:transparent;
-        border:none;
-        outline:none;
-        box-shadow:none;
-    }
-
-    .navbar-nav{
-        gap:4px;
-    }
-
-    .navbar .nav-link{
-        color:#263b50;
-        font-size:15px;
-        font-weight:600;
-        padding:10px 13px !important;
-        position:relative;
-    }
-
-    .navbar .nav-link::after{
-        transition:all 0.3s ease;
-    }
-
-    .navbar .nav-link:hover,
-    .navbar .nav-link.active{
-        color:var(--primary);
-    }
-
-    .navbar .nav-link:not(.dropdown-toggle)::before{
-        content:"";
-        position:absolute;
-        left:13px;
-        right:13px;
-        bottom:4px;
-        height:2px;
-        background:var(--primary);
-        transform:scaleX(0);
-        transform-origin:center;
-        transition:transform 0.3s ease;
-    }
-
-    .navbar .nav-link:hover::before,
-    .navbar .nav-link.active::before{
-        transform:scaleX(1);
-    }
-
-    /* Dropdown */
-    .dropdown-menu{
-        border:none;
-        border-radius:14px;
-        padding:10px;
-        box-shadow:0 15px 45px rgba(0, 0, 0, 0.12);
-        margin-top:10px;
-    }
-
-    .dropdown-item{
-        border-radius:9px;
-        padding:10px 14px;
-        font-size:14px;
-        font-weight:500;
-        color:#34495e;
-    }
-
-    .dropdown-item:hover{
-        background:#eaf7ff;
-        color:var(--primary);
-    }
-
-    /* Mobile menu */
-    .navbar-toggler{
-        border:1px solid #d9e5ed;
-        padding:8px 10px;
-        border-radius:10px;
-    }
-
-    .navbar-toggler:focus{
-        box-shadow:none;
-    }
-
-    /* BUTTONS */
-    .btn{
-        font-family:"Poppins", sans-serif;
-        font-weight:600;
-        border-radius:10px;
-        padding:11px 22px;
-        transition:all 0.3s ease;
-    }
-
-    .btn-primary{
-        background:linear-gradient(135deg, var(--primary), var(--secondary));
-        border:none;
-        color:#ffffff;
-        box-shadow:0 8px 20px rgba(8, 127, 206, 0.20);
-    }
-
-    .btn-primary:hover{
-        background:linear-gradient(135deg, var(--primary-dark), #008fa8);
-        color:#ffffff;
-        transform:translateY(-2px);
-        box-shadow:0 12px 28px rgba(8, 127, 206, 0.28);
-    }
-
-    .btn-outline-primary{
-        border:1.5px solid var(--primary);
-        color:var(--primary);
-        background:#ffffff;
-    }
-
-    .btn-outline-primary:hover{
-        background:var(--primary);
-        border-color:var(--primary);
-        color:#ffffff;
-        transform:translateY(-2px);
-    }
-
-    .quote-btn{
-        padding:11px 22px !important;
-        border-radius:10px;
     }
 
     /* SECTION LABEL */
@@ -864,82 +698,8 @@
 </head>
 
 <body>
-
-<!-- TOP BAR -->
-<div class="top-bar">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <div>
-                <i class="bi bi-envelope"></i>
-                sales.tesconaqua@gmail.com
-            </div>
-
-            <div>
-                <i class="bi bi-telephone"></i>
-                +91 96761 11136
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- NAVIGATION BAR -->
-<nav class="navbar navbar-expand-lg main-navbar sticky-top">
-    <div class="container">
-
-        <!-- Logo -->
-        <a class="navbar-brand" href="../index.html">
-            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo">
-        </a>
-
-        <!-- Mobile Menu Button -->
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainNavigation"
-            aria-controls="mainNavigation"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navigation -->
-        <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
-
-                <!-- Solutions -->
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../Solutions/ro-systems.html"> RO Systems</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/stp.html">Sewage Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/etp.html">Effluent Treatment Plants</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/filtration.html">Filtration Systems</a></li>
-                        <li><a class="dropdown-item" href="../Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
-                    </ul>
-                </li>
-
-                <!-- Products -->
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="ro-plants.html">RO Plants</a></li>
-                        <li><a class="dropdown-item" href="uv-systems.html">UV Systems</a></li>
-                        <li><a class="dropdown-item" href="ozone-systems.html">Ozone Systems</a></li>
-                        <li><a class="dropdown-item" href="filters.html">Water Filters</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item"><a class="nav-link" href="../industries.html"> Industries</a></li>
-                <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="../faq.html">FAQ</a></li>
-
-                <!-- Contact Button -->
-                <li class="nav-item ms-lg-3"><a class="btn btn-primary quote-btn" href="../contact.html">Get a Quote</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<!-- NAVBAR LOAD -->
+<div id="navbar-container"></div>
 
 <!-- PAGE HERO -->
 <section class="product-hero">
@@ -1224,69 +984,14 @@
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="main-footer">
-    <div class="container">
-        <div class="row g-4">
-
-            <!-- Company -->
-            <div class="col-lg-4">
-                <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua" class="footer-logo">
-                <p>
-                    Water treatment and engineering solutions
-                    designed around application requirements
-                    and project needs.
-                </p>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="col-lg-2 col-md-4">
-                <h5>Quick Links</h5>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../projects.html">Projects</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Solutions -->
-            <div class="col-lg-3 col-md-4">
-                <h5>Solutions</h5>
-                <ul>
-                    <li><a href="../Solutions/ro-systems.html">RO Systems</a></li>
-                    <li><a href="../Solutions/stp.html">STP</a></li>
-                    <li><a href="../Solutions/etp.html">ETP</a></li>
-                    <li><a href="../Solutions/filtration.html">Filtration</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact -->
-            <div class="col-lg-3 col-md-4">
-                <h5>Contact</h5>
-                <ul class="footer-contact">
-                    <li><i class="bi bi-telephone"></i>+91 96761 11136</li> 
-                    <li><i class="bi bi-envelope"></i>sales.tesconaqua@gmail.com</li>
-                    <li><i class="bi bi-geo-alt"></i>Hyderabad, Telangana, India</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-            <p>© <span id="currentYear"></span>Sandor Tescon Aqua. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
+<!-- FOOTER LOAD -->
+<div id="footer-container"></div>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Current Year -->
-<script>
-    document.getElementById("currentYear").textContent =
-        new Date().getFullYear();
-</script>
+<!-- Common Navbar and Footer -->
+<script src="/Assets/JS/include.js"></script>
 
 </body>
 </html>

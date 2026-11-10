@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Commercial Water Treatment Applications | Sandor Tescon Aqua</title>
 
-    <meta name="description"
-        content="Sandor Tescon Aqua provides commercial water treatment solutions for hotels, offices, hospitals, residential communities, restaurants and other commercial facilities.">
-
-    <meta name="keywords"
-        content="commercial water treatment, commercial RO plant, commercial water filtration, commercial wastewater treatment, hotel water treatment, Sandor Tescon Aqua">
-
+    <meta name="description" content="Sandor Tescon Aqua provides commercial water treatment solutions for hotels, offices, hospitals, residential communities, restaurants and other commercial facilities.">
+    <meta name="keywords" content="commercial water treatment, commercial RO plant, commercial water filtration, commercial wastewater treatment, hotel water treatment, Sandor Tescon Aqua">
     <meta name="robots" content="index, follow">
 
     <!-- Canonical URL -->
@@ -22,867 +17,571 @@
     <link rel="icon" href="../Assets/Images/favicon.png">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../Assets/CSS/style.css">
-
-<style>
-
-/* =========================================================
-   MODERN COMMERCIAL APPLICATIONS PAGE
-========================================================= */
-
-:root {
-    --primary: #007f9b;
-    --primary-dark: #063b52;
-    --secondary: #00a6b8;
-    --dark: #102f40;
-    --text: #5d6d76;
-    --light: #f4f9fb;
-    --border: #e3edf1;
-    --white: #ffffff;
-}
-
-
-/* =========================================================
-   HERO
-========================================================= */
-
-.page-hero {
-    position: relative;
-    min-height: 560px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-
-    background:
-        linear-gradient(
-            110deg,
-            rgba(3, 42, 59, 0.96),
-            rgba(0, 103, 126, 0.88)
-        ),
-        url("../Assets/Images/commercial-water-treatment.jpg")
-        center / cover no-repeat;
-}
-
-
-/* Decorative glow */
-
-.page-hero::before {
-    content: "";
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background: rgba(0, 188, 212, 0.12);
-    top: -220px;
-    right: -100px;
-}
-
-.page-hero::after {
-    content: "";
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.12);
-    bottom: -180px;
-    left: -80px;
-}
-
-
-.page-hero .container {
-    position: relative;
-    z-index: 2;
-}
-
-
-.page-hero-content {
-    max-width: 850px;
-    padding: 80px 0;
-    color: #ffffff;
-}
-
-
-/* Small label */
-
-.page-hero-content .hero-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-
-    padding: 9px 16px;
-
-    border: 1px solid rgba(255,255,255,0.22);
-    border-radius: 50px;
-
-    background: rgba(255,255,255,0.08);
-    backdrop-filter: blur(10px);
-
-    color: #d8f9ff;
-
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    margin-bottom: 24px;
-}
-
-
-.page-hero-content .hero-label i {
-    font-size: 15px;
-}
-
-
-/* Hero heading */
-
-.page-hero-content h1 {
-    font-family: "Poppins", sans-serif;
-
-    font-size: clamp(42px, 6vw, 70px);
-    font-weight: 700;
-
-    line-height: 1.08;
-
-    letter-spacing: -1.5px;
-
-    max-width: 850px;
-
-    margin-bottom: 25px;
-    color:#fff;
-}
-
-
-.page-hero-content h1 span {
-    color: #70e7f2;
-}
-
-
-/* Hero paragraph */
-
-.page-hero-content p {
-    max-width: 720px;
-
-    font-size: 18px;
-    line-height: 1.8;
-
-    color: rgba(255,255,255,0.82);
-
-    margin-bottom: 35px;
-}
-
-
-/* Hero buttons */
-
-.hero-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-}
-
-
-.hero-btn-primary,
-.hero-btn-outline {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-    padding: 14px 24px;
-
-    border-radius: 10px;
-
-    font-weight: 600;
-
-    text-decoration: none;
-
-    transition: all 0.3s ease;
-}
-
-
-.hero-btn-primary {
-    background: #ffffff;
-    color: #063b52;
-}
-
-
-.hero-btn-primary:hover {
-    transform: translateY(-3px);
-    background: #e9fbff;
-    color: #063b52;
-}
-
-
-.hero-btn-outline {
-    color: #ffffff;
-    border: 1px solid rgba(255,255,255,0.35);
-    background: rgba(255,255,255,0.06);
-}
-
-
-.hero-btn-outline:hover {
-    transform: translateY(-3px);
-    background: rgba(255,255,255,0.14);
-    color: #ffffff;
-}
-
-
-/* =========================================================
-   COMMON SECTIONS
-========================================================= */
-
-.section-space {
-    padding: 100px 0;
-}
-
-
-.section-label {
-    display: inline-block;
-
-    color: var(--primary);
-
-    font-size: 12px;
-    font-weight: 700;
-
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    margin-bottom: 14px;
-}
-
-
-.section-title {
-    font-family: "Poppins", sans-serif;
-
-    color: var(--dark);
-
-    font-size: clamp(30px, 4vw, 46px);
-
-    font-weight: 700;
-
-    line-height: 1.18;
-
-    letter-spacing: -0.8px;
-
-    margin-bottom: 20px;
-}
-
-
-.section-text {
-    color: var(--text);
-
-    font-size: 16px;
-
-    line-height: 1.9;
-}
-
-
-/* =========================================================
-   INTRO SECTION
-========================================================= */
-
-.intro-section {
-    background: #ffffff;
-}
-
-
-.intro-card {
-    position: relative;
-
-    background: linear-gradient(
-        145deg,
-        #ffffff,
-        #f6fbfc
-    );
-
-    border: 1px solid var(--border);
-
-    border-radius: 24px;
-
-    padding: 42px;
-
-    height: 100%;
-
-    overflow: hidden;
-
-    transition: all 0.35s ease;
-}
-
-
-.intro-card::before {
-    content: "";
-
-    position: absolute;
-
-    width: 180px;
-    height: 180px;
-
-    border-radius: 50%;
-
-    background: rgba(0, 166, 184, 0.06);
-
-    right: -70px;
-    top: -70px;
-}
-
-
-.intro-card:hover {
-    transform: translateY(-6px);
-
-    border-color: #b8dfe7;
-
-    box-shadow:
-        0 20px 50px rgba(0, 70, 90, 0.09);
-}
-
-
-.intro-icon {
-    position: relative;
-
-    width: 68px;
-    height: 68px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 18px;
-
-    background: linear-gradient(
-        135deg,
-        #e2f8fb,
-        #f2fdff
-    );
-
-    color: var(--primary);
-
-    font-size: 29px;
-
-    margin-bottom: 25px;
-}
-
-
-.intro-card h3 {
-    position: relative;
-
-    font-family: "Poppins", sans-serif;
-
-    color: var(--dark);
-
-    font-size: 23px;
-
-    font-weight: 600;
-
-    margin-bottom: 15px;
-}
-
-
-.intro-card p {
-    position: relative;
-
-    color: var(--text);
-
-    line-height: 1.85;
-
-    margin-bottom: 0;
-}
-
-
-/* =========================================================
-   APPLICATION SECTION
-========================================================= */
-
-.applications-section {
-    background: var(--light);
-}
-
-
-.application-card {
-    position: relative;
-
-    height: 100%;
-
-    background: #ffffff;
-
-    border: 1px solid var(--border);
-
-    border-radius: 22px;
-
-    padding: 34px;
-
-    overflow: hidden;
-
-    transition:
-        transform 0.35s ease,
-        box-shadow 0.35s ease,
-        border-color 0.35s ease;
-}
-
-
-/* Top accent */
-
-.application-card::before {
-    content: "";
-
-    position: absolute;
-
-    left: 0;
-    top: 0;
-
-    width: 100%;
-    height: 3px;
-
-    background: linear-gradient(
-        90deg,
-        var(--primary),
-        var(--secondary)
-    );
-
-    transform: scaleX(0);
-
-    transform-origin: left;
-
-    transition: transform 0.35s ease;
-}
-
-
-.application-card:hover::before {
-    transform: scaleX(1);
-}
-
-
-.application-card:hover {
-    transform: translateY(-8px);
-
-    border-color: #c9e5eb;
-
-    box-shadow:
-        0 20px 45px rgba(13, 72, 91, 0.10);
-}
-
-
-.application-icon {
-    width: 62px;
-    height: 62px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 17px;
-
-    background: #eaf9fb;
-
-    color: var(--primary);
-
-    font-size: 27px;
-
-    margin-bottom: 24px;
-
-    transition: all 0.3s ease;
-}
-
-
-.application-card:hover .application-icon {
-    background: var(--primary);
-    color: #ffffff;
-
-    transform: scale(1.05);
-}
-
-
-.application-card h4 {
-    font-family: "Poppins", sans-serif;
-
-    color: var(--dark);
-
-    font-size: 20px;
-
-    font-weight: 600;
-
-    margin-bottom: 13px;
-}
-
-
-.application-card p {
-    color: var(--text);
-
-    font-size: 15px;
-
-    line-height: 1.8;
-
-    margin-bottom: 0;
-}
-
-
-/* =========================================================
-   REQUIREMENTS
-========================================================= */
-
-.requirements-section {
-    background: #ffffff;
-}
-
-
-.requirement-list {
-    list-style: none;
-
-    padding: 0;
-    margin: 0;
-}
-
-
-.requirement-list li {
-    display: flex;
-    align-items: flex-start;
-
-    gap: 14px;
-
-    padding: 15px 0;
-
-    border-bottom: 1px solid #edf2f4;
-
-    color: #566871;
-
-    line-height: 1.7;
-}
-
-
-.requirement-list li:last-child {
-    border-bottom: none;
-}
-
-
-.requirement-list i {
-    flex-shrink: 0;
-
-    width: 25px;
-    height: 25px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: #e7f8fa;
-
-    color: var(--primary);
-
-    font-size: 14px;
-
-    margin-top: 2px;
-}
-
-
-/* =========================================================
-   SOLUTIONS
-========================================================= */
-
-.solutions-section {
-    background: var(--light);
-}
-
-
-.solution-card {
-    position: relative;
-
-    height: 100%;
-
-    padding: 35px;
-
-    background: #ffffff;
-
-    border: 1px solid var(--border);
-
-    border-radius: 22px;
-
-    transition: all 0.35s ease;
-
-    overflow: hidden;
-}
-
-
-.solution-card:hover {
-    transform: translateY(-7px);
-
-    border-color: #b8dfe7;
-
-    box-shadow:
-        0 18px 45px rgba(13, 72, 91, 0.10);
-}
-
-
-.solution-icon {
-    width: 58px;
-    height: 58px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 16px;
-
-    background: #eaf8fa;
-
-    color: var(--primary);
-
-    font-size: 25px;
-
-    margin-bottom: 22px;
-}
-
-
-.solution-card h4 {
-    font-family: "Poppins", sans-serif;
-
-    color: var(--dark);
-
-    font-size: 20px;
-
-    font-weight: 600;
-
-    margin-bottom: 12px;
-}
-
-
-.solution-card p {
-    color: var(--text);
-
-    line-height: 1.8;
-
-    margin-bottom: 0;
-}
-
-
-/* =========================================================
-   PROCESS
-========================================================= */
-
-.process-section {
-    background: #ffffff;
-}
-
-
-.process-card {
-    position: relative;
-
-    text-align: center;
-
-    padding: 25px 20px;
-}
-
-
-.process-number {
-    position: relative;
-
-    width: 64px;
-    height: 64px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: 0 auto 23px;
-
-    border-radius: 50%;
-
-    background: linear-gradient(
-        135deg,
-        var(--primary),
-        var(--secondary)
-    );
-
-    color: #ffffff;
-
-    font-size: 18px;
-    font-weight: 700;
-
-    box-shadow:
-        0 10px 25px rgba(0, 134, 168, 0.20);
-}
-
-
-.process-card h5 {
-    font-family: "Poppins", sans-serif;
-
-    color: var(--dark);
-
-    font-size: 18px;
-
-    font-weight: 600;
-
-    margin-bottom: 10px;
-}
-
-
-.process-card p {
-    max-width: 240px;
-
-    margin: auto;
-
-    color: var(--text);
-
-    font-size: 14px;
-
-    line-height: 1.75;
-}
-
-
-/* =========================================================
-   CTA
-========================================================= */
-
-.commercial-cta {
-    position: relative;
-
-    overflow: hidden;
-
-    padding: 75px 50px;
-
-    border-radius: 28px;
-
-    text-align: center;
-
-    color: #ffffff;
-
-    background:
-        radial-gradient(
-            circle at 90% 10%,
-            rgba(76, 224, 239, 0.20),
-            transparent 30%
-        ),
-        linear-gradient(
-            135deg,
-            #06384f,
-            #007f9b
-        );
-}
-
-
-.commercial-cta::before {
-    content: "";
-
-    position: absolute;
-
-    width: 300px;
-    height: 300px;
-
-    border-radius: 50%;
-
-    border: 1px solid rgba(255,255,255,0.10);
-
-    right: -100px;
-    bottom: -160px;
-}
-
-
-.commercial-cta h2 {
-    position: relative;
-
-    font-family: "Poppins", sans-serif;
-
-    font-size: clamp(30px, 4vw, 45px);
-
-    font-weight: 700;
-
-    letter-spacing: -0.7px;
-
-    margin-bottom: 16px;
-
-    color: #fff;
-}
-
-
-.commercial-cta p {
-    position: relative;
-
-    max-width: 700px;
-
-    margin: 0 auto 30px;
-
-    color: rgba(255,255,255,0.82);
-
-    line-height: 1.8;
-}
-
-
-.commercial-cta .btn {
-    position: relative;
-
-    padding: 14px 28px;
-
-    border: none;
-
-    border-radius: 10px;
-
-    background: #ffffff;
-
-    color: var(--primary-dark);
-
-    font-weight: 600;
-
-    transition: all 0.3s ease;
-}
-
-
-.commercial-cta .btn:hover {
-    transform: translateY(-3px);
-
-    background: #e9fbff;
-
-    box-shadow:
-        0 12px 25px rgba(0,0,0,0.15);
-}
-
-
-/* =========================================================
-   OPTIONAL STATS
-========================================================= */
-
-.application-stat {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-    margin-top: 25px;
-}
-
-
-.application-stat strong {
-    display: block;
-
-    font-family: "Poppins", sans-serif;
-
-    color: var(--dark);
-
-    font-size: 28px;
-
-    line-height: 1;
-}
-
-
-.application-stat span {
-    color: #72828a;
-
-    font-size: 13px;
-}
-
-/* FOOTER */
+    
+    <!-- CSS -->
+    <style>
+    /* MODERN COMMERCIAL APPLICATIONS PAGE */
+    :root{
+        --primary:#007f9b;
+        --primary-dark:#063b52;
+        --secondary:#00a6b8;
+        --dark:#102f40;
+        --text:#5d6d76;
+        --light:#f4f9fb;
+        --border:#e3edf1;
+        --white:#ffffff;
+    }
+
+    /* HERO */
+    .page-hero{
+        position:relative;
+        min-height:560px;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:
+            linear-gradient(
+                110deg,
+                rgba(3, 42, 59, 0.96),
+                rgba(0, 103, 126, 0.88)
+            ),
+            url("../Assets/Images/commercial-water-treatment.jpg")
+            center / cover no-repeat;
+    }
+
+    /* Decorative glow */
+    .page-hero::before{
+        content:"";
+        position:absolute;
+        width:500px;
+        height:500px;
+        border-radius:50%;
+        background:rgba(0, 188, 212, 0.12);
+        top:-220px;
+        right:-100px;
+    }
+
+    .page-hero::after{
+        content:"";
+        position:absolute;
+        width:350px;
+        height:350px;
+        border-radius:50%;
+        border:1px solid rgba(255,255,255,0.12);
+        bottom:-180px;
+        left:-80px;
+    }
+
+    .page-hero .container{
+        position:relative;
+        z-index:2;
+    }
+
+
+    .page-hero-content{
+        max-width:850px;
+        padding:80px 0;
+        color:#ffffff;
+    }
+
+    /* Small label */
+    .page-hero-content .hero-label{
+        display:inline-flex;
+        align-items:center;
+        gap:9px;
+        padding:9px 16px;
+        border:1px solid rgba(255,255,255,0.22);
+        border-radius:50px;
+        background:rgba(255,255,255,0.08);
+        backdrop-filter:blur(10px);
+        color:#d8f9ff;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        margin-bottom:24px;
+    }
+
+    .page-hero-content .hero-label i{
+        font-size:15px;
+    }
+
+    /* Hero heading */
+    .page-hero-content h1{
+        font-family:"Poppins", sans-serif;
+        font-size:clamp(42px, 6vw, 70px);
+        font-weight:700;
+        line-height:1.08;
+        letter-spacing:-1.5px;
+        max-width:850px;
+        margin-bottom:25px;
+        color:#fff;
+    }
+
+    .page-hero-content h1 span{
+        color:#70e7f2;
+    }
+
+    /* Hero paragraph */
+    .page-hero-content p{
+        max-width:720px;
+        font-size:18px;
+        line-height:1.8;
+        color:rgba(255,255,255,0.82);
+        margin-bottom:35px;
+    }
+
+    /* Hero buttons */
+    .hero-buttons{
+        display:flex;
+        flex-wrap:wrap;
+        gap:14px;
+    }
+
+    .hero-btn-primary,
+    .hero-btn-outline{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        padding:14px 24px;
+        border-radius:10px;
+        font-weight:600;
+        text-decoration:none;
+        transition:all 0.3s ease;
+    }
+
+    .hero-btn-primary{
+        background:#ffffff;
+        color:#063b52;
+    }
+
+    .hero-btn-primary:hover{
+        transform:translateY(-3px);
+        background:#e9fbff;
+        color:#063b52;
+    }
+
+    .hero-btn-outline{
+        color:#ffffff;
+        border:1px solid rgba(255,255,255,0.35);
+        background:rgba(255,255,255,0.06);
+    }
+
+    .hero-btn-outline:hover{
+        transform:translateY(-3px);
+        background:rgba(255,255,255,0.14);
+        color:#ffffff;
+    }
+
+    /* COMMON SECTIONS */
+    .section-space{
+        padding:100px 0;
+    }
+
+    .section-label{
+        display:inline-block;
+        color:var(--primary);
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        margin-bottom:14px;
+    }
+
+    .section-title{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:clamp(30px, 4vw, 46px);
+        font-weight:700;
+        line-height:1.18;
+        letter-spacing:-0.8px;
+        margin-bottom:20px;
+    }
+
+    .section-text{
+        color:var(--text);
+        font-size:16px;
+        line-height:1.9;
+    }
+
+    /* INTRO SECTION */
+    .intro-section{
+        background:#ffffff;
+    }
+
+    .intro-card{
+        position:relative;
+        background:linear-gradient(145deg, #ffffff, #f6fbfc);
+        border:1px solid var(--border);
+        border-radius:24px;
+        padding:42px;
+        height:100%;
+        overflow:hidden;
+        transition:all 0.35s ease;
+    }
+
+    .intro-card::before{
+        content:"";
+        position:absolute;
+        width:180px;
+        height:180px;
+        border-radius:50%;
+        background:rgba(0, 166, 184, 0.06);
+        right:-70px;
+        top:-70px;
+    }
+
+    .intro-card:hover{
+        transform:translateY(-6px);
+        border-color:#b8dfe7;
+        box-shadow:0 20px 50px rgba(0, 70, 90, 0.09);
+    }
+
+    .intro-icon{
+        position:relative;
+        width:68px;
+        height:68px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #e2f8fb, #f2fdff);
+        color:var(--primary);
+        font-size:29px;
+        margin-bottom:25px;
+    }
+
+    .intro-card h3{
+        position:relative;
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:23px;
+        font-weight:600;
+        margin-bottom:15px;
+    }
+
+    .intro-card p{
+        position:relative;
+        color:var(--text);
+        line-height:1.85;
+        margin-bottom:0;
+    }
+
+    /* APPLICATION SECTION */
+    .applications-section{
+        background:var(--light);
+    }
+
+    .application-card{
+        position:relative;
+        height:100%;
+        background:#ffffff;
+        border:1px solid var(--border);
+        border-radius:22px;
+        padding:34px;
+        overflow:hidden;
+        transition:
+            transform 0.35s ease,
+            box-shadow 0.35s ease,
+            border-color 0.35s ease;
+    }
+
+    /* Top accent */
+    .application-card::before{
+        content:"";
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:3px;
+        background:linear-gradient(90deg,var(--primary),var(--secondary));
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:transform 0.35s ease;
+    }
+
+    .application-card:hover::before{
+        transform:scaleX(1);
+    }
+
+    .application-card:hover{
+        transform:translateY(-8px);
+        border-color:#c9e5eb;
+        box-shadow:0 20px 45px rgba(13, 72, 91, 0.10);
+    }
+
+    .application-icon{
+        width:62px;
+        height:62px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:17px;
+        background:#eaf9fb;
+        color:var(--primary);
+        font-size:27px;
+        margin-bottom:24px;
+        transition:all 0.3s ease;
+    }
+
+    .application-card:hover .application-icon{
+        background:var(--primary);
+        color:#ffffff;
+        transform:scale(1.05);
+    }
+
+    .application-card h4 {
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:20px;
+        font-weight:600;
+        margin-bottom:13px;
+    }
+
+    .application-card p{
+        color:var(--text);
+        font-size:15px;
+        line-height:1.8;
+        margin-bottom:0;
+    }
+
+    /* REQUIREMENTS */
+    .requirements-section{
+        background:#ffffff;
+    }
+
+    .requirement-list{
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+
+    .requirement-list li{
+        display:flex;
+        align-items:flex-start;
+        gap:14px;
+        padding:15px 0;
+        border-bottom:1px solid #edf2f4;
+        color:#566871;
+        line-height:1.7;
+    }
+
+    .requirement-list li:last-child{
+        border-bottom:none;
+    }
+
+    .requirement-list i{
+        flex-shrink:0;
+        width:25px;
+        height:25px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        background:#e7f8fa;
+        color:var(--primary);
+        font-size:14px;
+        margin-top:2px;
+    }
+
+    /* SOLUTIONS */
+    .solutions-section{
+        background:var(--light);
+    }
+
+    .solution-card{
+        position:relative;
+        height:100%;
+        padding:35px;
+        background:#ffffff;
+        border:1px solid var(--border);
+        border-radius:22px;
+        transition:all 0.35s ease;
+        overflow:hidden;
+    }
+
+    .solution-card:hover{
+        transform:translateY(-7px);
+        border-color:#b8dfe7;
+        box-shadow:0 18px 45px rgba(13, 72, 91, 0.10);
+    }
+
+    .solution-icon{
+        width:58px;
+        height:58px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:16px;
+        background:#eaf8fa;
+        color:var(--primary);
+        font-size:25px;
+        margin-bottom:22px;
+    }
+
+    .solution-card h4{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:20px;
+        font-weight:600;
+        margin-bottom:12px;
+    }
+
+    .solution-card p{
+        color:var(--text);
+        line-height:1.8;
+        margin-bottom:0;
+    }
+
+    /* PROCESS */
+    .process-section{
+        background:#ffffff;
+    }
+
+    .process-card{
+        position:relative;
+        text-align:center;
+        padding:25px 20px;
+    }
+
+    .process-number{
+        position:relative;
+        width:64px;
+        height:64px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin:0 auto 23px;
+        border-radius:50%;
+        background:linear-gradient(135deg,var(--primary),var(--secondary));
+        color:#ffffff;
+        font-size:18px;
+        font-weight:700;
+        box-shadow:0 10px 25px rgba(0, 134, 168, 0.20);
+    }
+
+    .process-card h5{
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:18px;
+        font-weight:600;
+        margin-bottom:10px;
+    }
+
+    .process-card p{
+        max-width:240px;
+        margin:auto;
+        color:var(--text);
+        font-size:14px;
+        line-height:1.75;
+    }
+
+    /* CTA */
+    .commercial-cta{
+        position:relative;
+        overflow:hidden;
+        padding:75px 50px;
+        border-radius:28px;
+        text-align:center;
+        color:#ffffff;
+        background:
+            radial-gradient(
+                circle at 90% 10%,
+                rgba(76, 224, 239, 0.20),
+                transparent 30%
+            ),
+            linear-gradient(
+                135deg,
+                #06384f,
+                #007f9b
+            );
+    }
+
+    .commercial-cta::before{
+        content:"";
+        position:absolute;
+        width:300px;
+        height:300px;
+        border-radius:50%;
+        border:1px solid rgba(255,255,255,0.10);
+        right:-100px;
+        bottom:-160px;
+    }
+
+    .commercial-cta h2{
+        position:relative;
+        font-family:"Poppins", sans-serif;
+        font-size:clamp(30px, 4vw, 45px);
+        font-weight:700;
+        letter-spacing:-0.7px;
+        margin-bottom:16px;
+        color:#fff;
+    }
+
+    .commercial-cta p{
+        position:relative;
+        max-width:700px;
+        margin:0 auto 30px;
+        color:rgba(255,255,255,0.82);
+        line-height:1.8;
+    }
+
+    .commercial-cta .btn{
+        position:relative;
+        padding:14px 28px;
+        border:none;
+        border-radius:10px;
+        background:#ffffff;
+        color:var(--primary-dark);
+        font-weight:600;
+        transition:all 0.3s ease;
+    }
+
+    .commercial-cta .btn:hover{
+        transform:translateY(-3px);
+
+        background: #e9fbff;
+
+        box-shadow:
+            0 12px 25px rgba(0,0,0,0.15);
+    }
+
+    /* OPTIONAL STATS */
+    .application-stat{
+        display:flex;
+        align-items:center;
+        gap:15px;
+        margin-top:25px;
+    }
+
+    .application-stat strong{
+        display:block;
+        font-family:"Poppins", sans-serif;
+        color:var(--dark);
+        font-size:28px;
+        line-height:1;
+    }
+
+    .application-stat span{
+        color:#72828a;
+        font-size:13px;
+    }
+
+    /* FOOTER */
     .footer-section{
         position:relative;
         overflow:hidden;
@@ -894,20 +593,17 @@
                 rgba(0, 190, 220, 0.12),
                 transparent 30%
             ),
-
             radial-gradient(
                 circle at 10% 90%,
                 rgba(0, 150, 190, 0.10),
                 transparent 30%
             ),
-
             linear-gradient(
                 135deg,
                 #031c2d 0%,
                 #062f49 50%,
                 #064b60 100%
             );
-
     }
 
     .footer-section::before{
@@ -1064,104 +760,87 @@
         line-height:1.6;
     }
 
+    /* RESPONSIVE */
+    @media (max-width:991px){
 
-/* =========================================================
-   RESPONSIVE
-========================================================= */
+        .page-hero{
+            min-height:500px;
+        }
 
-@media (max-width: 991px) {
+        .page-hero-content{
+            padding:70px 0;
+        }
 
-    .page-hero {
-        min-height: 500px;
+        .section-space{
+            padding:80px 0;
+        }
+
     }
 
-    .page-hero-content {
-        padding: 70px 0;
+    @media (max-width:767px){
+
+        .page-hero{
+            min-height:470px;
+            text-align:center;
+        }
+
+        .page-hero-content{
+            padding:60px 15px;
+        }
+
+        .page-hero-content h1{
+            font-size:40px;
+            letter-spacing:-1px;
+        }
+
+        .page-hero-content p{
+            font-size:16px;
+        }
+
+        .hero-buttons{
+            justify-content:center;
+        }
+
+        .hero-btn-primary,
+        .hero-btn-outline{
+            width:100%;
+            max-width:280px;
+        }
+
+        .section-space{
+            padding:65px 0;
+        }
+
+        .intro-card,
+        .application-card,
+        .solution-card{
+            padding:28px;
+        }
+
+        .commercial-cta{
+            padding:50px 25px;
+            border-radius:22px;
+        }
+
     }
 
-    .section-space {
-        padding: 80px 0;
+    @media (max-width:480px){
+
+        .page-hero-content h1{
+            font-size:34px;
+        }
+
+        .page-hero-content .hero-label{
+            font-size:10px;
+            letter-spacing:1.5px;
+        }
+
     }
-
-}
-
-
-@media (max-width: 767px) {
-
-    .page-hero {
-        min-height: 470px;
-
-        text-align: center;
-    }
-
-    .page-hero-content {
-        padding: 60px 15px;
-    }
-
-    .page-hero-content h1 {
-        font-size: 40px;
-
-        letter-spacing: -1px;
-    }
-
-    .page-hero-content p {
-        font-size: 16px;
-    }
-
-    .hero-buttons {
-        justify-content: center;
-    }
-
-    .hero-btn-primary,
-    .hero-btn-outline {
-        width: 100%;
-        max-width: 280px;
-    }
-
-    .section-space {
-        padding: 65px 0;
-    }
-
-    .intro-card,
-    .application-card,
-    .solution-card {
-        padding: 28px;
-    }
-
-    .commercial-cta {
-        padding: 50px 25px;
-
-        border-radius: 22px;
-    }
-
-}
-
-
-@media (max-width: 480px) {
-
-    .page-hero-content h1 {
-        font-size: 34px;
-    }
-
-    .page-hero-content .hero-label {
-        font-size: 10px;
-        letter-spacing: 1.5px;
-    }
-
-}
-
-</style>
-
+    </style>
 </head>
 
-
 <body>
-
-
-<!-- =========================================
-     TOP BAR
-========================================= -->
-
+<!-- TOP BAR -->
 <div class="top-bar">
 
     <div class="container">
@@ -1184,29 +863,16 @@
 
 </div>
 
-
-<!-- =========================================
-     NAVIGATION
-========================================= -->
-
+<!-- NAVIGATION -->
 <nav class="navbar navbar-expand-lg main-navbar sticky-top">
-
     <div class="container">
 
         <!-- Logo -->
-
         <a class="navbar-brand" href="../index.html">
-
-            <img
-                src="../Assets/Images/logo.png"
-                alt="Sandor Tescon Aqua Logo"
-                class="logo">
-
+            <img src="../Assets/Images/logo.png" alt="Sandor Tescon Aqua Logo" class="logo">
         </a>
 
-
         <!-- Mobile Menu Button -->
-
         <button
             class="navbar-toggler"
             type="button"
@@ -1215,224 +881,46 @@
             aria-controls="mainNavigation"
             aria-expanded="false"
             aria-label="Toggle navigation">
-
             <span class="navbar-toggler-icon"></span>
-
         </button>
 
-
         <!-- Navigation -->
-
         <div class="collapse navbar-collapse" id="mainNavigation">
-
             <ul class="navbar-nav ms-auto align-items-lg-center">
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">
-                        Home
-                    </a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="../about.html">
-                        About
-                    </a>
-                </li>
-
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
 
                 <!-- APPLICATIONS -->
-
                 <li class="nav-item dropdown">
-
-                    <a
-                        class="nav-link dropdown-toggle active"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false">
-
-                        Applications
-
-                    </a>
-
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Applications</a>
                     <ul class="dropdown-menu">
-
-                        <li>
-                            <a
-                                class="dropdown-item active"
-                                href="commercial.html">
-
-                                Commercial Applications
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="industrial.html">
-
-                                Industrial Applications
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="residential.html">
-
-                                Residential Applications
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="hospitality.html">
-
-                                Hospitality
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="healthcare.html">
-
-                                Healthcare
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="food-beverage.html">
-
-                                Food & Beverage
-
-                            </a>
-                        </li>
-
+                        <li><a class="dropdown-item active" href="commercial.html">Commercial Applications</a></li>
+                        <li><a class="dropdown-item" href="industrial.html">Industrial Applications</a></li>
+                        <li><a class="dropdown-item" href="residential.html">Residential Applications</a></li>
+                        <li><a class="dropdown-item" href="hospitality.html">Hospitality</a></li>
+                        <li><a class="dropdown-item" href="healthcare.html">Healthcare</a></li>
+                        <li><a class="dropdown-item" href="food-beverage.html">Food & Beverage</a></li>
                     </ul>
-
                 </li>
-
 
                 <!-- SOLUTIONS -->
-
                 <li class="nav-item dropdown">
-
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false">
-
-                        Solutions
-
-                    </a>
-
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
                     <ul class="dropdown-menu">
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Solutions/ro-systems.html">
-
-                                RO Systems
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Solutions/stp.html">
-
-                                Sewage Treatment Plants
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Solutions/etp.html">
-
-                                Effluent Treatment Plants
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Solutions/filtration.html">
-
-                                Filtration Systems
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Solutions/wastewater-treatment.html">
-
-                                Wastewater Treatment
-
-                            </a>
-                        </li>
-
+                        <li><a class="dropdown-item" href="../Solutions/ro-systems.html">RO Systems</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/stp.html">Sewage Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/etp.html">Effluent Treatment Plants</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/filtration.html">Filtration Systems</a></li>
+                        <li><a class="dropdown-item" href="../Solutions/wastewater-treatment.html">Wastewater Treatment</a></li>
                     </ul>
-
                 </li>
 
-
                 <!-- PRODUCTS -->
-
                 <li class="nav-item dropdown">
-
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false">
-
-                        Products
-
-                    </a>
-
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                     <ul class="dropdown-menu">
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Products/ro-plants.html">
-
-                                RO Plants
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="../Products/uv-systems.html">
-
-                                UV Systems
-
-                            </a>
-                        </li>
-
+                        <li><a class="dropdown-item" href="../Products/ro-plants.html">RO Plants</a></li>
+                        <li><a class="dropdown-item" href="../Products/uv-systems.html">UV Systems</a></li>
                         <li>
                             <a
                                 class="dropdown-item"

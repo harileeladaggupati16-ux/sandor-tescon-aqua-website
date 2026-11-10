@@ -1,0 +1,1597 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wastewater Treatment Systems | Industrial Wastewater Solutions | Sandor Tescon Aqua</title>
+
+    <meta name="description" content="Sandor Tescon Aqua provides wastewater treatment solutions including ETP, STP, biological treatment, MBBR, MBR and tertiary treatment systems for industrial and commercial applications.">
+    <meta name="keywords" content="wastewater treatment, wastewater treatment plant, ETP, STP, MBBR, MBR, industrial wastewater treatment, sewage treatment, Sandor Tescon Aqua">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://www.yourdomain.com/Solutions/wastewater-treatment.html">
+    <link rel="icon" href="../Assets/Images/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <style>
+    
+    /* GLOBAL */
+    body{
+        margin:0;
+        font-family:"Inter", sans-serif;
+        color:#173f4d;
+        background:#ffffff;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-family:"Poppins", sans-serif;
+    }
+
+    section p{
+        color:#64747b;
+        line-height:1.8;
+    }
+
+    .container{
+        max-width:1200px;
+    }
+
+    /* HERO */
+    .solution-hero{
+        position:relative;
+        min-height:560px;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:
+            linear-gradient(
+                110deg,
+                rgba(3,35,55,0.96),
+                rgba(4,78,100,0.86),
+                rgba(0,150,170,0.60)
+            ),
+            url("../Assets/Images/wastewater-treatment.jpg") center/cover no-repeat;
+    }
+
+    .solution-hero::before{
+        content:"";
+        position:absolute;
+        width:500px;
+        height:500px;
+        right:-180px;
+        top:-220px;
+        border-radius:50%;
+        background:rgba(73,221,239,0.14);
+        filter:blur(10px);
+    }
+
+    .solution-hero::after{
+        content:"";
+        position:absolute;
+        width:350px;
+        height:350px;
+        left:-180px;
+        bottom:-220px;
+        border-radius:50%;
+        background:rgba(0,196,255,0.10);
+    }
+
+    .solution-hero .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .solution-hero-content{
+        max-width:800px;
+        padding:80px 0;
+    }
+
+    .solution-label{
+        display:inline-flex;
+        align-items:center;
+        padding:9px 18px;
+        border-radius:50px;
+        background:rgba(255,255,255,0.10);
+        border:1px solid rgba(255,255,255,0.25);
+        color:#b9f4ff;
+        font-size:13px;
+        font-weight:700;
+        letter-spacing:1.5px;
+        margin-bottom:20px;
+    }
+
+    .solution-hero h1{
+        color:#ffffff;
+        font-size:clamp(42px, 6vw, 70px);
+        line-height:1.08;
+        font-weight:800;
+        margin-bottom:22px;
+    } 
+
+    .solution-hero h1 span{
+        display:block;
+        color:#79e7f5;
+    }
+
+    .solution-hero p{
+        max-width:740px;
+        color:rgba(255,255,255,0.88);
+        font-size:18px;
+        line-height:1.8;
+        margin-bottom:30px;
+    }
+
+    /* HERO BUTTONS */
+    .hero-buttons{
+        display:flex;
+        align-items:center;
+        gap:15px;
+        margin-top:30px;
+        flex-wrap:wrap;
+    }
+
+    .hero-btn-primary,
+    .hero-btn-outline{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        padding:13px 25px;
+        border-radius:8px;
+        text-decoration:none;
+        font-size:15px;
+        font-weight:600;
+        transition:0.3s ease;
+    }
+
+    .hero-btn-primary{
+        background:linear-gradient(135deg, #007f98, #08aec8);
+        color:#ffffff;
+        border:2px solid transparent;
+    }
+
+    .hero-btn-primary:hover{
+        color:#ffffff;
+        background:#006b81;
+        transform:translateY(-3px);
+    }
+
+    .hero-btn-outline{
+        background:transparent;
+        color:#ffffff;
+        border:2px solid rgba(255,255,255,0.8);
+    }
+
+    .hero-btn-outline:hover{
+        color:#073b4c;
+        background:#ffffff;
+        transform:translateY(-3px);
+    }
+
+    /* IMAGE CARD */
+    .solution-image-card{
+        padding:10px;
+        border-radius:25px;
+        background:linear-gradient(135deg, #e7f8ff, #ffffff);
+        box-shadow:0 18px 50px rgba(16,42,67,0.12);
+        overflow:hidden;
+    }
+
+    .solution-image-card img{
+        width:100%;
+        height:430px;
+        display:block;
+        object-fit:cover;
+        border-radius:18px;
+        transition:transform 0.5s ease;
+    }
+
+    .solution-image-card:hover img{
+        transform:scale(1.04);
+    }
+
+    /* SECTION HEADINGS */
+    .section-label{
+        display:inline-block;
+        margin-bottom:12px;
+        font-size:13px;
+        font-weight:700;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        color:#0086a8;
+    }
+
+    section h2{
+        margin-bottom:18px;
+        font-size:38px;
+        font-weight:700;
+        line-height:1.2;
+        color:#123b4a;
+    }
+
+    section h2 span{
+        display:block;
+        color:#0086a8;
+        margin-top:5px;
+    }
+
+    /* SOLUTION CARDS */
+    .solution-card{
+        position:relative;
+        height:100%;
+        background:#ffffff;
+        border:1px solid #e0edf4;
+        border-radius:20px;
+        padding:32px 28px;
+        box-shadow:0 8px 30px rgba(16,42,67,0.06);
+        overflow:hidden;
+        transition:all 0.35s ease;
+    }
+
+    .solution-card::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:4px;
+        background:linear-gradient(90deg, #087fce, #00a8c6);
+        transform:scaleX(0);
+        transform-origin:left;
+        transition:transform 0.35s ease;
+    }
+
+    .solution-card:hover{
+        transform:translateY(-8px);
+        border-color:#c8e8f5;
+        box-shadow:0 20px 50px rgba(16,42,67,0.13);
+    }
+
+    .solution-card:hover::before{
+        transform:scaleX(1);
+    }
+
+    .solution-icon{
+        width:68px;
+        height:68px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:18px;
+        background:linear-gradient(135deg, #e5f8ff, #d7f2fb);
+        color:#087fce;
+        font-size:29px;
+        margin-bottom:22px;
+        transition:0.3s ease;
+    }
+
+    .solution-card:hover .solution-icon {
+        background:linear-gradient(135deg, #087fce, #00a8c6);
+        color:#ffffff;
+        transform:scale(1.05);
+    }
+
+    .solution-card h4{
+        font-size:21px;
+        margin-bottom:13px;
+        color:#173f4d;
+    }
+
+    .solution-card p{
+        color:#667b8a;
+        font-size:15px;
+        line-height:1.75;
+        min-height:110px;
+    }
+
+    /* PROCESS CARDS */
+    .process-card{
+        position:relative;
+        height:100%;
+        padding:32px 26px;
+        background:#ffffff;
+        border:1px solid #e4edf0;
+        border-radius:18px;
+        overflow:hidden;
+        transition:0.35s ease;
+        box-shadow:0 8px 30px rgba(18,59,74,0.06);
+    }
+
+    .process-card:hover{
+        transform:translateY(-8px);
+        border-color: #b9dfe7;
+        box-shadow: 0 18px 40px rgba(18,59,74,0.12);
+    }
+
+    .process-number{
+        width:58px;
+        height:58px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:22px;
+        border-radius:50%;
+        background:linear-gradient(135deg, #007c9e, #18b5cf);
+        color:#ffffff;
+        font-size:17px;
+        font-weight:700;
+    }
+
+    .process-card h5{
+        margin-bottom:12px;
+        font-size:19px;
+        font-weight:700;
+        color:#173f4d;
+    }
+
+    .process-card p{
+        margin-bottom:0;
+        font-size:15px;
+        line-height:1.75;
+    }
+
+    /* LIGHT BACKGROUND */
+    .bg-light{
+        background:#f5fafc !important;
+    }
+
+    /* APPLICATION ITEMS */
+    .application-item{
+        height:100%;
+        padding:28px 24px;
+        background:#ffffff;
+        border:1px solid #e2edf0;
+        border-radius:16px;
+        box-shadow:0 6px 25px rgba(18,59,74,0.05);
+        transition:0.3s ease;
+    }
+
+    .application-item:hover{
+        transform:translateY(-6px);
+        border-color:#a9dce6;
+        box-shadow:0 16px 35px rgba(18,59,74,0.10);
+    }
+
+    .application-item i{
+        width:52px;
+        height:52px;
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:18px;
+        border-radius:14px;
+        background:#e8f7fa;
+        color:#0086a8;
+        font-size:24px;
+        transition:0.3s ease;
+    }
+
+    .application-item:hover i{
+        background:#0086a8;
+        color:#ffffff;
+        transform:scale(1.08);
+    }
+
+    .application-item h5{
+        margin-bottom:10px;
+        font-size:18px;
+        font-weight:700;
+        color:#173f4d;
+    }
+
+    .application-item p{
+        margin-bottom:0;
+        font-size:14.5px;
+        line-height:1.7;
+    }
+
+    /* CHECK LIST */
+    .wastewater-list{
+        list-style:none;
+        padding:0;
+        margin-top:25px;
+    }
+
+    .wastewater-list li{
+        display:flex;
+        align-items:flex-start;
+        gap:10px;
+        margin-bottom:15px;
+        color:#435e68;
+        font-weight:500;
+    }
+
+    .wastewater-list i{
+        color:#0086a8;
+        font-size:18px;
+        margin-top:2px;
+    }
+
+    /* CTA */
+    .solution-cta{
+        position:relative;
+        overflow:hidden;
+        padding:85px 30px;
+        background:linear-gradient(135deg, #062f4f, #075985, #008fa3);
+        color:#ffffff;
+    }
+
+    .solution-cta .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .solution-cta .section-label{
+        color:#8ee8ff;
+    }
+
+    .solution-cta h2{
+        color:#ffffff;
+        font-size:clamp(30px, 4vw, 44px);
+        margin-bottom:18px;
+    }
+
+    .solution-cta h2 span{
+        display:block;
+        color:#79e7f5;
+    }
+
+    .solution-cta p{
+        max-width:700px;
+        margin:0 auto 28px;
+        color:rgba(255,255,255,0.86);
+        line-height:1.8;
+    }
+
+    .cta-btn{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        padding:13px 30px;
+        border-radius:50px;
+        background:#ffffff;
+        color:#05658c;
+        font-weight:700;
+        text-decoration:none;
+        transition:0.3s ease;
+    }
+
+    .cta-btn:hover{
+        background:#dffaff;
+        color:#034e70;
+        transform:translateY(-4px);
+    }
+
+    /* FOOTER */
+    .footer-section{
+        position:relative;
+        overflow:hidden;
+        padding:75px 0 0;
+        color:#a9c0cc;
+        background:linear-gradient(135deg, #031c2d 0%, #062f49 50%, #064b60 100%);
+    }
+
+    .footer-section .container{
+        position:relative;
+        z-index:2;
+    }
+
+    .footer-logo{
+        display:block;
+        height:58px;
+        max-width:220px;
+        object-fit:contain;
+        margin-bottom:20px;
+    }
+
+    .footer-section .col-lg-4 p{
+        max-width:400px;
+        color:#9eb7c4;
+        font-size:14px;
+        line-height:1.9;
+    }
+
+    .footer-section h5{
+        display:inline-block;
+        color:#ffffff;
+        font-size:17px;
+        font-weight:600;
+        margin-bottom:24px;
+        padding-bottom:10px;
+        border-bottom:3px solid #35d5e8;
+    }
+
+    .footer-links{
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+
+    .footer-links li{
+        margin-bottom:12px;
+    }
+
+    .footer-links a{
+        display:inline-block;
+        color:#9eb7c4;
+        font-size:14px;
+        text-decoration:none;
+        transition:0.3s ease;
+    }
+
+    .footer-links a:hover{
+        color:#65e6f4;
+        transform:translateX(4px);
+    }
+
+    .footer-section .col-lg-3 p{
+        display:flex;
+        align-items:flex-start;
+        margin-bottom:15px;
+        color:#9eb7c4;
+        font-size:14px;
+        line-height:1.7;
+    }
+
+    .footer-section .col-lg-3 p i{
+        flex-shrink:0;
+        width:36px;
+        height:36px;
+        display:inline-flex;
+        align-items:center;
+        justify-content: center;
+        margin-right:11px;
+        border-radius:10px;
+        background:rgba(67,218,235,0.10);
+        color:#58dceb;
+    }
+
+    .footer-section hr{
+        border:0;
+        height:1px;
+        margin:48px 0 22px;
+        background:rgba(120,220,235,0.25);
+    }
+
+    .footer-section .text-center{
+        padding:0 0 23px;
+    }
+
+    .footer-section .text-center p{
+        margin:0;
+        color:#7893a0;
+        font-size:13px;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:1199px){
+    
+        .main-navbar .nav-link{
+            font-size:14px;
+            padding-left:9px !important;
+            padding-right:9px !important;
+        }
+
+        .main-navbar .logo{
+            width:175px;
+        }
+
+    }
+
+    @media(max-width:991px){
+        
+        .main-navbar{
+            padding:11px 0;
+        }
+
+        .main-navbar .logo{
+            width:165px;
+        }
+
+        .main-navbar .navbar-collapse{
+            margin-top:15px;
+            padding:10px 0 5px;
+            border-top:1px solid #edf2f4;
+        }
+
+        .main-navbar .navbar-nav{
+            align-items:stretch !important;
+        }
+
+        .main-navbar .nav-link{
+            padding:11px 12px !important;
+        }
+
+        .main-navbar .nav-link::after{
+            display:none;
+        }
+
+        .main-navbar .dropdown-menu {
+            margin-top: 3px;
+            box-shadow: none;
+            background: #f8fcfd;
+        }
+
+        .main-navbar .quote-btn {
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        section h2 {
+            font-size: 34px;
+        }
+
+        .footer-section {
+            padding-top: 60px;
+        }
+
+        .footer-section .row {
+            row-gap: 40px !important;
+        }
+    }
+
+    @media(max-width: 767px) {
+        .solution-hero {
+            min-height: 540px;
+        }
+
+        .solution-hero-content {
+            padding: 60px 0;
+        }
+
+        .solution-hero h1 {
+            font-size: 42px;
+        }
+
+        .solution-hero p {
+            font-size: 16px;
+        }
+
+        .hero-buttons {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 12px;
+        }
+
+        .hero-btn-primary,
+        .hero-btn-outline {
+            width: 100%;
+            text-align: center;
+        }
+
+        .solution-image-card img {
+            height: 300px;
+        }
+
+        section h2 {
+            font-size: 30px;
+        }
+
+        .footer-section {
+            padding-top: 50px;
+        }
+
+        .footer-logo {
+            height: 50px;
+        }
+    }
+
+    @media(max-width: 575px) {
+        
+        .solution-hero h1 {
+            font-size: 38px;
+        }
+
+        section h2 {
+            font-size: 27px;
+        }
+
+        .solution-card,
+        .application-item {
+            border-radius: 15px;
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+<!-- NAVBAR LOAD -->
+<div id="navbar-container"></div>
+
+<!-- HERO -->
+
+<section class="solution-hero">
+
+    <div class="container">
+
+        <div class="solution-hero-content">
+
+            <span class="solution-label">
+                ADVANCED WATER & WASTEWATER SOLUTIONS
+            </span>
+
+            <h1>
+                Wastewater
+                <span>Treatment Systems</span>
+            </h1>
+
+            <p>
+                Comprehensive wastewater treatment solutions
+                designed to treat industrial and domestic
+                wastewater through suitable physical, chemical
+                and biological treatment processes.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="../contact.html" class="hero-btn-primary">
+                    Discuss Your Requirement
+                </a>
+
+                <a href="#overview" class="hero-btn-outline">
+                    Explore Solutions
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- OVERVIEW -->
+
+<section id="overview" class="py-5">
+
+    <div class="container py-4">
+
+        <div class="row align-items-center g-5">
+
+            <!-- IMAGE -->
+
+            <div class="col-lg-6">
+
+                <div class="solution-image-card">
+
+                    <img src="../Assets/Images/wastewater-treatment-plant.jpg"
+                         alt="Industrial Wastewater Treatment Plant"
+                         class="img-fluid">
+
+                </div>
+
+            </div>
+
+            <!-- CONTENT -->
+
+            <div class="col-lg-6">
+
+                <span class="section-label">
+                    WASTEWATER MANAGEMENT
+                </span>
+
+                <h2>
+                    Complete Wastewater
+                    <span>Treatment Solutions</span>
+                </h2>
+
+                <p>
+                    Wastewater treatment involves removing
+                    physical, chemical and biological
+                    contaminants from wastewater before
+                    suitable discharge, reuse or further
+                    treatment.
+                </p>
+
+                <p>
+                    Sandor Tescon Aqua offers wastewater
+                    treatment solutions designed around
+                    wastewater characteristics, treatment
+                    capacity, site requirements and the
+                    intended treated-water quality.
+                </p>
+
+                <ul class="wastewater-list">
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Industrial wastewater treatment
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Domestic sewage treatment
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Physical and biological treatment
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Tertiary treatment and water reuse
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- WASTEWATER SOLUTIONS -->
+
+<section class="py-5 bg-light">
+
+    <div class="container py-4">
+
+        <div class="text-center mb-5">
+
+            <span class="section-label">
+                OUR WASTEWATER SOLUTIONS
+            </span>
+
+            <h2>
+                Wastewater Treatment
+                <span>Technologies</span>
+            </h2>
+
+            <p class="mx-auto" style="max-width:760px;">
+                Different treatment technologies can be
+                selected and combined according to the
+                wastewater characteristics and required
+                treatment objectives.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- ETP -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="solution-card">
+
+                    <div class="solution-icon">
+                        <i class="bi bi-buildings"></i>
+                    </div>
+
+                    <h4>Effluent Treatment Plant (ETP)</h4>
+
+                    <p>
+                        Industrial effluent treatment systems
+                        designed to reduce contaminants in
+                        wastewater generated by manufacturing
+                        and industrial processes.
+                    </p>
+
+                    <a href="etp.html" class="btn btn-outline-primary">
+                        Explore ETP
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- STP -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="solution-card">
+
+                    <div class="solution-icon">
+                        <i class="bi bi-house-check"></i>
+                    </div>
+
+                    <h4>Sewage Treatment Plant (STP)</h4>
+
+                    <p>
+                        Sewage treatment solutions for
+                        domestic and commercial wastewater
+                        generated by residential buildings,
+                        institutions and facilities.
+                    </p>
+
+                    <a href="stp.html" class="btn btn-outline-primary">
+                        Explore STP
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- MBBR -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="solution-card">
+
+                    <div class="solution-icon">
+                        <i class="bi bi-water"></i>
+                    </div>
+
+                    <h4>MBBR Treatment Systems</h4>
+
+                    <p>
+                        Moving Bed Biofilm Reactor systems
+                        use specially designed media to
+                        support biological treatment in
+                        suitable wastewater applications.
+                    </p>
+
+                    <a href="../contact.html" class="btn btn-outline-primary">
+                        Enquire Now
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- MBR -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="solution-card">
+
+                    <div class="solution-icon">
+                        <i class="bi bi-funnel"></i>
+                    </div>
+
+                    <h4>Membrane Bioreactor (MBR)</h4>
+
+                    <p>
+                        MBR technology combines biological
+                        treatment with membrane filtration
+                        for applications requiring advanced
+                        treated-water quality.
+                    </p>
+
+                    <a href="../contact.html" class="btn btn-outline-primary">
+                        Discuss Your Requirement
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- TERTIARY -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="solution-card">
+
+                    <div class="solution-icon">
+                        <i class="bi bi-filter-circle"></i>
+                    </div>
+
+                    <h4>Tertiary Treatment</h4>
+
+                    <p>
+                        Additional filtration and treatment
+                        stages designed to improve treated
+                        wastewater quality for suitable
+                        discharge or reuse applications.
+                    </p>
+
+                    <a href="filtration.html" class="btn btn-outline-primary">
+                        Explore Filtration
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- SLUDGE -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="solution-card">
+
+                    <div class="solution-icon">
+                        <i class="bi bi-recycle"></i>
+                    </div>
+
+                    <h4>Sludge Management</h4>
+
+                    <p>
+                        Sludge handling and dewatering
+                        solutions can be incorporated into
+                        wastewater treatment plants as
+                        required by the treatment process.
+                    </p>
+
+                    <a href="../contact.html" class="btn btn-outline-primary">
+                        Enquire Now
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- TREATMENT PROCESS -->
+
+<section class="py-5">
+
+    <div class="container py-4">
+
+        <div class="text-center mb-5">
+
+            <span class="section-label">
+                TREATMENT PROCESS
+            </span>
+
+            <h2>
+                How Wastewater Treatment
+                <span>Works</span>
+            </h2>
+
+            <p class="mx-auto" style="max-width:760px;">
+                A wastewater treatment plant may use
+                multiple treatment stages depending on
+                the wastewater composition and required
+                treated-water quality.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- STEP 01 -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="process-card">
+
+                    <div class="process-number">01</div>
+
+                    <h5>Preliminary Treatment</h5>
+
+                    <p>
+                        Screening and preliminary separation
+                        help remove larger solids and
+                        unwanted materials from incoming
+                        wastewater.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- STEP 02 -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="process-card">
+
+                    <div class="process-number">02</div>
+
+                    <h5>Primary Treatment</h5>
+
+                    <p>
+                        Physical treatment processes such
+                        as settling and separation help
+                        remove settleable and floating
+                        materials.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- STEP 03 -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="process-card">
+
+                    <div class="process-number">03</div>
+
+                    <h5>Biological Treatment</h5>
+
+                    <p>
+                        Biological processes use
+                        microorganisms to reduce
+                        biodegradable organic matter
+                        in wastewater.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- STEP 04 -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="process-card">
+
+                    <div class="process-number">04</div>
+
+                    <h5>Tertiary Treatment</h5>
+
+                    <p>
+                        Additional filtration and
+                        disinfection stages may be
+                        provided to achieve the required
+                        treated-water quality.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- TREATMENT METHODS -->
+
+<section class="py-5 bg-light">
+
+    <div class="container py-4">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-5">
+
+                <span class="section-label">
+                    TREATMENT METHODS
+                </span>
+
+                <h2>
+                    Integrated Wastewater
+                    <span>Treatment Approach</span>
+                </h2>
+
+                <p>
+                    Wastewater treatment systems can
+                    incorporate different processes
+                    depending on the type of wastewater,
+                    flow rate, pollutant concentration
+                    and final treatment requirements.
+                </p>
+
+                <p>
+                    A suitable combination of treatment
+                    stages helps create a system designed
+                    around the specific application.
+                </p>
+
+            </div>
+
+            <div class="col-lg-7">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+
+                        <div class="application-item">
+
+                            <i class="bi bi-filter"></i>
+
+                            <h5>Physical Treatment</h5>
+
+                            <p>
+                                Screening, settling,
+                                filtration and separation
+                                of physical impurities.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="application-item">
+
+                            <i class="bi bi-droplet-half"></i>
+
+                            <h5>Chemical Treatment</h5>
+
+                            <p>
+                                Chemical processes selected
+                                for specific contaminants
+                                and treatment objectives.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="application-item">
+
+                            <i class="bi bi-moisture"></i>
+
+                            <h5>Biological Treatment</h5>
+
+                            <p>
+                                Biological processes for
+                                reducing biodegradable
+                                organic matter.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="application-item">
+
+                            <i class="bi bi-shield-check"></i>
+
+                            <h5>Disinfection</h5>
+
+                            <p>
+                                Suitable disinfection
+                                processes for additional
+                                microbial control.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- BENEFITS -->
+
+<section class="py-5">
+
+    <div class="container py-4">
+
+        <div class="text-center mb-5">
+
+            <span class="section-label">
+                KEY BENEFITS
+            </span>
+
+            <h2>
+                Why Choose Our
+                <span>Wastewater Solutions?</span>
+            </h2>
+
+            <p class="mx-auto" style="max-width:760px;">
+                Properly selected wastewater treatment
+                systems support effective wastewater
+                management and help meet application-specific
+                treatment objectives.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-gear-wide-connected"></i>
+
+                    <h5>Customized Design</h5>
+
+                    <p>
+                        Treatment configurations based
+                        on wastewater characteristics
+                        and site requirements.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-water"></i>
+
+                    <h5>Water Reuse Potential</h5>
+
+                    <p>
+                        Additional treatment stages
+                        can support suitable water
+                        reuse applications.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-diagram-3"></i>
+
+                    <h5>Integrated Treatment</h5>
+
+                    <p>
+                        Multiple treatment technologies
+                        can be combined into a suitable
+                        system configuration.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-speedometer2"></i>
+
+                    <h5>Capacity Selection</h5>
+
+                    <p>
+                        Plant capacity can be selected
+                        according to wastewater flow
+                        and treatment needs.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- APPLICATIONS -->
+
+<section class="py-5 bg-light">
+
+    <div class="container py-4">
+
+        <div class="text-center mb-5">
+
+            <span class="section-label">
+                APPLICATIONS
+            </span>
+
+            <h2>
+                Wastewater Treatment for
+                <span>Different Industries</span>
+            </h2>
+
+            <p class="mx-auto" style="max-width:760px;">
+                Wastewater treatment systems can be
+                configured for different industrial,
+                commercial and institutional applications.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- INDUSTRIAL -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-buildings"></i>
+
+                    <h5>Manufacturing Industries</h5>
+
+                    <p>
+                        Treatment of wastewater generated
+                        from industrial manufacturing
+                        processes.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- FOOD -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-cup-straw"></i>
+
+                    <h5>Food & Beverage</h5>
+
+                    <p>
+                        Wastewater treatment solutions
+                        for food processing and beverage
+                        production facilities.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- PHARMA -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-capsule"></i>
+
+                    <h5>Pharmaceutical</h5>
+
+                    <p>
+                        Treatment solutions for
+                        wastewater generated by
+                        pharmaceutical facilities.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- TEXTILE -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-palette"></i>
+
+                    <h5>Textile Industries</h5>
+
+                    <p>
+                        Wastewater treatment for
+                        suitable textile processing
+                        and dyeing operations.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- HOSPITALS -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-hospital"></i>
+
+                    <h5>Hospitals</h5>
+
+                    <p>
+                        Wastewater and sewage treatment
+                        solutions for healthcare
+                        facilities.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- RESIDENTIAL -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-houses"></i>
+
+                    <h5>Residential Complexes</h5>
+
+                    <p>
+                        Sewage treatment systems for
+                        apartments, housing communities
+                        and residential buildings.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- HOTELS -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-building"></i>
+
+                    <h5>Hotels & Commercial</h5>
+
+                    <p>
+                        Wastewater treatment solutions
+                        for hotels, offices and
+                        commercial establishments.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- INSTITUTIONS -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="application-item text-center">
+
+                    <i class="bi bi-mortarboard"></i>
+
+                    <h5>Institutions</h5>
+
+                    <p>
+                        Sewage and wastewater management
+                        for educational and institutional
+                        facilities.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- CTA -->
+
+<section class="solution-cta">
+
+    <div class="container">
+
+        <div class="text-center">
+
+            <span class="section-label">
+                NEED A WASTEWATER TREATMENT PLANT?
+            </span>
+
+            <h2>
+                Let's Discuss Your
+                <span>Wastewater Treatment Requirement</span>
+            </h2>
+
+            <p>
+                Share your wastewater source, flow rate,
+                wastewater characteristics and required
+                treated-water quality with our team.
+                We can discuss a suitable treatment solution
+                for your application.
+            </p>
+
+            <a href="../contact.html" class="cta-btn">
+                Request a Quote
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER LOAD -->
+<div id="footer-container"></div>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Common Navbar and Footer -->
+<script src="/Assets/JS/include.js"></script>
+
+</body>
+</html>
