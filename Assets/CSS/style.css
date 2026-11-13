@@ -11,12 +11,7 @@ body{
     background:#ffffff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
+h1,h2,h3,h4,h5,h6{
     font-family:"Poppins", sans-serif;
 }
 
@@ -26,84 +21,84 @@ a{
 
 /* HERO */
 .hero-section{
-    background: linear-gradient(135deg, #b5e6ef 0%, #ffffff 60%, #d4eff5 100%);
-    padding: 80px 0;
+    background:linear-gradient(135deg, #b5e6ef 0%, #ffffff 60%, #d4eff5 100%);
+    padding:80px 0;
 }
 
 .min-vh-75{
-    min-height: 75vh;
+    min-height:75vh;
 }
 
 .hero-label,
 .section-label{
-    color: #087ea4;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    color:#087ea4;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
 }
 
 .hero-section h1{
-    font-size: clamp(42px, 5vw, 70px);
-    font-weight: 800;
-    line-height: 1.1;
-    margin: 20px 0;
-    color: #0b1f33;
+    font-size:clamp(42px, 5vw, 70px);
+    font-weight:800;
+    line-height:1.1;
+    margin:20px 0;
+    color:#0b1f33;
 }
 
 .hero-section h1 span{
-    color: #087ea4;
+    color:#087ea4;
 }
 
 .hero-description{
-    font-size: 18px;
-    line-height: 1.8;
-    color: #5d6872;
-    max-width: 600px;
+    font-size:18px;
+    line-height:1.8;
+    color:#5d6872;
+    max-width:600px;
 }
 
 .hero-buttons{
-    display: flex;
-    gap: 15px;
-    margin-top: 30px;
-    flex-wrap: wrap;
+    display:flex;
+    gap:15px;
+    margin-top:30px;
+    flex-wrap:wrap;
 }
 
 .hero-trust{
-    display: flex;
-    gap: 25px;
-    margin-top: 30px;
-    font-size: 14px;
-    color: #4e5b64;
-    flex-wrap: wrap;
+    display:flex;
+    gap:25px;
+    margin-top:30px;
+    font-size:14px;
+    color:#4e5b64;
+    flex-wrap:wrap;
 }
 
 .hero-trust i{
-    color: #00a6a6;
-    margin-right: 5px;
+    color:#00a6a6;
+    margin-right:5px;
 }
 
 /* HERO IMAGE */
 .hero-image-wrapper{
-    position: relative;
-    padding: 20px;
+    position:relative;
+    padding:20px;
 }
 
 .hero-image{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 25px;
-    box-shadow: 0 25px 60px rgba(11, 31, 51, 0.18);
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 25px 60px rgba(11, 31, 51, 0.18);
 }
 
 .hero-floating-card{
-    position: absolute;
-    bottom: 45px;
-    left: 25px;;
-    display: flex;
-    align-items :center;
-    gap: 15px;
-    background: #ffffff;
+    position:absolute;
+    bottom:45px;
+    left:25px;;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:#ffffff;
     padding: 18px 25px;
     border-radius: 15px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);

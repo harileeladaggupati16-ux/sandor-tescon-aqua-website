@@ -50,7 +50,8 @@
         display:flex;
         align-items:center;
         overflow:hidden;
-        background:linear-gradient(110deg, rgba(3, 42, 59, 0.96), rgba(0, 103, 126, 0.88)),
+        background:
+            linear-gradient(110deg, rgba(3, 42, 59, 0.96), rgba(3, 167, 204, 0.88)),
             url("../Assets/Images/dialysis-ro-plant.jpg")
             center / cover no-repeat;
     }
@@ -176,6 +177,22 @@
         transform:translateY(-3px);
         background:rgba(255,255,255,0.14);
         color:#ffffff;
+    }
+
+    .page-hero-image{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .page-hero-image img{
+        width:115%;
+        max-width:700px;
+        max-height:600px;
+        height:auto;
+        object-fit:contain;
+        border-radius:18px;
+        transform:scale(1.08);
     }
 
     /* COMMON SECTIONS */
@@ -778,27 +795,36 @@
 <!-- NAVBAR LOAD -->
 <div id="navbar-container"></div>
 
-<!-- HERO -->
+<!-- HERO SECTION -->
 <section class="page-hero">
     <div class="container">
-        <div class="page-hero-content">
-            <span class="hero-label">
-                <i class="bi bi-hospital"></i>
-                Dialysis Water Treatment
-            </span>
+        <div class="row align-items-center g-5">
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-7">
+                <div class="page-hero-content">
+                    <span class="hero-label"><i class="bi bi-hospital"></i>DIALYSIS WATER TREATMENT</span>
 
-            <h1>Dialysis RO<span>Plant Solutions</span></h1>
-            <p>
-                Water treatment solutions designed for
-                dialysis applications, incorporating
-                pre-treatment, reverse osmosis, filtration,
-                disinfection, treated water storage and
-                process monitoring.
-            </p>
+                    <h1>Dialysis RO<span>Plant Solutions</span></h1>
+                    <p>
+                        Water treatment solutions designed for
+                        dialysis applications, incorporating
+                        pre-treatment, reverse osmosis, filtration,
+                        disinfection, treated water storage and
+                        process monitoring.
+                    </p>
 
-            <div class="hero-buttons">
-                <a href="../contact.html" class="hero-btn-primary">Discuss Your Requirement<i class="bi bi-arrow-right"></i></a>
-                <a href="ro-plants.html" class="hero-btn-outline">Explore RO Systems</a>
+                    <div class="hero-buttons">
+                        <a href="../contact.html" class="hero-btn-primary">Discuss Your Requirement<i class="bi bi-arrow-right"></i></a>
+                        <a href="../Solutions/ro-systems.html" class="hero-btn-outline">Explore RO Systems</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-5">
+                <div class="page-hero-image">
+                    <img src="../Assets/Images/dialysis-ro-plant.jpg" alt="Dialysis RO Water Treatment Plant" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>

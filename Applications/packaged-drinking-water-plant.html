@@ -49,7 +49,7 @@
             linear-gradient(
                 110deg,
                 rgba(3, 42, 59, 0.96),
-                rgba(0, 103, 126, 0.88)
+                rgba(2, 152, 186, 0.88)
             ),
             url("../Assets/Images/packaged-drinking-water-plant.jpg")
             center / cover no-repeat;
@@ -176,6 +176,22 @@
         transform:translateY(-3px);
         background:rgba(255,255,255,0.14);
         color:#ffffff;
+    }
+
+    .page-hero-image{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .page-hero-image img{
+        width:115%;
+        max-width:700px;
+        max-height:600px;
+        height:auto;
+        object-fit:contain;
+        border-radius:18px;
+        transform:scale(1.08);
     }
 
     /* COMMON SECTIONS */
@@ -545,153 +561,7 @@
         box-shadow:0 12px 25px rgba(0,0,0,0.15);
     }
 
-    /* FOOTER */
-    .main-footer{
-        position:relative;
-        overflow:hidden;
-        background:
-            radial-gradient(
-                circle at 90% 10%,
-                rgba(0,166,184,0.12),
-                transparent 28%
-            ),
-            linear-gradient(
-                135deg,
-                #062f42,
-                #092c3b
-            );
-        padding:75px 0 0;
-        color:rgba(255,255,255,0.72);
-    }
-
-    .footer-logo{
-        width:185px;
-        height:auto;
-    }
-
-    .footer-description{
-        max-width:360px;
-        font-size:14px;
-        line-height:1.8;
-    }
-
-    .main-footer h5{
-        position:relative;
-        color:#ffffff;
-        font-size:17px;
-        margin-bottom:25px;
-        padding-bottom:12px;
-    }
-
-    .main-footer h5::after{
-        content:"";
-        position:absolute;
-        left:0;
-        bottom:0;
-        width:35px;
-        height:2px;
-        background:var(--secondary);
-    }
-
-    .footer-links{
-        margin:0;
-        padding:0;
-    }
-
-    .footer-links li{
-        margin-bottom:11px;
-    }
-
-    .footer-links a{
-        color:rgba(255,255,255,0.68);
-        font-size:14px;
-        transition:0.3s ease;
-    }
-
-    .footer-links a::before{
-        content:"›";
-        margin-right:8px;
-        color:var(--secondary);
-    }
-
-    .footer-links a:hover{
-        color:#ffffff;
-        padding-left:5px;
-    }
-
-    .footer-contact p{
-        display:flex;
-        align-items:flex-start;
-        gap:11px;
-        font-size:14px;
-        line-height:1.6;
-        margin-bottom:14px;
-    }
-
-    .footer-contact i{
-        color:var(--secondary);
-        font-size:17px;
-        margin-top:2px;
-    }
-
-    .footer-social{
-        display:flex;
-        gap:9px;
-        margin-top:22px;
-    }
-
-    .footer-social a{
-        width:38px;
-        height:38px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        border-radius:11px;
-        color:#ffffff;
-        background:rgba(255,255,255,0.08);
-        transition:0.3s ease;
-    }
-
-    .footer-social a:hover{
-        background:var(--secondary);
-        transform:translateY(-3px);
-    }
-
-    .footer-quote-btn{
-        margin-top:10px;
-        border:none;
-        border-radius:30px;
-        background:var(--secondary);
-        padding:11px 21px;
-        font-weight:600;
-    }
-
-    .footer-bottom{
-        border-top:1px solid rgba(255,255,255,0.10);
-        padding:22px 0;
-        margin-top:55px !important;
-    }
-
-    .footer-bottom p{
-        color:rgba(255,255,255,0.55);
-        font-size:13px;
-    }
-
-    .footer-legal{
-        display:flex;
-        justify-content:flex-end;
-        gap:20px;
-    }
-
-    .footer-legal a{
-        color:rgba(255,255,255,0.55);
-        font-size:13px;
-    }
-
-    .footer-legal a:hover{
-        color:#ffffff;
-    }
-
+    
     /* RESPONSIVE */
     @media (max-width:991px){
 
@@ -773,23 +643,36 @@
 <!-- NAVBAR LOAD -->
 <div id="navbar-container"></div>
 
-<!-- HERO -->
+<!-- HERO SECTION -->
 <section class="page-hero">
     <div class="container">
-        <div class="page-hero-content">
-            <span class="hero-label"><i class="bi bi-droplet-fill"></i>Packaged Drinking Water</span>
+        <div class="row align-items-center g-5">
+            
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-7">
+                <div class="page-hero-content">
+                    <span class="hero-label"><i class="bi bi-droplet-fill"></i>PACKAGED DRINKING WATER</span>
 
-            <h1>Packaged Drinking Water<span>Plant Solutions</span></h1>
-            <p>
-                Integrated water treatment solutions designed for
-                packaged drinking water production, including
-                filtration, purification, RO, disinfection,
-                storage and process support systems.
-            </p>
+                    <h1>Packaged Drinking Water<span>Plant Solutions</span></h1>
+                    <p>
+                        Integrated water treatment solutions designed for
+                        packaged drinking water production, including
+                        filtration, purification, RO, disinfection,
+                        storage and process support systems.
+                    </p>
 
-            <div class="hero-buttons">
-                <a href="../contact.html" class="hero-btn-primary">Discuss Your Requirement<i class="bi bi-arrow-right"></i></a>
-                <a href="ro-plants.html" class="hero-btn-outline">Explore RO Systems</a>
+                    <div class="hero-buttons">
+                        <a href="../contact.html" class="hero-btn-primary">Discuss Your Requirement<i class="bi bi-arrow-right"></i></a>
+                        <a href="../Solutions/ro-systems.html" class="hero-btn-outline">Explore RO Systems</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-5">
+                <div class="page-hero-image">
+                    <img src="../Assets/Images/packaged-drinking-water-plant.jpg" alt="Packaged Drinking Water Treatment Plant" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
